@@ -45,7 +45,7 @@ There are several disadvantages to this method:
 4. You must correctly predict gas costs and swap rates as you're planning the flow. In the best case, you have some left over funds on the destination chain. In the worst case, you under-estimate costs and your plan stalls mid-way through the flow, which leaves you with an asset you don't want on a chain you don't want.
 
 
-**The Centralized Path**: Send the USDC to a centralized "processor" who promises to fulfill the intent. Here is an snippet from [Rhino.fi bridge docs](https://tech.rhino.fi/rhino.fi/the-details/bridges):
+**The Centralized Path**: Send the USDC to a centralized "processor" who promises to fulfill the intent. Here is a snippet from [Rhino.fi bridge docs](https://tech.rhino.fi/rhino.fi/the-details/bridges):
 
 > As mentioned, the bridging process involves the user giving rhino.fi assets on their origin chain and rhino.fi providing their desired assets on their destination chain. In other words, the user gives us tokens and trusts that we will give them tokens on another chain.
 
@@ -108,7 +108,7 @@ When a claim is challenged, it means either:
 * The processor is lying (the processor claimed the intent was fulfilled when it was not)
 * The validator is lying (the validator claimed the intent was not fulfilled, but it was). 
 
-At this point, the processor must undergo the long and expensive process to prove on-chain that the funds were delivered. It's important to note that both parties involved in the challenge have to put up collateral, and whichever party is ultimately shown to be lying will lose their collateral to the party that is **not** lying. In practice, this means it doesn't pay for either party to lie. Because lying doesn't pay, there shouldn't be many challenges in practice.
+At this point, the processor must undergo the long and expensive process to prove on-chain that the funds were delivered. It's important to note that both parties involved in the challenge have to put up collateral, and whichever party is ultimately shown to be lying will lose their collateral to the party that is **not** lying. In practice, this means it doesn't pay for either party to lie. Because lying doesn't pay, these challenges should be very rare.
 
 ## Generalizing The Problem
 
@@ -125,7 +125,7 @@ We can picture how the original intent described in this post could be fulfilled
 
 Aside from trust benefits to users, this architecture is helpful to processors.
 
-The resource lock in the smart wallet works somewhat like an escrow. Without this escrow, the centralized processor must receive funds from the user, and then subsequently deliver the desired tokens on the destination chain. During the a period of time _after_ the processor receives the funds, but _before_ the funds have been sent to the destination chain, centralized processor is holding funds which belong to the user. This exposes the business to a set of regulatory concerns around "safeguarding".
+The resource lock in the smart wallet works somewhat like an escrow. Without this escrow, the centralized processor must receive funds from the user, and then subsequently deliver the desired tokens on the destination chain. During the period of time _after_ the processor receives the funds, but _before_ the funds have been sent to the destination chain, the processor is holding funds which belong to the user. This exposes the business to a set of regulatory concerns around "safeguarding".
 
 Because of the escrow in the Safenet protocol, the processor never takes custody of the user's funds. They don't receive a payment until _after_ they've delivered their promise to the user. In this case, the processor never holds funds which belong to the user. This alleviates a class of regulatory concerns. 
 
@@ -151,7 +151,7 @@ There are general risks inherent to cross-chain bridging which are not necessari
 
 To resolve disputes, the truth must be propagated from the spend chain to the debit chain. Depending on the chains, there are different trust assumptions with the propagation of this data (EVM rollups can minimize trust). 
 
-In some cases, there are oracles that propagate this data. A malicious validator controlling 51% those oracles could generate a false proof that the funds were delivered, and propagate that data to the debit chain. This would allow the processor to steal the user's funds, and the collateral from the validator.
+In some cases, there are oracles that propagate this data. A malicious processor controlling 51% of those oracles could generate a false proof that the funds were delivered, and propagate that data to the debit chain. This would allow the processor to steal the user's funds, and the collateral from the validator.
 
 _It's also important to note that the processor (which could be a major company like OKX) would need to be involved in an attack like this._
 
@@ -166,9 +166,9 @@ These two factors may have some impact on transaction cost (compared to skipping
 
 ### Competing Protocols
 
-From this post, it may seem like smart contract wallets are critical to providing low-cost, low-latency intents without trust assumptions. As a leader in smart contract wallets, Safe appears uniquely positioned to build this platform, but are smart contract wallets _truely_ required to support this system?
+From this post, it may seem like smart contract wallets are essential to providing low-cost, low-latency intents without trust assumptions. As a leader in smart contract wallets, Safe appears uniquely positioned to build this platform, but are smart contract wallets _truly_ required to support this system?
 
-Technically, no. In fact, there are already protocols using similar algorithms **without** smart contract wallets.  [Across-Settlement](https://across.to/across-settlement) is one such protocol that exists today and has a head start on adoption. There are some differences between these protocols, but the most noticeable distinction is that Safenet locks funds in a user's smart contract wallet, whereas in the the other systems, funds are sent to an escrow smart contract where they are locked. 
+Technically, no. In fact, there are already protocols using similar algorithms **without** smart contract wallets.  [Across-Settlement](https://across.to/across-settlement) is one such protocol that exists today and has a head start on adoption. There are some differences between these protocols, but the most noticeable distinction is that Safenet locks funds in a user's smart contract wallet, whereas in the other systems, funds are sent to an escrow smart contract where they are locked. 
 
 **Does escrowing the funds in the user's smart contract wallet offer any advantages over the external escrow?**
 
@@ -181,12 +181,11 @@ Displaying escrows in-wallet is critical for multiple reasons:
 * The user has confidence that the funds are safe.
 * If the processor does not deliver the funds, the wallet can show the user the expired escrow (the user doesn't need to locate the escrow account and retrieve the funds).
 
-Coupling the protocol to smart contract wallets can also be limiting in some ways. Extending these protocols beyond EVM is already difficult, and coupling the protocol to smart contract wallets adds more complexity there (every chain needs smart contract wallets that support the Safenet primitives). 
+Coupling the protocol to smart contract wallets could also be limiting in some ways. Extending these protocols beyond EVM is already difficult, and coupling the protocol to smart contract wallets adds more complexity there (every chain needs smart contract wallets that support the Safenet primitives). 
 
-The decision to leverage smart contract wallets also means that the success of Safenet hinges on the adoption of these wallets. The long-term prospects look good. Ethereum plans to move completely to smart wallets in the future. However, most users today still transact on-chain using traditional wallets, which could create some early barriers to adoption. EIP-7702 aims to reduce the barrier of entry for smart contract wallets, but unfortunately, EIP-7702 wallets cannot be used with Safenet and will not help with adoption in this case.
+The decision to leverage smart contract wallets also means that the success of Safenet hinges on the adoption of smart contract wallets. The long-term prospects look good. Ethereum plans to move completely to smart wallets in the future. However, most users today still transact on-chain using traditional wallets, which could create some early barriers to adoption. EIP-7702 aims to reduce the barrier of entry for smart contract wallets, but unfortunately, EIP-7702 wallets cannot be used with Safenet and will not help with adoption in this case.
 
 _EIP-7702 wallets have an admin key (owned by the user) which have god-like permissions on the wallet. These permissions would allow the user to extract the locked funds._
-
 
 
 
