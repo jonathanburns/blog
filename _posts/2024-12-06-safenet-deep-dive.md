@@ -9,24 +9,6 @@ categories:
 tags:
   - intents
 ---
----
-layout: post
-title:  "What Is Safenet?"
-date:   2024-12-04 02:39:16 +0000
-categories: jekyll update
-permalink: /:title/
----
-title: "Safenet Deep Dive"
-description: "Overview and analysis of the Safenet protocol."
-header: 
-  teaser: "https://docs.safe.global/_next/static/media/safenet-introduction.cf3046fd.png"
-date: 2024-12-05T15:34:30-04:00
-categories:
-  - crypto
-tags:
-  - intents
----
----
 ![safenet](https://docs.safe.global/_next/static/media/safenet-introduction.cf3046fd.png)
 Safe launched a new product [Safenet](https://safe.global/safenet) this week. 
 
