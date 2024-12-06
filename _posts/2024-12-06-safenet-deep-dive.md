@@ -10,9 +10,9 @@ tags:
   - intents
 ---
 ![safenet](https://docs.safe.global/_next/static/media/safenet-introduction.cf3046fd.png)
-Safe launched a new product [Safenet](https://safe.global/safenet) this week. 
 
-I got a chance to meet the Safe team at Devcon chat about the design of the system. A friend of mine asked me to describe the problem they're solving, which spurred this post.
+I recently got a chance to meet the Safe team at Devcon to chat about their new product [Safenet](https://safe.global/safenet), which was just announced this week. 
+
 ## High Level Overview
 
 The last few years have brought us an explosion of new blockchains. This has helped with scaling, but brought about new challenges. If you have funds on one chain, but you want to interact with an application on a different chain, there's a long and arduous set of steps required to move your funds across the chains and achieve your goal.
@@ -131,11 +131,11 @@ Because of the escrow in the Safenet protocol, the processor never takes custody
 
 ## An Intents Marketplace
 
-In the flow I described, the user expects a specific processor to fulfill their intent. In future versions of the protocol, this won't be required. Users will be able to create processor-agnostic intents on-chain. Processor's will bid to fulfill the intent, and the processor with the winning bid will get the job. This creates a Google-Ads-like marketplace which increases competition between processors and results in better pricing for users.
+In the flow I described, the user expects a specific processor to fulfill their intent. In future versions of the protocol, this won't be required. Users will be able to create processor-agnostic intents on-chain. Processors will bid to fulfill the intent, and the processor with the winning bid will get the job. This creates a Google-Ads-like marketplace which increases competition between processors and results in better pricing for users.
 
 ## Kicking The Tires
 
-In this section I'll try to provide a balanced perspective of the protocol by listing potential hurdles.
+In this section I'll try to provide a balanced perspective by listing aspects that might hinder adoption of the protocol.
 
 ### Security 
 
@@ -186,7 +186,6 @@ Coupling the protocol to smart contract wallets can also be limiting in some way
 The decision to leverage smart contract wallets also means that the success of Safenet hinges on the adoption of these wallets. The long-term prospects look good. Ethereum plans to move completely to smart wallets in the future. However, most users today still transact on-chain using traditional wallets, which could create some early barriers to adoption. EIP-7702 aims to reduce the barrier of entry for smart contract wallets, but unfortunately, EIP-7702 wallets cannot be used with Safenet and will not help with adoption in this case.
 
 _EIP-7702 wallets have an admin key (owned by the user) which have god-like permissions on the wallet. These permissions would allow the user to extract the locked funds._
-
 
 
 
