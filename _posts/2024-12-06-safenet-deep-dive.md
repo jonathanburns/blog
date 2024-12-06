@@ -1,5 +1,6 @@
 ---
 title: "Safenet Deep Dive"
+hidden: true
 description: "Overview and analysis of the Safenet protocol."
 header: 
   teaser: "https://docs.safe.global/_next/static/media/safenet-introduction.cf3046fd.png"
