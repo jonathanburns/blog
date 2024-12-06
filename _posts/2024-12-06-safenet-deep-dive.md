@@ -10,6 +10,23 @@ tags:
   - intents
 ---
 ---
+layout: post
+title:  "What Is Safenet?"
+date:   2024-12-04 02:39:16 +0000
+categories: jekyll update
+permalink: /:title/
+---
+title: "Safenet Deep Dive"
+description: "Overview and analysis of the Safenet protocol."
+header: 
+  teaser: "https://docs.safe.global/_next/static/media/safenet-introduction.cf3046fd.png"
+date: 2024-12-05T15:34:30-04:00
+categories:
+  - crypto
+tags:
+  - intents
+---
+---
 ![safenet](https://docs.safe.global/_next/static/media/safenet-introduction.cf3046fd.png)
 Safe launched a new product [Safenet](https://safe.global/safenet) this week. 
 
@@ -152,7 +169,7 @@ There are general risks inherent to cross-chain bridging which are not necessari
 
 To resolve disputes, the truth must be propagated from the spend chain to the debit chain. Depending on the chains, there are different trust assumptions with the propagation of this data (EVM rollups can minimize trust). 
 
-In some cases, there are oracles that propagate this data. An attacker controlling 51% those oracles could generate a false proof that the funds were delivered, and propagate that data to the debit chain. This would allow the processor to steal the user's funds, and the collateral from the validator.
+In some cases, there are oracles that propagate this data. A malicious validator controlling 51% those oracles could generate a false proof that the funds were delivered, and propagate that data to the debit chain. This would allow the processor to steal the user's funds, and the collateral from the validator.
 
 _It's also important to note that the processor (which could be a major company like OKX) would need to be involved in an attack like this._
 
@@ -187,6 +204,8 @@ Coupling the protocol to smart contract wallets can also be limiting in some way
 The decision to leverage smart contract wallets also means that the success of Safenet hinges on the adoption of these wallets. The long-term prospects look good. Ethereum plans to move completely to smart wallets in the future. However, most users today still transact on-chain using traditional wallets, which could create some early barriers to adoption. EIP-7702 aims to reduce the barrier of entry for smart contract wallets, but unfortunately, EIP-7702 wallets cannot be used with Safenet and will not help with adoption in this case.
 
 _EIP-7702 wallets have an admin key (owned by the user) which have god-like permissions on the wallet. These permissions would allow the user to extract the locked funds._
+
+
 
 
 
