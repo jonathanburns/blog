@@ -147,9 +147,11 @@ It's important to mention that the victims of such an attack would be the proces
 
 **Risks For The User**
 
-When a dispute happens, data must be propagated from the spend chain to the debit chain so that the dispute can be resolved and the locked funds can be released.
+There are general risks inherent to cross-chain bridging which are not necessarily specific to Safenet.
 
-Depending on the chain, oracles may be required to propagate this data. A set of users controlling 51% of the oracles could generate a false proof that the assets were delivered. This would allow them to withdraw the user's funds, and take collateral from the validator.
+To resolve disputes, the truth must be propagated from the spend chain to the debit chain. Depending on the chains, there are different trust assumptions with the propagation of this data (EVM rollups can minimize trust). 
+
+In some cases, there are oracles that propagate this data. An attacker controlling 51% those oracles could generate a false proof that the funds were delivered, and propagate that to the debit chain. This would allow the processor to steal the user's funds, and the collateral from the validator.
 
 ### Price Risk & Opportunity Cost
 
@@ -158,21 +160,29 @@ After the processor delivers the asset on the spend chain, they are entitled to 
 1. These funds cannot be used to fulfill more intents until the challenge period is over.
 2. During the challenge period, the processor is exposed to fluctuations in price of the locked asset.
 
-These two factors may have some impact on transaction cost (compared to skipping Safenet and using the centralized processor directly with trust)
+These two factors may have some impact on transaction cost (compared to skipping Safenet and using the centralized processor directly with trust). 
 
 ### Competing Protocols
 
 From this post, it may seem like smart contract wallets are critical to providing low-cost, low-latency intents without trust assumptions. As a leader in smart contract wallets, Safe appears uniquely positioned to build this platform, but are smart contract wallets _truely_ required to support this system?
 
-Technically, no. In fact, there are already protocols using similar algorithms **without** smart contract wallets. [UniswapX](https://blog.uniswap.org/uniswapx-protocol) and [Across-Settlement](https://across.to/across-settlement) are two such protocols that exist today and have a head start on adoption. There are some differences between these protocols, but the most noticeable distinction is that Safenet locks funds in a user's smart contract wallet, whereas in the the other systems, funds are sent to an escrow smart contract where they are locked. 
+Technically, no. In fact, there are already protocols using similar algorithms **without** smart contract wallets.  [Across-Settlement](https://across.to/across-settlement) is one such protocol that exists today and has a head start on adoption. There are some differences between these protocols, but the most noticeable distinction is that Safenet locks funds in a user's smart contract wallet, whereas in the the other systems, funds are sent to an escrow smart contract where they are locked. 
 
 **Does escrowing the funds in the user's smart contract wallet offer any advantages over the external escrow?**
 
-This is a question I've been musing about for days. While it certainly _feels_ safer to keep the funds in your wallet, the risk is theoretically the same in both approaches. At the end of the day, there's a smart contract which escrows your funds, and your ability to get those funds back is dictated by the logic of that smart contract. 
+I've been musing about this for days now. From a security perspective, while it certainly _feels_ safer to keep the funds in your wallet, the risk is theoretically the same in both approaches. At the end of the day, there's a smart contract which escrows your funds, and your ability to get those funds back is dictated by the logic of that smart contract. 
 
-It's arguable that coupling the protocol so tightly to the smart contract wallets is limiting. Expanding these protocols beyond the EVM is already difficult, and coupling the protocol to smart wallets introduces even more barriers there. 
+One clear benefit of escrowing the funds in-wallet is that it simplifies the visibility of these funds. Your wallet can easily find and display the status of all of your escrows (including non-safenet escrows). While it is _also_ possible for your wallet to display _external_ escrows, getting the data is complex because the wallet must locate all the external accounts. 
 
-Requiring smart contract wallets also creates a barrier to entry, even for users on EVM chains. Ethereum plan to move completely to smart wallets at some point in the future, but today, most users still transact using traditional wallets. Safe explains on their website that they store 100B in assets, however, the bulk of these assets are held by large institutions who use the wallets for multi-sig. EIP-7702 aims to reduce the barrier of entry for smart contract wallets, but unfortunately, EIP-7702 wallets cannot be used with Safenet and will not help with adoption.
+Displaying escrows in-wallet is critical for multiple reasons:
+
+* The user has confidence that the funds are safe.
+* If the processor does not deliver the funds, the wallet can show the user the expired escrow (the user doesn't need to locate the escrow account and retrieve the funds).
+
+Coupling the protocol to smart contract wallets can also be limiting in some ways. Extending these protocols beyond EVM is already difficult, and coupling the protocol to smart contract wallets adds more complexity there (every chain needs smart contract wallets that support the Safenet primitives). 
+
+The decision to leverage smart contract wallets also means that the success of Safenet hinges on the adoption of these wallets. The long-term prospects look good. Ethereum plans to move completely to smart wallets in the future. However, most users today still transact on-chain using traditional wallets, which could create some early barriers to adoption. EIP-7702 aims to reduce the barrier of entry for smart contract wallets, but unfortunately, EIP-7702 wallets cannot be used with Safenet and will not help with adoption in this case.
 
 _EIP-7702 wallets have an admin key (owned by the user) which have god-like permissions on the wallet. These permissions would allow the user to extract the locked funds._
+
 
