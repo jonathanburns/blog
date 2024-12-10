@@ -94,7 +94,7 @@ _Worth noting: According to Safenet docs, these transfers will happen in 500ms. 
 
 ![step5](https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafkreia275hwqm2fjiqfxpnxsijo2l2iroz6ax23bxkkbuw4ohm6ycfi4q)
 
-_At this point, the processor has notified the debit chain that the fulfillment is complete, but has not provided any proof. Verifying the fulfillment is very easy to do off-chain, but slow and expensive to do on-chain. Instead of providing the proof on-chain, the processor makes an on-chain claim that the intent is fulfilled (without providing any proof). The processor adds some collateral with this claim, which essentially says “If I’m lyin', I’m dyin'”. If the processor is shown to be lying, they will lose the collateral._
+_At this point, the processor has notified the debit chain that the fulfillment is complete, but has not provided any proof. Verifying the fulfillment is very easy to do off-chain, but slow and expensive to do on-chain. Instead of providing the proof on-chain, the processor makes an on-chain claim that the intent is fulfilled (without providing any proof). The processor adds some collateral with this claim, which essentially says “If I’m lyin', I’m dyin'”. If the processor is shown to be lying, they will lose the collateral (more on that later)._
 
 **Step 6**: A challenge period ensues, during which time, the claim can be disputed. If there are no challenges during the period, the processor can withdraw the locked funds from the smart contract wallet at the end of the period.
 
