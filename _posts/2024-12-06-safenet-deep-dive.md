@@ -152,7 +152,7 @@ To resolve disputes, the truth must be propagated from the spend chain to the de
 
 The various methods come with different trust assumptions. For example, if oracles are required, a malicious processor controlling 51% of the oracles could generate a false proof that the funds were delivered, and propagate that data to the debit chain. This would allow the processor to steal the user's funds, and steal the collateral from the validator.
 
-Safenet's protocol doesn't prescribe any specific type of proof. Safenet has a pluggable architecture which can support many different types of proofs. 
+Safenet's protocol doesn't prescribe any specific proving method. Safenet has a pluggable architecture which can support many different types of proofs. 
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">At its core, Safenet is simply a way to pull funds from an account using &#39;proofs.&#39; <br><br>It is agnostic about the type of proofs (fraud / zk), how it is sourced (message bridge / off-chain oracle), and what it proves (optimistic cross-chain tx, trade on Binance, scheduled tx, etc.).</p>&mdash; lukasschor.eth (@SchorLukas) <a href="https://twitter.com/SchorLukas/status/1865729014691680471?ref_src=twsrc%5Etfw">December 8, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
