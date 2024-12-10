@@ -148,13 +148,16 @@ It's important to mention that the victims of such an attack would be the proces
 
 **Risks For The User**
 
-There are general risks inherent to cross-chain bridging which are not necessarily specific to Safenet.
+There are general risks inherent to cross-chain bridging which are not specific to Safenet.
 
-To resolve disputes, the truth must be propagated from the spend chain to the debit chain. Depending on the chains, there are different trust assumptions with the propagation of this data (EVM rollups can minimize trust). 
+To resolve disputes, the truth must be propagated from the spend chain to the debit chain. There are many ways to facilitate that propegation, and the various methods come with different trust assumptions. Between _some_ chains (like Ethereum and Optimism), data can be propegated by trust-minimized bridges. In other cases, oracles may be required to propagate the data. 
 
-In some cases, there are oracles that propagate this data. A malicious processor controlling 51% of those oracles could generate a false proof that the funds were delivered, and propagate that data to the debit chain. This would allow the processor to steal the user's funds, and the collateral from the validator.
+If oracles are required, a malicious processor controlling 51% of the oracles could generate a false proof that the funds were delivered, and propagate that data to the debit chain. This would allow the processor to steal the user's funds, and the collateral from the validator.
 
-_It's also important to note that the processor (which could be a major company like OKX) would need to be involved in an attack like this._
+Safenet's protocol doesn't prescribe any specific type of proof. Safenet has a pluggable architecture which can support many different types of proofs. The specific proving method is specified on the intent. Users who create intents should understand the trust assumptions of the proving method.
+
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">At its core, Safenet is simply a way to pull funds from an account using &#39;proofs.&#39; <br><br>It is agnostic about the type of proofs (fraud / zk), how it is sourced (message bridge / off-chain oracle), and what it proves (optimistic cross-chain tx, trade on Binance, scheduled tx, etc.).</p>&mdash; lukasschor.eth (@SchorLukas) <a href="https://twitter.com/SchorLukas/status/1865729014691680471?ref_src=twsrc%5Etfw">December 8, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
 
 ### Price Risk & Opportunity Cost
 
@@ -187,6 +190,5 @@ Coupling the protocol to smart contract wallets could also be limiting in some w
 The decision to leverage smart contract wallets also means that the success of Safenet hinges on the adoption of smart contract wallets. The long-term prospects look good. Ethereum plans to move completely to smart wallets in the future. However, most users today still transact on-chain using traditional wallets, which could create some early barriers to adoption. EIP-7702 aims to reduce the barrier of entry for smart contract wallets, but unfortunately, EIP-7702 wallets cannot be used with Safenet and will not help with adoption in this case.
 
 _EIP-7702 wallets have an admin key (owned by the user) which have god-like permissions on the wallet. These permissions would allow the user to extract the locked funds._
-
 
 
