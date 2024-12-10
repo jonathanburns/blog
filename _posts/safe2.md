@@ -1,5 +1,5 @@
 ---
-title: "Safenet Deep Dive"
+title: "Safenet Deep Dive Two"
 hidden: true
 description: "Overview and analysis of the Safenet protocol."
 header: 
