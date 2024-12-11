@@ -149,7 +149,7 @@ In the flow I described, the user expects a specific processor to fulfill their 
 
 ## Risks
 
-In this section, I'll describe the risks to various actors in the system.
+We'll take a look at the different actors in the systems and the potential risks these actors face.
 
 ### Processor Risk 
 
@@ -182,7 +182,11 @@ Safenet's protocol doesn't prescribe any specific proving method. Safenet has a 
 
 In Safenet, each intent specifies the proving mechanism that will resolve disputes for that intent. The Safenet protocol doesn't perscribe any specific proving methods for intents, and so the protocol itself does not guaruntee the safety or validity of proofs. Users who create intents must understand the proving method defined on that intent, and the trust assumptions that come along with that proving method.
 
+**Processor Holds The Funds Hostage**
 
+Imagine the processor tries to brick the user's smart-wallet by refusing to co-sign any transactions.
+
+In this case, the user can initiate a withdrawal _without_ a cosigner. A wait period will be enforced before the user is allowed to withdraw the funds. This wait period ensures that any pending intents get a chance to finish before the user withdraws.
 
 ## How Does Safenet Compare To Other Cross-Chain Intent Protocols?
 
@@ -196,8 +200,10 @@ The two protocols use very similar algorithms. The most noticeable distinction b
 
 The in-wallet escrow provides clear UX benefits:
 
-* Users can see all their Safenet funds using their usual wallet app. While it is _also_ possible for a wallet app to display the funds in the _external_ smart contract, gathering the data is complex because your wallet must locate all the external accounts. 
+* Users can see all their Safenet funds using their normal wallet app. While it is _also_ possible for a wallet app to display the funds in the _external_ smart contract, gathering the data is complex because your wallet must locate all the external accounts. 
 * Users don't have to remember to pull the funds back into their wallet (they're already in your wallet).
+
+_Note here that users can use their Safenet wallet for normal non-safenet transactions, but the processor will need to co-sign those transactions (the processor is required to sign all transactions that spend from this wallet)._
 
 From a security perspective, while it certainly _feels_ safer to keep the funds in your wallet, the risk is theoretically the same in both approaches. At the end of the day, there's a smart contract which manages the escrow, and your ability to get those funds back is dictated by the logic of that smart contract. 
 
