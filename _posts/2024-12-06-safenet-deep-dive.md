@@ -187,14 +187,11 @@ In Safenet, each intent specifies the proving mechanism that will resolve disput
 
 ## How Does Safenet Compare To Other Cross-Chain Intent Protocols?
 
-
-
-UniswapX recently announced a protocol called "The Compact" which provides low-latency, low-cost intents without centralized trust assumptions.
-
+UniswapX recently announced a new protocol called "The Compact" which provides low-latency, low-cost intents without centralized trust assumptions.
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">chain abstraction is all the rage right now<br><br>value transfer across chains must become totally seamless<br><br>this is the vision for cross-chain UniswapX<br><br>been building out one of the primitives to help get there — a new protocol for reusable resource locks:<br><br>The Compact 🤝<br><br>let&#39;s 🧵</p>&mdash; 0age (@z0age) <a href="https://twitter.com/z0age/status/1861420959665639450?ref_src=twsrc%5Etfw">November 26, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-The two protocols use very similar algorithms. The most noticeable distinction between these two is that Safenet locks funds in a user's smart contract wallet, whereas in The Compact protocol, funds are sent to an escrow smart contract (the protocol aims to be [unopinionated about wallets](https://x.com/z0age/status/1861420970885407220))
+The two protocols use very similar algorithms. The most noticeable distinction between these two is that Safenet locks funds in a user's smart contract wallet, whereas in The Compact protocol, funds are sent to an escrow smart contract (the protocol [makes an explicit choice to be unopinionated about wallets](https://x.com/z0age/status/1861420970885407220))
 
 **Does escrowing the funds in the user's smart contract wallet offer any advantages over the external escrow?**
 
