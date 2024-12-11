@@ -214,8 +214,6 @@ The in-wallet escrow provides clear UX benefits:
 * Users can treat their Safenet wallet as their main wallet, using it even for non-safenet transactions (like buying an NFT on opensea). One caveat is that the processor must co-sign all spending transactions from this wallet. If there the processor experiences an outage, all funds will be frozen until the processor comes back up (or the user goes through the non-cosigned withdrawal flow).
 * Users don't have to remember to pull excess funds back into their wallet (the funds never leave your wallet until they are redeemed by the processor).
 
-_Note here that users can use their Safenet wallet for normal non-safenet transactions, but the processor will need to co-sign those transactions (the processor is required to sign all transactions that spend from this wallet)._
-
 From a security perspective, while it certainly _feels_ safer to keep the funds in your wallet, the risk is theoretically the same in both approaches. At the end of the day, there's a smart contract which manages the escrow, and your ability to get those funds back is dictated by the logic of that smart contract. 
 
 Coupling the protocol to smart contract wallets could also be limiting in some ways. Extending these protocols beyond EVM is already difficult, and coupling the protocol to smart contract wallets adds more some complexity when expanding beyond EVM (every chain needs smart contract wallets that support the Safenet primitives). 
