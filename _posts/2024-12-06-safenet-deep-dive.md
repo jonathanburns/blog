@@ -148,7 +148,7 @@ It's important to mention that the victims of such an attack would be the proces
 
 **Risks For The User**
 
-To resolve disputes, the truth must be propagated from the spend chain to the debit chain (i.e. the processor must prove to the debit chain that the funds were delivered). There are many ways to facilitate the propegation of data to the debit chain. Between _some_ chains (like Ethereum and Optimism), data can be propegated by trust-minimized bridges. In other cases, oracles may be required to propagate the data. 
+To resolve disputes, the truth must be propagated from the spend chain to the debit chain (to prove the intent was fulfilled). There are many ways to facilitate the propegation of that data. Between _some_ chains (like Ethereum and Optimism), data can be propegated by trust-minimized bridges. In other cases, oracles may be required to propagate the data. 
 
 The various methods come with different trust assumptions. For example, if oracles are required, a malicious processor controlling 51% of the oracles could generate a false proof that the funds were delivered, and propagate that data to the debit chain. This would allow the processor to steal the user's funds, and steal the collateral from the validator.
 
