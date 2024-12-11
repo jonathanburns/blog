@@ -85,9 +85,10 @@ Once the wallets are deployed and configured, I'm ready to use Safenet.
 
 ### Using Safenet
 
+
 **Step 1**: I go to the website of the centralized processor. The processor says I can purchase 1 ETH on Base for 3500 USDC on Optimism (They calculate this offer based on the market price of ETH + some fees for processing).
 
-**Step 2**: I create an off-chain "intent" (Safenet calls these transactions) by signing a message and sending it to Safenet's off-chain transaction pool. This intent denotes my expectations. I expect 1 ETH on Base, and I’m willing to trade 3500 USDC on Optimism.
+**Step 2**: I create an off-chain "intent" (Safenet calls these _transactions_) by signing a message and sending it to Safenet's off-chain transaction pool. This intent denotes my expectations. I expect 1 ETH on Base, and I’m willing to trade 3500 USDC on Optimism.
 
 ![step2](https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafkreiebzs3owumlgsg5zu6bmz6zjwuam7w22uzua4myghcbg4idns22u4)
 
@@ -100,7 +101,7 @@ Remember that the smart-contract-wallet is configured such that the processor mu
 
 _The arrow shown in this diagram doesn't represent an actual transaction on-chain. If I try to spend the 3500 USDC, the processor will refuse to co-sign the transaction (so the funds are effectively locked)._
 
-_You may be wondering, "If the processor must co-sign all spends, what's to stop the processor from refusing to co-sign all transactions and holding my account hostage"? There's a solution for that which will be described later._
+_You may be wondering, "If the processor must co-sign all spends, what's to stop the processor from refusing to co-sign all transactions and holding my account hostage"? The solution for that will be described later._
 
 
 **Step 4**: The processor delivers the 1 ETH to my account on Base, fulfilling the intent.
@@ -151,6 +152,8 @@ Because of the escrow in the Safenet protocol, the processor never takes custody
 ## An Intents Marketplace
 
 In the flow I described, the user expects a specific processor to fulfill their intent. In future versions of the protocol, this won't be required. Users will be able to create processor-agnostic intents on-chain. Processors will bid to fulfill the intent, and the processor with the winning bid will get the job. This creates a Google-Ads-like marketplace which increases competition between processors and results in better pricing for users.
+
+_You may be wondering: "If locks are enforced by ensuring a specific processor co-signs all transactions, how can the protocol support multiple processors?" The wallet will continue to to have one "processor", but that processor will only be responsible for managing the lock. The actual fulfillment will be done by 3rd parties (co-processors) who compete in the marketplace to fulfill the intent. These co-processors will need to trust the processor not to sign transactions that violate a lock._
 
 ## Risks
 
