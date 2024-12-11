@@ -157,9 +157,9 @@ _You may be wondering: "If locks are enforced by ensuring a specific processor c
 
 ## Risks
 
-We'll take a look at the different actors in the systems and the potential risks these actors face.
+Lets take a look at the different actors in the system and analyze potential risks.
 
-### Processor Risk 
+### Risks For The Processor  
 
 **Processor Pricing Risk & Opportunity Cost**
 
@@ -176,7 +176,7 @@ _The protocol allows the processor to extract the funds on the debit chain at an
 
 A set of attackers who control 51% of the debit chain  could revert the transaction which funded the safe wallet, which would prevent the processor from collecting the funds. In practice, an attack like this is very difficult to orchestrate on most chains.
 
-### End User Risk
+### Risks For The End User
 
 **False Proofs**
 
