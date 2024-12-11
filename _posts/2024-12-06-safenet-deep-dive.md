@@ -153,7 +153,7 @@ Because of the escrow in the Safenet protocol, the processor never takes custody
 
 In the flow I described, the user expects a specific processor to fulfill their intent. In future versions of the protocol, this won't be required. Users will be able to create processor-agnostic intents on-chain. Processors will bid to fulfill the intent, and the processor with the winning bid will get the job. This creates a Google-Ads-like marketplace which increases competition between processors and results in better pricing for users.
 
-_You may be wondering: "If locks are enforced by ensuring a specific processor co-signs all transactions, how can the protocol support multiple processors?" The wallet will continue to to have one "processor", but that processor will only be responsible for managing the lock. The actual fulfillment will be done by 3rd parties (co-processors) who compete in the marketplace to fulfill the intent. These co-processors will need to trust the processor not to sign transactions that violate a lock._
+_You may be wondering: "If locks are enforced by ensuring a specific processor co-signs all transactions, how can the protocol support multiple processors?" In reality, the wallet will continue to to have a single "processor" who is responsible for co-signing, but that processor will only be responsible for managing the lock. The actual intent fulfillment will be done by 3rd parties (co-processors) who compete in the marketplace on pricing and speed. These co-processors must trust the processor not to sign transactions that violate a lock._
 
 ## Risks
 
@@ -220,5 +220,3 @@ Coupling the protocol to smart contract wallets could also be limiting in some w
 The decision to leverage smart contract wallets also means that the success of Safenet hinges on the adoption of smart contract wallets. The long-term prospects look good. Ethereum plans to move completely to smart wallets in the future. However, most users today still transact on-chain using traditional wallets, which could create some early barriers to adoption. EIP-7702 aims to reduce the barrier of entry for smart contract wallets, but unfortunately, EIP-7702 wallets cannot be used with Safenet and will not help with adoption in this case.
 
 _EIP-7702 wallets have an admin key (owned by the user) which have god-like permissions on the wallet. These permissions would allow the user to extract the locked funds._
-
-
