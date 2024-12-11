@@ -82,7 +82,7 @@ Once the wallets are deployed and configured, I'm ready to use Safenet.
 
 **Step 1**: I go to the website of the centralized processor. The processor says I can purchase 1 ETH on Base for 3500 USDC on Optimism (They calculate this offer based on the market price of ETH + some fees for processing).
 
-**Step 2**: I create an off-chain "intent" (Safenet calls these transactions) by signing a message and sending it to Safenet's off-chain transaction pool. This intent denotes my expectations. I expect 1 ETH on Base, and I’m willing to trade 3500 USDC.
+**Step 2**: I create an off-chain "intent" (Safenet calls these transactions) by signing a message and sending it to Safenet's off-chain transaction pool. This intent denotes my expectations. I expect 1 ETH on Base, and I’m willing to trade 3500 USDC on Optimism.
 
 ![step2](https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafkreiebzs3owumlgsg5zu6bmz6zjwuam7w22uzua4myghcbg4idns22u4)
 
@@ -95,7 +95,7 @@ Remember that the smart-contract-wallet is configured such that the processor mu
 
 _The arrow shown in this diagram doesn't represent an actual transaction on-chain. If I try to spend the 3500 USDC, the processor will refuse to sign the transaction (so the funds are effectively locked)._
 
-_You may be wondering, "If the processor must co-sign all spends, what's to stop the processor from refusing to sign transactions and holding my funds hostage"? There's a solution for that which will be described later._
+_You may be wondering, "If the processor must co-sign all spends, what's to stop the processor from refusing to sign all transactions and holding my account hostage"? There's a solution for that which will be described later._
 
 
 **Step 4**: The processor delivers the 1 ETH to my account on Base, fulfilling the intent.
@@ -103,11 +103,11 @@ _You may be wondering, "If the processor must co-sign all spends, what's to stop
 ![step3](https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafkreiegrhpsuzmjiexccim6oj7nqvimjcgyprmhxcodjny3sqpta77ieu)
 
 
-**Step 5**: The processor notifies the smart contract wallet on the debit chain (Optimism) that the fulfillment is complete.
+**Step 5**: The processor notifies the smart contract wallet on the debit chain (Optimism) that the fulfillment is complete. It includes the intent which was signed by me.
 
 ![step5](https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafkreia275hwqm2fjiqfxpnxsijo2l2iroz6ax23bxkkbuw4ohm6ycfi4q)
 
-_At this point, the processor has notified the debit chain that the fulfillment is complete, but has not provided any proof. Verifying the fulfillment is very easy to do off-chain, but slow and expensive to do on-chain. Instead of providing the proof on-chain, the processor makes an on-chain claim that the intent is fulfilled (without providing any proof). The processor adds some collateral with this claim, which essentially says “If I’m lyin', I’m dyin'”. If the processor is shown to be lying, they will lose the collateral (more on that later)._
+_At this point, the processor has notified the debit chain that the fulfillment is complete, but has not provided any proof of that. Verifying the fulfillment is very easy to do off-chain, but slow and expensive to do on-chain. Instead of providing the proof on-chain, the processor makes an on-chain claim that the intent is fulfilled (without providing any proof). The processor adds some collateral with this claim, which essentially says “If I’m lyin', I’m dyin'”. If the processor is shown to be lying, they will lose the collateral (more on that later)._
 
 **Step 6**: A challenge period ensues, during which time, the claim can be disputed. If there are no challenges during the period, the smart-contract-wallet will allow the processor to withdraw the locked funds at the end of the period.
 
