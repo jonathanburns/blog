@@ -93,7 +93,7 @@ Remember that the smart-contract-wallet is configured such that the processor mu
 
 ![step3](https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafkreifdfgfcmht43o4jy4fd2mk3vuftpvdl66g5rn2lq23jrfzvz7hvj4)
 
-_The arrow shown in this diagram doesn't represent an actual transaction on-chain. If I try to spend the 3500 USDC, the processor will refuse to sign the transaction (so the funds are effectively locked)._
+_The arrow shown in this diagram doesn't represent an actual transaction on-chain. If I try to spend the 3500 USDC, the processor will refuse to co-sign the transaction (so the funds are effectively locked)._
 
 _You may be wondering, "If the processor must co-sign all spends, what's to stop the processor from refusing to co-sign all transactions and holding my account hostage"? There's a solution for that which will be described later._
 
