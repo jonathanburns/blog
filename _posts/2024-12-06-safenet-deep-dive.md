@@ -109,9 +109,9 @@ _You may be wondering, "If the processor must co-sign all spends, what's to stop
 ![step3](https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafkreiegrhpsuzmjiexccim6oj7nqvimjcgyprmhxcodjny3sqpta77ieu)
 
 
-**Step 5**: The processor notifies the smart contract wallet on the debit chain (Optimism) that the fulfillment is complete. It includes the intent which was signed by me.
+**Step 5**: The processor notifies the smart contract wallet on the debit chain (Optimism) that an intent was fulfilled. The smart contract wallet verifies the intent was signed by me.
 
-![step5](https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafkreia275hwqm2fjiqfxpnxsijo2l2iroz6ax23bxkkbuw4ohm6ycfi4q)
+![step5](https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafkreibmymruq2tfnpl7g37qvntiaotfno6ttpdtqxnkwsiqaaflyttpay)
 
 _At this point, the processor has notified the debit chain that the fulfillment is complete, but has not provided any proof of that. Verifying the fulfillment is very easy to do off-chain, but slow and expensive to do on-chain. Instead of providing the proof on-chain, the processor makes an on-chain claim that the intent is fulfilled (without providing any proof). The processor adds some collateral with this claim, which essentially says “If I’m lyin', I’m dyin'”. If the processor is shown to be lying, they will lose the collateral (more on that later)._
 
