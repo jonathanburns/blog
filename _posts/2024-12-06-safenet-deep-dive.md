@@ -70,15 +70,20 @@ I have some USDC in on Optimism. I want 1 ETH on Base. To optimize speed and cos
 
 _Safenet refers to the source chain (Optimism in our case) as the "debit chain", and the destination chain (Base in our case) as the "spend chain". I'll use those terms here._
 
-**Prequisite**: Before using Safenet, I'll need to create a Safenet account. This creation will do a few things:
+### Prerequisites
+
+Before using Safenet, I'll need to create a Safenet account. This creation will do a few things:
 
 1. It will deploy a smart contract wallet on both the debit and spend chain.
 2. These wallets will be configured to enforce that **all spending transactions from the wallet must be co-signed by the processor (in this case, the centralized exchange)**. (more on this later)
-3. I'll need to fund the wallet on the debit chain.
+
+Also, I'll need to fund the wallet on the debit chain.
 
 ![step0](https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafkreid3y3hk67krc2ye4aqehed2iqe7ttn6k3olfx2vvxz5y5p67wayea)
 
 Once the wallets are deployed and configured, I'm ready to use Safenet.
+
+### Using Safenet
 
 **Step 1**: I go to the website of the centralized processor. The processor says I can purchase 1 ETH on Base for 3500 USDC on Optimism (They calculate this offer based on the market price of ETH + some fees for processing).
 
