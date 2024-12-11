@@ -1,3 +1,4 @@
+
 ---
 title: "Safenet Deep Dive"
 hidden: true
@@ -187,11 +188,13 @@ In Safenet, each intent specifies the proving mechanism that will resolve disput
 ## How Does Safenet Compare To Other Cross-Chain Intent Protocols?
 
 
+
 UniswapX recently announced a protocol called "The Compact" which provides low-latency, low-cost intents without centralized trust assumptions.
+
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">chain abstraction is all the rage right now<br><br>value transfer across chains must become totally seamless<br><br>this is the vision for cross-chain UniswapX<br><br>been building out one of the primitives to help get there — a new protocol for reusable resource locks:<br><br>The Compact 🤝<br><br>let&#39;s 🧵</p>&mdash; 0age (@z0age) <a href="https://twitter.com/z0age/status/1861420959665639450?ref_src=twsrc%5Etfw">November 26, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-The most noticeable distinction between these protocols is that Safenet locks funds in a user's smart contract wallet, whereas in The Compact protocol, funds are sent to an escrow smart contract. 
+The two protocols use very similar algorithms. The most noticeable distinction between these two is that Safenet locks funds in a user's smart contract wallet, whereas in The Compact protocol, funds are sent to an escrow smart contract (the protocol aims to be [unopinionated about wallets](https://x.com/z0age/status/1861420970885407220))
 
 **Does escrowing the funds in the user's smart contract wallet offer any advantages over the external escrow?**
 
@@ -199,7 +202,7 @@ I've been musing about this for days now. From a security perspective, while it 
 
 The in-wallet escrow provides clear UX benefits:
 
-* Users can see all their funds using their normal wallet app. While it is _also_ possible for your wallet to display the funds in the _external_ smart contract, gathering the data is complex because your wallet must locate all the external accounts. 
+* Users can see all their Safenet funds using their normal wallet app. While it is _also_ possible for a wallet app to display the funds in the _external_ smart contract, gathering the data is complex because your wallet must locate all the external accounts. 
 * You don't have to remember to pull the funds back into your wallet (they're already in your wallet).
 
 Coupling the protocol to smart contract wallets could also be limiting in some ways. Extending these protocols beyond EVM is already difficult, and coupling the protocol to smart contract wallets adds more complexity when expanding beyond EVM (every chain needs smart contract wallets that support the Safenet primitives). 
