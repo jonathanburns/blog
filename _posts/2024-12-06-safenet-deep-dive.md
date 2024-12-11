@@ -196,16 +196,14 @@ The most noticeable distinction between these protocols is that Safenet locks fu
 
 **Does escrowing the funds in the user's smart contract wallet offer any advantages over the external escrow?**
 
-I've been musing about this for days now. From a security perspective, while it certainly _feels_ safer to keep the funds in your wallet, the risk is theoretically the same in both approaches. At the end of the day, there's a smart contract which escrows your funds, and your ability to get those funds back is dictated by the logic of that smart contract. 
+I've been musing about this for days now. From a security perspective, while it certainly _feels_ safer to keep the funds in your wallet, the risk is theoretically the same in both approaches. At the end of the day, there's a smart contract which manages the escrow, and your ability to get those funds back is dictated by the logic of that smart contract. 
 
-One clear benefit of escrowing the funds in-wallet is that it simplifies the visibility of these funds. Your wallet can easily find and display the status of all of your escrows (including non-safenet escrows). While it is _also_ possible for your wallet to display _external_ escrows, getting the data is complex because the wallet must locate all the external accounts. 
+The in-wallet escrow provides clear UX benefits:
 
-Displaying escrows in-wallet is critical for multiple reasons:
+* Users can see all their funds using their normal wallet app. While it is _also_ possible for your wallet to display the funds in the _external_ smart contract, gathering the data is complex because your wallet must locate all the external accounts. 
+* You don't have to remember to pull the funds back into your wallet (they're already in your wallet).
 
-* The user has confidence that the funds are safe.
-* If the processor does not deliver the funds, the wallet can show the user the expired escrow (the user doesn't need to locate the escrow account and retrieve the funds).
-
-Coupling the protocol to smart contract wallets could also be limiting in some ways. Extending these protocols beyond EVM is already difficult, and coupling the protocol to smart contract wallets adds more complexity there (every chain needs smart contract wallets that support the Safenet primitives). 
+Coupling the protocol to smart contract wallets could also be limiting in some ways. Extending these protocols beyond EVM is already difficult, and coupling the protocol to smart contract wallets adds more complexity when expanding beyond EVM (every chain needs smart contract wallets that support the Safenet primitives). 
 
 The decision to leverage smart contract wallets also means that the success of Safenet hinges on the adoption of smart contract wallets. The long-term prospects look good. Ethereum plans to move completely to smart wallets in the future. However, most users today still transact on-chain using traditional wallets, which could create some early barriers to adoption. EIP-7702 aims to reduce the barrier of entry for smart contract wallets, but unfortunately, EIP-7702 wallets cannot be used with Safenet and will not help with adoption in this case.
 
