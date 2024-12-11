@@ -1,4 +1,3 @@
-
 ---
 title: "Safenet Deep Dive"
 hidden: true
