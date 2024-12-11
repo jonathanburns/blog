@@ -1,3 +1,4 @@
+
 ---
 title: "Safenet Deep Dive"
 hidden: true
@@ -22,7 +23,7 @@ There has been a lot effort recently to abstract this complexity for users. The 
 
 Early efforts to facilitate intents were high-cost, high-latency, or required centralized trust (more on that below).
 
-Safenet enables low-cost, low-latency intents without trust assumptions. 
+Safenet enables low-cost, low-latency intents without centralized trust assumptions. 
 
 ##  Detailed Problem Description
 
@@ -62,7 +63,7 @@ The tradeoff is that you must send your funds to a central authority, and hope t
 
 ## The Solution
 
-Safenet aims to provide the best of both worlds. Users should be able to leverage the speed and pricing of the centralized processor, without any trust assumptions.
+Safenet aims to provide the best of both worlds. Users should be able to leverage the speed and pricing of the centralized processor, without centralized trust assumptions.
 
 Let's walk through how Safenet handles the operation I described above.
 
@@ -70,25 +71,38 @@ I have some USDC in on Optimism. I want 1 ETH on Base. To optimize speed and cos
 
 _Safenet refers to the source chain (Optimism in our case) as the "debit chain", and the destination chain (Base in our case) as the "spend chain". I'll use those terms here._
 
-**Prequisite**: Before using Safenet, I'll need to create a smart contract wallet on both the debit and spend chain, and install any safenet modules on those wallets. Once that is set up, I am ready to use Safenet.
+**Prequisite**: Before using Safenet, I'll need to create a Safenet account. This creation will do a few things:
 
-**Step 1**: I go to the website of the centralized processor. The processor offers me 1 ETH on Base for 3500 USDC on Optimism (They calculate this offer based on the market price of ETH + some fees for processing).
+1. It will deploy a smart contract wallet on both the debit and spend chain.
+2. These wallets will be configured to enforce that **all spending transactions from the wallet must be co-signed by the processor (in this case, the centralized exchange)**. (more on this later)
+3. I'll need to fund the wallet on the debit chain.
 
-**Step 2**: I create an off-chain "intent" (Safenet calls these transactions) by signing a message and sending it to the Safenet off-chain transaction pool. This intent denotes my expectations. I expect 1 ETH on Base, and I’m willing to trade 3500 USDC.
+![step0](https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafkreid3y3hk67krc2ye4aqehed2iqe7ttn6k3olfx2vvxz5y5p67wayea)
+
+Once the wallets are deployed and configured, I'm ready to use Safenet.
+
+**Step 1**: I go to the website of the centralized processor. The processor says I can purchase 1 ETH on Base for 3500 USDC on Optimism (They calculate this offer based on the market price of ETH + some fees for processing).
+
+**Step 2**: I create an off-chain "intent" (Safenet calls these transactions) by signing a message and sending it to Safenet's off-chain transaction pool. This intent denotes my expectations. I expect 1 ETH on Base, and I’m willing to trade 3500 USDC.
 
 ![step2](https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafkreiebzs3owumlgsg5zu6bmz6zjwuam7w22uzua4myghcbg4idns22u4)
 
-**Step 3**: The processor sees the transaction in the pool and accepts the job by posting to the debit chain. This places a “resource lock” on the 3500 USDC in my smart contract wallet. For a set period of time, I won’t be able to touch these funds. If the processor delivers the ETH on Base as promised, they’ll be allowed to withdraw the funds. If they fail to fulfill my intent within the time window, I get the funds back.
+**Step 3**: The processor sees the transaction and pulls it from the pool. 
+
+Remember that the smart-contract-wallet is configured such that the processor must co-sign any spends from the wallet. This allows the processor to "lock" the funds. 
+
 
 ![step3](https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafkreifdfgfcmht43o4jy4fd2mk3vuftpvdl66g5rn2lq23jrfzvz7hvj4)
 
-_The processor must put up some collateral when they accept the job. If the processor does not complete the job in time, not only will I get my funds back, but I’ll get the collateral too (this ensures the processor doesn't needlessly lock up my funds)._
+_The arrow shown in this diagram doesn't represent an actual transaction on-chain. If I try to spend the 3500 USDC, the processor will refuse to sign the transaction (so the funds are effectively locked)._
+
+_You may be wondering, "If the processor must co-sign all spends, what's to stop the processor from refusing to sign transactions and holding my funds hostage"? There's a solution for that which will be described later._
+
 
 **Step 4**: The processor delivers the 1 ETH to my account on Base, fulfilling the intent.
 
 ![step3](https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafkreiegrhpsuzmjiexccim6oj7nqvimjcgyprmhxcodjny3sqpta77ieu)
 
-_Worth noting: According to Safenet docs, these transfers will happen in 500ms. In a perfect world, the processor would wait for the lock transaction to finalize on the debit chain before delivering the funds on the spend chain. In that case, delivery would happen **500ms after the lock transaction has finalized**. In practice, the processor may accept the risk of re-orgs and deliver the funds prior to finality. This improves speed at a risk to the processor._
 
 **Step 5**: The processor notifies the smart contract wallet on the debit chain (Optimism) that the fulfillment is complete.
 
@@ -96,7 +110,7 @@ _Worth noting: According to Safenet docs, these transfers will happen in 500ms. 
 
 _At this point, the processor has notified the debit chain that the fulfillment is complete, but has not provided any proof. Verifying the fulfillment is very easy to do off-chain, but slow and expensive to do on-chain. Instead of providing the proof on-chain, the processor makes an on-chain claim that the intent is fulfilled (without providing any proof). The processor adds some collateral with this claim, which essentially says “If I’m lyin', I’m dyin'”. If the processor is shown to be lying, they will lose the collateral (more on that later)._
 
-**Step 6**: A challenge period ensues, during which time, the claim can be disputed. If there are no challenges during the period, the processor can withdraw the locked funds from the smart contract wallet at the end of the period.
+**Step 6**: A challenge period ensues, during which time, the claim can be disputed. If there are no challenges during the period, the smart-contract-wallet will allow the processor to withdraw the locked funds at the end of the period.
 
 ![step6](https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafkreidil5vyylwnce2ipyvbhqej3bs24mlodvw4bbsdchp7nyoliewoau)
 
@@ -134,19 +148,30 @@ Because of the escrow in the Safenet protocol, the processor never takes custody
 
 In the flow I described, the user expects a specific processor to fulfill their intent. In future versions of the protocol, this won't be required. Users will be able to create processor-agnostic intents on-chain. Processors will bid to fulfill the intent, and the processor with the winning bid will get the job. This creates a Google-Ads-like marketplace which increases competition between processors and results in better pricing for users.
 
-## Kicking The Tires
+## Risks
 
-In this section I'll try to provide a balanced perspective by listing aspects that might hinder adoption of the protocol.
+In this section, I'll describe the risks to various actors in the system.
 
-### Security 
+### Processor Risk 
 
-**Risks For The Processor**
+**Processor Pricing Risk & Opportunity Cost**
 
-Safenet aims to deliver funds extremely quickly. The most obvious risk is that the processor delivers the funds on the spend chain in 500ms, and then the debit chain re-orgs, reverting the funds lock and allowing the user to withdraw their funds. The re-org could be a natural occurrence, or a group of users who control 51% of the debit chain orchestrating an attack on the processors.
+After the processor delivers the asset on the spend chain, they are entitled to withdraw the asset on the debit chain, but not until the challenge period is complete. From the processor's perspective, there are two downsides to the wait period.
 
-It's important to mention that the victims of such an attack would be the processors. This is not as bad as lost end-user funds IMO, since the processors are tech-savvy participants who knowingly sign up for this risk. For riskier transactions, the processor may introduce delays before fulfilling the intent.
+1. These funds cannot be used to fulfill more intents until the challenge period is over.
+2. During the challenge period, the processor is exposed to fluctuations in price of the locked asset.
 
-**Risks For The User**
+These two factors may have some impact on transaction cost (compared to skipping Safenet and using the centralized processor directly with trust). 
+
+_The protocol allows the processor to extract funds at any time if they prove on the debit chain that the funds were delivered. However, as described previously, most proving methods tend to be expensive and time-consuming, and so waiting for the withdrawal period works better in practice._
+
+**Processor Unable To Collect Funds On The Debit Chain**
+
+A set of attackers who control 51% of the debit chain  could revert the transaction which funded the safe wallet, which would prevent the processor from collecting the funds. In practice, an attack like this is very difficult to orchestrate on most chains.
+
+### End User Risk
+
+**False Proofs**
 
 To resolve disputes, the truth must be propagated from the spend chain to the debit chain (to prove the intent was fulfilled). There are many ways to facilitate the propegation of that data. Between _some_ chains (like Ethereum and Optimism), data can be propegated by trust-minimized bridges. In other cases, oracles may be required to propagate the data. 
 
@@ -159,22 +184,15 @@ Safenet's protocol doesn't prescribe any specific proving method. Safenet has a 
 In Safenet, each intent specifies the proving mechanism that will resolve disputes for that intent. The Safenet protocol doesn't perscribe any specific proving methods for intents, and so the protocol itself does not guaruntee the safety or validity of proofs. Users who create intents must understand the proving method defined on that intent, and the trust assumptions that come along with that proving method.
 
 
-### Price Risk & Opportunity Cost
 
-After the processor delivers the asset on the spend chain, they are entitled to withdraw the asset on the debit chain, but not until the challenge period is complete. From the processor's perspective, there are two downsides to the wait period.
+## How Does Safenet Compare To Other Cross-Chain Intent Protocols?
 
-1. These funds cannot be used to fulfill more intents until the challenge period is over.
-2. During the challenge period, the processor is exposed to fluctuations in price of the locked asset.
 
-These two factors may have some impact on transaction cost (compared to skipping Safenet and using the centralized processor directly with trust). 
+UniswapX recently announced a protocol called "The Compact" which provides low-latency, low-cost intents without centralized trust assumptions.
 
-_The protocol allows the processor to extract funds at any time if they prove on the debit chain that the funds were delivered. However, as described previously, most proving methods tend to be expensive and time-consuming, and so waiting for the withdrawal period works better in practice._
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">chain abstraction is all the rage right now<br><br>value transfer across chains must become totally seamless<br><br>this is the vision for cross-chain UniswapX<br><br>been building out one of the primitives to help get there — a new protocol for reusable resource locks:<br><br>The Compact 🤝<br><br>let&#39;s 🧵</p>&mdash; 0age (@z0age) <a href="https://twitter.com/z0age/status/1861420959665639450?ref_src=twsrc%5Etfw">November 26, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-### Competing Protocols
-
-From this post, it may seem like smart contract wallets are essential to providing low-cost, low-latency intents without trust assumptions. As a leader in smart contract wallets, Safe appears uniquely positioned to build this platform, but are smart contract wallets _truly_ required to support this system?
-
-Technically, no. In fact, there are already protocols using similar algorithms **without** smart contract wallets.  [Across-Settlement](https://across.to/across-settlement) is one such protocol that exists today and has a head start on adoption. There are some differences between these protocols, but the most noticeable distinction is that Safenet locks funds in a user's smart contract wallet, whereas in the other systems, funds are sent to an escrow smart contract where they are locked. 
+The most noticeable distinction between these protocols is that Safenet locks funds in a user's smart contract wallet, whereas in The Compact protocol, funds are sent to an escrow smart contract. 
 
 **Does escrowing the funds in the user's smart contract wallet offer any advantages over the external escrow?**
 
