@@ -168,6 +168,8 @@ After the processor delivers the asset on the spend chain, they are entitled to 
 
 These two factors may have some impact on transaction cost (compared to skipping Safenet and using the centralized processor directly with trust). 
 
+_The protocol allows the processor to extract funds before the end of the challenge by proving on the debit chain that the funds were delivered. However, as described previously, producing the on-chain proofs tends to be expensive and time-consuming_
+
 ### Competing Protocols
 
 From this post, it may seem like smart contract wallets are essential to providing low-cost, low-latency intents without trust assumptions. As a leader in smart contract wallets, Safe appears uniquely positioned to build this platform, but are smart contract wallets _truly_ required to support this system?
