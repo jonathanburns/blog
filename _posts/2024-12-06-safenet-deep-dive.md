@@ -218,9 +218,7 @@ From a security perspective, while it certainly _feels_ safer to keep the funds 
 
 Coupling the protocol to smart contract wallets could also be limiting in some ways. Extending these protocols beyond EVM is already difficult, and coupling the protocol to smart contract wallets adds more some complexity when expanding beyond EVM (every chain needs smart contract wallets that support the Safenet primitives). 
 
-The decision to leverage smart contract wallets also means that the success of Safenet hinges on the adoption of smart contract wallets. The long-term prospects of smart contract wallets look good. The Ethereum ecosystem plans to move completely to smart wallets in the future. 
-
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">MPC-based EOAs are fundamentally flawed because they cannot revoke keys (and no, re-sharing doesn&#39;t count; the old holders can still recover the key). Smart contract wallets are the only option.</p>&mdash; vitalik.eth (@VitalikButerin) <a href="https://twitter.com/VitalikButerin/status/1674032447531495426?ref_src=twsrc%5Etfw">June 28, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+The decision to leverage smart contract wallets also means that the success of Safenet hinges on the adoption of smart contract wallets. The long-term prospects of smart contract wallets look good. The Ethereum ecosystem [plans to move completely to smart wallets in the future](https://x.com/VitalikButerin/status/1674032447531495426). 
 
 However, most users today still transact on-chain using traditional wallets, which could create some early barriers to adoption. EIP-7702 aims to reduce the barrier of entry for smart contract wallets, but unfortunately, EIP-7702 wallets cannot be used with Safenet and will not help with adoption in this case.
 
