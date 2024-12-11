@@ -190,7 +190,7 @@ In this case, the user can initiate a withdrawal _without_ a cosigner. A wait pe
 
 ## How Does Safenet Compare To Other Cross-Chain Intent Protocols?
 
-UniswapX recently announced a new protocol called "The Compact" which also provides low-latency, low-cost intents without centralized trust assumptions.
+UniswapX recently announced a new protocol called "The Compact" which also aims to provide low-latency, low-cost intents without centralized trust assumptions.
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">chain abstraction is all the rage right now<br><br>value transfer across chains must become totally seamless<br><br>this is the vision for cross-chain UniswapX<br><br>been building out one of the primitives to help get there — a new protocol for reusable resource locks:<br><br>The Compact 🤝<br><br>let&#39;s 🧵</p>&mdash; 0age (@z0age) <a href="https://twitter.com/z0age/status/1861420959665639450?ref_src=twsrc%5Etfw">November 26, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
