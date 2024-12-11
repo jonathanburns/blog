@@ -208,8 +208,8 @@ The two protocols use very similar algorithms. The most noticeable distinction b
 
 The in-wallet escrow provides clear UX benefits:
 
-* Users can see all their Safenet funds using a normal wallet app. While it is _also_ possible for a wallet app to display the funds in the _external_ smart contract, gathering the data is complex because your wallet must locate all the external accounts. 
-* Users can use this same smart contract wallet for all their non-safenet business (buying an NFT on opensea). One caveat is that the processor must co-sign all spending transactions from this wallet. If there the processor experiences an outage, all funds will be frozen until the processor comes back up (or the user goes through the non-cosigned withdrawal flow).
+* Users can see all their Safenet funds using a normal wallet app. While it is _also_ possible for a wallet app to display the funds in an _external_ smart contract, gathering the data is complex because your wallet must locate the external accounts. 
+* Users can treat their Safenet wallet as their main wallet, using it even for non-safenet transactions (like buying an NFT on opensea). One caveat is that the processor must co-sign all spending transactions from this wallet. If there the processor experiences an outage, all funds will be frozen until the processor comes back up (or the user goes through the non-cosigned withdrawal flow).
 * Users don't have to remember to pull the funds back into their wallet (they're already in your wallet).
 
 _Note here that users can use their Safenet wallet for normal non-safenet transactions, but the processor will need to co-sign those transactions (the processor is required to sign all transactions that spend from this wallet)._
