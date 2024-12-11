@@ -208,10 +208,10 @@ Safenet and The Compact use very similar algorithms. The most noticeable distinc
 
 **What are the benefits of escrowing the funds in the smart contract wallet?**
 
-The in-wallet escrow provides clear UX benefits:
+The in-wallet escrow provides some clear UX benefits:
 
+* Users can treat their Safenet wallet as their primary spending wallet, using it even for non-safenet transactions (like buying an NFT on opensea). One caveat is that the processor must co-sign all spending transactions from this wallet. If the processor experiences an outage, all funds will be frozen until the processor comes back up (or the user goes through the non-cosigned withdrawal flow).
 * Users can see all their Safenet funds using a normal wallet app. While it is _also_ possible for a wallet app to display the funds in an _external_ smart contract, gathering the data is complex because your wallet must locate the external accounts. 
-* Users can treat their Safenet wallet as their main wallet, using it even for non-safenet transactions (like buying an NFT on opensea). One caveat is that the processor must co-sign all spending transactions from this wallet. If the processor experiences an outage, all funds will be frozen until the processor comes back up (or the user goes through the non-cosigned withdrawal flow).
 * Users don't have to remember to pull excess funds back into their wallet (the funds never leave your wallet until they are redeemed by the processor).
 
 From a security perspective, while it certainly _feels_ safer to keep the funds in your wallet, the risk is theoretically the same in both approaches. At the end of the day, there's a smart contract which manages the escrow, and your ability to get those funds back is dictated by the logic of that smart contract. 
