@@ -196,7 +196,7 @@ Imagine the processor tries to permanently freeze the user's smart-wallet by ref
 
 In this case, the user can initiate a withdrawal _without_ a cosigner. A wait period will be enforced before the user is allowed to withdraw the funds. This wait period ensures that any pending intents get a chance to finish before the user withdraws.
 
-## Comparison To Other Cross-Chain Intent Protocols
+## How Does Safenet Compare To Other Cross-Chain Intent Protocols?
 
 UniswapX recently announced a new protocol called "The Compact" which also aims to provide low-latency, low-cost intents without centralized trust assumptions.
 
