@@ -168,7 +168,7 @@ After the processor delivers the asset on the spend chain, they are entitled to 
 
 These two factors may have some impact on transaction cost (compared to skipping Safenet and using the centralized processor directly with trust). 
 
-_The protocol allows the processor to extract funds before the end of the challenge by proving on the debit chain that the funds were delivered. However, as described previously, producing the on-chain proofs tends to be expensive and time-consuming_
+_The protocol allows the processor to extract funds at any time if they prove on the debit chain that the funds were delivered. However, as described previously, producing the on-chain proofs tends to be expensive and time-consuming. In practice, the processor will most likely wait for the withdrawl period._
 
 ### Competing Protocols
 
