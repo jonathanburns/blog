@@ -95,7 +95,7 @@ Remember that the smart-contract-wallet is configured such that the processor mu
 
 _The arrow shown in this diagram doesn't represent an actual transaction on-chain. If I try to spend the 3500 USDC, the processor will refuse to sign the transaction (so the funds are effectively locked)._
 
-_You may be wondering, "If the processor must co-sign all spends, what's to stop the processor from refusing to sign all transactions and holding my account hostage"? There's a solution for that which will be described later._
+_You may be wondering, "If the processor must co-sign all spends, what's to stop the processor from refusing to co-sign all transactions and holding my account hostage"? There's a solution for that which will be described later._
 
 
 **Step 4**: The processor delivers the 1 ETH to my account on Base, fulfilling the intent.
@@ -115,7 +115,7 @@ _At this point, the processor has notified the debit chain that the fulfillment 
 
 **Claim Disputes**
 
-As mentioned, it’s easy to verify off-chain that order was fulfilled. If the processor is lying, anyone can easily detect this and issue a challenge on-chain. By issuing the challenge, the [validator](https://docs.safe.global/safenet/core-components/validator) is accusing the processor of lying. Validators are incentivized to challenge false claims. A validator who challenges a false claim will receive the processor's collateral if the validator is shown to be correct. It's important to note that the validator must _also_ put up collateral to issue the challenge.
+As mentioned, it’s easy to verify off-chain that an order was fulfilled. If the processor is lying, anyone can easily detect this and issue a challenge on-chain during the challenge period. By issuing the challenge, the [validator](https://docs.safe.global/safenet/core-components/validator) is accusing the processor of lying. Validators are incentivized to challenge false claims. A validator who challenges a false claim will receive the processor's collateral if the validator is shown to be correct. It's important to note that the validator must _also_ put up collateral to issue the challenge.
 
 When a claim is challenged, it means either:
 
@@ -139,7 +139,7 @@ We can picture how the original intent described in this post could be fulfilled
 
 Aside from trust benefits to users, this architecture is helpful to processors.
 
-The resource lock in the smart wallet works somewhat like an escrow. Without this escrow, the centralized processor must receive funds from the user, and then subsequently deliver the desired tokens on the destination chain. During the period of time _after_ the processor receives the funds, but _before_ the funds have been sent to the destination chain, the processor is holding funds which belong to the user. This exposes the business to a set of regulatory concerns around "safeguarding".
+The resource lock in the smart wallet works somewhat like an escrow. Without this escrow, the centralized processor must receive funds from the user, and then subsequently deliver the desired tokens on the destination chain. During the period of time _after_ the processor receives the funds, but _before_ the funds have been sent to the destination chain, the processor is holding funds which belong to the user. This exposes the business to a set of regulatory concerns like "safeguarding".
 
 Because of the escrow in the Safenet protocol, the processor never takes custody of the user's funds. They don't receive a payment until _after_ they've delivered their promise to the user. In this case, the processor never holds funds which belong to the user. This alleviates a class of regulatory concerns. 
 
@@ -184,17 +184,17 @@ In Safenet, each intent specifies the proving mechanism that will resolve disput
 
 **Processor Holds The Funds Hostage**
 
-Imagine the processor tries to brick the user's smart-wallet by refusing to co-sign any transactions.
+Imagine the processor tries to permanently freeze the user's smart-wallet by refusing to co-sign any transactions.
 
 In this case, the user can initiate a withdrawal _without_ a cosigner. A wait period will be enforced before the user is allowed to withdraw the funds. This wait period ensures that any pending intents get a chance to finish before the user withdraws.
 
-## How Does Safenet Compare To Other Cross-Chain Intent Protocols?
+## Comparison To Other Cross-Chain Intent Protocols
 
 UniswapX recently announced a new protocol called "The Compact" which also aims to provide low-latency, low-cost intents without centralized trust assumptions.
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">chain abstraction is all the rage right now<br><br>value transfer across chains must become totally seamless<br><br>this is the vision for cross-chain UniswapX<br><br>been building out one of the primitives to help get there — a new protocol for reusable resource locks:<br><br>The Compact 🤝<br><br>let&#39;s 🧵</p>&mdash; 0age (@z0age) <a href="https://twitter.com/z0age/status/1861420959665639450?ref_src=twsrc%5Etfw">November 26, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-The two protocols use very similar algorithms. The most noticeable distinction between these two is that Safenet locks funds in a user's smart contract wallet, whereas in The Compact protocol, funds are sent to an escrow smart contract (the protocol [makes an explicit choice to be unopinionated about wallets](https://x.com/z0age/status/1861420970885407220))
+The two protocols use very similar algorithms. The most noticeable distinction between them is that Safenet locks funds in a user's smart contract wallet, whereas in The Compact protocol, funds are held in a standard smart contract (the protocol [makes an explicit choice to be unopinionated about wallets](https://x.com/z0age/status/1861420970885407220))
 
 **What are the benefits of escrowing the funds in the smart contract wallet?**
 
