@@ -156,7 +156,7 @@ Safenet's protocol doesn't prescribe any specific proving method. Safenet has a 
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">At its core, Safenet is simply a way to pull funds from an account using &#39;proofs.&#39; <br><br>It is agnostic about the type of proofs (fraud / zk), how it is sourced (message bridge / off-chain oracle), and what it proves (optimistic cross-chain tx, trade on Binance, scheduled tx, etc.).</p>&mdash; lukasschor.eth (@SchorLukas) <a href="https://twitter.com/SchorLukas/status/1865729014691680471?ref_src=twsrc%5Etfw">December 8, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-The specific proving method is specified on the intent. Users who create intents must understand the proving method used in that intent, and the trust assumptions that come along with that proving method. Safenet itself is agnostic to proving mechanisms, and thus, the protocol does not guarantee the safety of proofs.
+In Safenet, each intent defines the proving mechanism that will resolve disputes. The Safenet protocol is agnostic about which proving method is used, and so the protocol itself does not guaruntee the safety or validity of proofs. Users who create intents must understand the proving method defined on that intent, and the trust assumptions that come along with that proving method.
 
 
 ### Price Risk & Opportunity Cost
