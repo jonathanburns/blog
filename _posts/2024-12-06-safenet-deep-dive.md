@@ -99,9 +99,9 @@ Remember that the smart-contract-wallet is configured such that the processor mu
 
 ![step3](https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafkreifdfgfcmht43o4jy4fd2mk3vuftpvdl66g5rn2lq23jrfzvz7hvj4)
 
-_The arrow shown in this diagram doesn't represent an actual transaction on-chain. If I try to spend the 3500 USDC, the processor will refuse to co-sign the transaction (so the funds are effectively locked)._
+_The arrow shown in the above diagram does **not** represent an actual transaction on-chain. The lock is managed by the processor. If I try to create a transaction which would bring my balance below 3500 USDC, the processor will refuse to co-sign that transaction. This effectively locks 3500 USDC in the account. This method of locking is key to safenet's speed (creating the lock on-chain would require waiting for transactions to finalize)._
 
-_You may be wondering, "If the processor must co-sign all spends, what's to stop the processor from refusing to co-sign any transactions and holding my account hostage"? The solution for that will be described later._
+_You may be wondering, "If the processor must co-sign all spends, what's to stop the processor from refusing to co-sign any transactions and holding my account hostage"? I'll explain the solution for that later._
 
 
 **Step 4**: The processor delivers the 1 ETH to my account on Base, fulfilling the intent.
@@ -113,7 +113,7 @@ _You may be wondering, "If the processor must co-sign all spends, what's to stop
 
 ![step5](https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafkreibmymruq2tfnpl7g37qvntiaotfno6ttpdtqxnkwsiqaaflyttpay)
 
-_At this point, the processor has notified the debit chain that the fulfillment is complete, but has not provided any proof of that. Verifying the fulfillment is very easy to do off-chain, but slow and expensive to do on-chain. Instead of providing the proof on-chain, the processor makes an on-chain claim that the intent is fulfilled (without providing any proof). The processor adds some collateral with this claim, which essentially says “If I’m lyin', I’m dyin'”. If the processor is shown to be lying, they will lose the collateral (more on that later)._
+_At this point, the processor has notified the debit chain that the fulfillment is complete, but has not provided any proof. Verifying the fulfillment is very easy to do off-chain, but slow and expensive to do on-chain. Instead of providing the proof on-chain, the processor makes an on-chain claim that the intent is fulfilled (without providing any proof). The processor adds some collateral with this claim, which essentially says “If I’m lyin', I’m dyin'”. If the processor is shown to be lying, they will lose the collateral (more on that later)._
 
 **Step 6**: A challenge period ensues, during which time, the claim can be disputed. If there are no challenges during the period, the smart-contract-wallet will allow the processor to withdraw the locked funds at the end of the period.
 
@@ -134,7 +134,7 @@ At this point, the processor must undergo the long and expensive process to prov
 
 Now imagine I have USDC on Optimism, but instead of wanting ETH on Base, what if I wanted to stake MATIC on Polygon, or purchase an NFT on Avalanche?
 
-There are an unlimited number of things I might want to do, and each type of intent requires specialized logic to fulfill that intent. Safe expects that specialized processors will fulfill specific types of intents. They call these **application-specific processors**. 
+There are an unlimited number of things I might want to do, and each type of intent requires specialized logic to fulfill that intent. Safe envisions that specialized processors will fulfill specific types of intents. They call these **application-specific processors**. 
 
 ![application-specific-processors](https://images.ctfassets.net/1i5gc724wjeu/3m0dDipKPFrXmsrMCjLCQX/393a059576819c8c31c191c06196b4bb/safenet_blog_06.png)
 
@@ -145,15 +145,15 @@ We can picture how the original intent described in this post could be fulfilled
 
 Aside from trust benefits to users, this architecture is helpful to processors.
 
-The resource lock in the smart wallet works somewhat like an escrow. Without this escrow, the centralized processor must receive funds from the user, and then subsequently deliver the desired tokens on the destination chain. During the period of time _after_ the processor receives the funds, but _before_ the funds have been sent to the destination chain, the processor is holding funds which belong to the user. This exposes the business to a set of regulatory concerns like "safeguarding".
+The resource lock in the smart wallet works somewhat like an escrow. Without this escrow, the centralized processor must receive funds from the user, and then subsequently deliver the desired tokens on the destination chain. During the period of time _after_ the processor receives the funds, but _before_ the funds have been sent to the destination chain, the processor is holding funds which belong to the user. Holding user funds exposes the business to a large set of regulatory concerns ("safeguarding" for example).
 
-Because of the escrow in the Safenet protocol, the processor never takes custody of the user's funds. They don't receive a payment until _after_ they've delivered their promise to the user. In this case, the processor never holds funds which belong to the user. This alleviates a class of regulatory concerns. 
+Because of the escrow, in the Safenet protocol, the processor never takes custody of the user's funds. They don't receive a payment until _after_ they've delivered their promise to the user. In this case, the processor never holds funds which belong to the user. This alleviates a large class of regulatory concerns. 
 
 ## An Intents Marketplace
 
 In the flow I described, the user expects a specific processor to fulfill their intent. In future versions of the protocol, this won't be required. Users will be able to create processor-agnostic intents on-chain. Processors will bid to fulfill the intent, and the processor with the winning bid will get the job. This creates a Google-Ads-like marketplace which increases competition between processors and results in better pricing for users.
 
-_You may be wondering: "If locks are enforced by ensuring a specific processor co-signs all transactions, how can the protocol support multiple processors?" In reality, the wallet will continue to to have a single "processor" who is responsible for co-signing, but that processor will only be responsible for managing the lock. The actual intent fulfillment will be done by 3rd parties (co-processors) who compete in the marketplace on pricing and speed. These co-processors must trust the processor not to sign any transactions that violate a lock. If the processor were to sign a transaction which violates a lock, the co-processor would not be able to redeem the escrowed funds._
+_You may be wondering: "If locks are enforced by ensuring a specific processor co-signs all transactions for the wallet, how can the wallet interact with multiple processors?" In reality, the wallet will continue to to have a single "processor" who is co-signs transactions, but that processor will only be responsible for managing the lock. The actual intent fulfillment will be done by 3rd parties (co-processors) who compete in the marketplace on pricing and speed. These co-processors must trust the processor to manage the lock properly. If the processor were to sign a transaction which violates a lock, the co-processor would not be able to redeem the escrowed funds._
 
 ## Risks
 
@@ -174,7 +174,7 @@ _The protocol allows the processor to extract the funds on the debit chain at an
 
 **Processor Unable To Collect Funds On The Debit Chain**
 
-A set of attackers who control 51% of the debit chain  could revert the transaction which funded the safe wallet, which would prevent the processor from collecting the funds. In practice, an attack like this is very difficult to orchestrate on most chains.
+A set of attackers who control 51% of the debit chain could potentially revert the transaction which funded the safe wallet, which would prevent the processor from collecting the funds. An attack like this is very difficult to orchestrate on most chains.
 
 ### Risks For The End User
 
@@ -194,11 +194,11 @@ In Safenet, each intent specifies the proving mechanism that will resolve disput
 
 Imagine the processor tries to permanently freeze the user's smart-wallet by refusing to co-sign any transactions.
 
-In this case, the user can initiate a withdrawal _without_ a cosigner. A wait period will be enforced before the user is allowed to withdraw the funds. This wait period ensures that any pending intents get a chance to finish before the user withdraws.
+In this case, the user can initiate a withdrawal _without_ a cosigner. A wait period will be enforced before the user is allowed to withdraw the funds. This wait period ensures that any pending intents finish before the user withdraws.
 
 ## How Does Safenet Compare To Other Cross-Chain Intent Protocols?
 
-[Across protocol](https://across.to/across-settlement) is another protocol designed to to provide low-latency, low-cost intents without centralized trust assumptions
+[Across protocol](https://across.to/across-settlement) is another protocol designed to to facilitate low-latency, low-cost intents without centralized trust assumptions
 
 UniswapX also recently announced a new protocol called "The Compact".
 
@@ -218,9 +218,7 @@ From a security perspective, while it certainly _feels_ safer to keep the funds 
 
 Coupling the protocol to smart contract wallets could also be limiting in some ways. Extending these protocols beyond EVM is already difficult, and coupling the protocol to smart contract wallets adds more some complexity when expanding beyond EVM (every chain needs smart contract wallets that support the Safenet primitives). 
 
-The decision to leverage smart contract wallets also means that the success of Safenet hinges on the adoption of smart contract wallets. The long-term prospects of smart contract wallets look good. The Ethereum ecosystem [plans to move completely to smart wallets in the future](https://x.com/VitalikButerin/status/1674032447531495426). 
-
-However, most users today still transact on-chain using traditional wallets, which could create some early barriers to adoption. EIP-7702 aims to reduce the barrier of entry for smart contract wallets, but unfortunately, EIP-7702 wallets cannot be used with Safenet and will not help with adoption in this case.
+The decision to leverage smart contract wallets also means that the success of Safenet hinges on the adoption of smart contract wallets. The long-term prospects of smart contract wallets look good. The Ethereum ecosystem [plans to move completely to smart wallets in the future](https://x.com/VitalikButerin/status/1674032447531495426). However, most users today still transact on-chain using traditional wallets, which could create some early barriers to adoption. EIP-7702 aims to reduce the barrier of entry for smart contract wallets, but unfortunately, EIP-7702 wallets cannot be used with Safenet and will not help with adoption in this case.
 
 _EIP-7702 wallets have an admin key (owned by the user) which have god-like permissions on the wallet. These permissions would allow the user to extract the locked funds._
 
