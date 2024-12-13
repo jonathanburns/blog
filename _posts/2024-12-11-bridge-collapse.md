@@ -8,7 +8,7 @@ date: 2024-12-11T15:34:30-04:00
 ---
 
 
-An alarm buzzes from a nightstand next to a bed. Borinski reluctantly cracks an eyelid. He turns on the lamp on the nightstand and grabs his phone. There's a message on the screen. Borinski sighs. He sits upright, presses a button, and puts it to his ear. His voice is groggy from sleep.
+The alarm from a cellphone on a nightstand illuminates a dark bedroom. Borinski groans and rolls over in the bed. He fumbles around the wall until he finds the switch that turns the lamp on. He picks up the phone, reads the screen, and sighs. He sits upright, presses a button, and places the phone to his ear. His voice is groggy from sleep.
 
 “Borinkski. This better be important”
 
@@ -18,7 +18,11 @@ Borinski waits for elaborations that don't materialize. “Okay. We’ll get on 
 
 “Jelly finance was hacked.”
 
-“Fuck." Borinski takes a sip from the glass of water on the nightstand. "When?” He puts on his slippers.
+“Not the liquid staking contract, right?" 
+
+"It's the liquid staking contract."
+
+"Fuck." Borinski takes a sip from the glass of water on the nightstand. "When?” He puts on his slippers.
 
 “Started about 10 minutes ago. They’re still draining accounts. The Jelly team is trying to patch the contract, but they can't get the transactions through. The attacker's still draining funds and everyone is trying to pull out. The chain is bogged down.”
 
@@ -42,15 +46,15 @@ Jasper clears his throat. "Shut down the sequencer? Are you... sure?"
 
 "Yes."
 
-"Okay, it's just... X is gonna have a field day with it. They'll say we're centralized."
+"Okay, it's just... X is gonna have a field day with it. They already give us hard time about the centralized sequencer. If we shut it down..."
 
-"That's the least of our worries. If those transactions post, we can’t roll back anymore. We need to retain the rollback option. Shut it down ASAP."
+"That's the least of our worries. If those transactions post, we can’t roll back anymore. We need to retain the rollback option. Shut it down."
 
 "Roll back?" says Jasper. "You can’t be serious. What about the transactions that aren't involved in the hack?"
 
-"Those transactions haven’t posted to the L1.  They’re not finalized."
+"They haven’t posted to the L1.  They’re not finalized."
 
-"Technically, yeah, but we’ve never rolled back anything before. Our users have come to rely on the preconfirmations. They don’t wait for the L1. They trust the sequencer."
+"Technically, yeah, but we’ve never rolled back anything before. Our users rely on the preconfirmations. They don’t wait for the L1."
 
 "Jasper. We can debate the rollback later. Shut it down."
 
@@ -66,23 +70,23 @@ Borinski paces back and forth across the bedroom. "Fuck. Patrick. How long do we
 
 "I'm paging the them"
 
-"Burn the whole data center down. I don't care."
+"Burn the whole building. I don't care."
 
 Borinski paces.
 
 "We've got about 1 minute, 20 seconds," says Patrick.
 
-There's a beep. "Hey this is Jack from--"
+Someone beeps into the call. "Hey this is Jack from--"
 
 "Jack, you're at the data center?" says Borinski.
 
 "Yes."
 
-"Jack, I need you to kill the server immediately. Pull the plug, and I need it in the next 30 seconds."
+"Jack, I need you to kill the sequencer immediately. Pull the plug, and I need it in the next 30 seconds."
 
 "Guys, know I can't do that. I don't even know this call is authentic. They got people that'll AI clone your voice and--."
 
-"Jack, we've had a major hack. Look it up. It's all over X. If you don't kill that server in the next 30 seconds, billions of dollars are going down the drain."
+"Jack, we've had a major hack. Look it up. It's all over X. If you don't kill that server in the next 30 seconds, billions of dollars will be lost."
 
 A long pause ensues.
 
@@ -90,15 +94,15 @@ A long pause ensues.
 
 "Alright. Okay, give me a minute."
 
-"We don't have a minute. Now, Jack."
+"We don't have a minute. Now."
 
-There's a beep as Jack badges into the server room.
+There's a beep as Jack badges into the server room. His feet tump at sprint pace down the aisle of racks.
 
 "Patrick. Time check," says Borinski.
 
-“Hard to say. 10 seconds maybe.”
+“Hard to say. Less than a minute. Seconds, maybe.”
 
-"Hurry up, Jack. Just nuke everything.”
+"Hurry up, Jack. Nuke everything.”
 
 “Hold on," says Jack.
 
@@ -112,15 +116,13 @@ Jack sighs. “Yeah.”
 
 "Patrick, can you confirm?"
 
-"One sec, let me refresh," says Patrick. "Yeah, stats have all flatlined."
+"One sec, let me refresh," says Patrick. "Yeah, stats are flatlined. Can someone open up their wallet and make a test transaction?"
 
-“Did we make it in time?”
+“Nevermind that. Patrick, check the L1. Did we make it in time?”
 
-"Hold on, I’m checking the L1."
+"Hold on, I’m checking.... Oh fuck, it posted."
 
-"Oh fuck… it posted."
-
-"Tell me you’re kidding."
+"Don't fuck with me."
 
 "No. The transactions posted to the L1. I can send you the hash."
 
@@ -128,111 +130,55 @@ Jack sighs. “Yeah.”
 
 … 
 
-
-
 “We’ve got a calculation update on the losses. It’s north of 25 billion”
-
-
 
 “Holy shit.”
 
-
-
 “X is blowing up. Everybody’s saying roll back”
-
-
 
 “It’s not possible”
 
-
-
 “Can we call Vitalik? What if they roll back the ethereum and erase our transaction update”
-
-
 
 “It’ll never happen”
 
-
-
 “Judith… What’s the total value bridged from Eth?”
-
-
 
 “Let me see: Looks like 4 billion.”
 
-
-
 “Jesus. Okay. Everyone grab some coffee. It’s going to be a long night. What we’re about to do is something we said could never happen. Everybody take a minute. I’m gonna step outside. I need a cigarette.”
 
+Borinski walks out of the bedroom and down the hall. He slips a long pea coat over his pajamas, changes from his slippers into shoes, and walks out the font door. He walks out and flicks a lighter.
 
+“Here’s where things stand. 25 billion was lost in the hack. Unfortunately, those transactions have already posted to the L1, and that's going to make this rollback complicated. The cascading impacts of this are something I'm still wrapping my head around.”
 
-He walks out and flicks a lighter.
+"We can't rollback anymore, right?"
 
+"We can."
 
+"What do you mean? The bridge contract on the L1 is immutable. It won’t let us revert to an older block. You said it yourself. We can’t roll back once we post to the L1."
 
-“Here’s where things stand. 25 billion was lost in the hack. It’s 5x the value that’s locked in the L1 bridge. What we’re about to do will be recorded in textbooks and studied for years to come. We’re going to roll back to a block that is prior to what’s currently recorded on the L1. The cascading impacts of this are something even I can’t totally wrap my head around.”
+"I know what I said, but that was before I knew the full extent of the losses. We can roll back, it's just going to be very painful, because the L1 bridge can't follow our path, and so we're going to have to fork away from the L1."
 
+"Fork away? What do you mean?"
 
+"What I mean is that the L1 bridge will have one view of the chain, which is not rolled back, and our sequencer is going to have a completely different view... a fork. On our fork, we will perform the rollback. This fork will be completely disconnected from the L1 bridge."
 
-That’s not possible. The state is already posted to the L1.
+"We can’t. We can’t fork away from the bridge. We’re a rollup. It’s in our whitepaper for christs sake. We’re an L2. Ethereum is the source of truth."
 
+"I know what’s in the white-paper, Judith. I wrote it. This isn’t up to us. The chain is a decentralized system. The social consensus gets to decide. We’re going to have to launch two sequencers. One sequencer will have the rollback, and one won’t. Social consensus will determine which chain is canonical, but based on the total losses we’re looking at, it’s clear that the rollback fork is going to preserve here."
 
+"How do you know?"
 
-It is possible.
+"Because users chose the rollback fork in 2016 during the ethereum DAO hack, and the losses here are greater."
 
+"There were no bridges back then. We can’t fork away from the bridge. The L1 is supposed to be the source of truth."
 
+"This isn’t our call. Here’s what’s gonna happen if we don’t give the users a rollback option. Someone in the community is going to launch an alternate sequencer which has the rollback, and that rollback will become the canonical chain. We will loose control of our own chain and the rollback will still go through. Theres nothing we can do to stop the rollback. This is a decentralized system. Welcome to web3. Judith, call circle and loop them in."
 
-What do you mean? The bridge contract is immutable. The bridge contract on the L1 won’t let us update the state to an older block. You said it yourself. We can’t roll back once we post to the L1.
+"Sorry. Loop them in on what?"
 
-
-
-I know what I said, but we didn’t know the extent of the losses at the time. I said we can’t roll back, but we can. We can revert, it’s the L1 bridge that can’t. What were gonna have to do now is to hard fork away from the L1 bridge…
-
-
-
-Fork away? What do you mean?
-
-
-
-What I mean is that the L1 bridge will have one view of the chain, which is not rolled back, and our sequencer is going to have a completely different view. A fork. On our fork, we will perform the rollback. This fork will be completely disconnected from the L1 bridge.
-
-
-
-We can’t. We can’t fork away from the bridge. We’re a rollup. It’s in our whitepaper for christs sake. We’re an L2. Ethereum is the source of truth.
-
-
-
-I know what’s in the white-paper, Judith. I wrote it. This isn’t up to us. The chain is a decentralized system. The social consensus gets to decide. We’re going to have to launch two sequencers. One sequencer will have the rollback, and one won’t. Social consensus will determine which chain is canonical, but based on the total losses we’re looking at, it’s clear that the rollback fork is going to preserve here.
-
-
-
-How do you know?
-
-
-
-Because users chose the rollback fork in 2016 during the ethereum DAO hack, and the losses here are greater.
-
-
-
-There were no bridges back then. We can’t fork away from the bridge. The L1 is supposed to be the source of truth.
-
-
-
-This isn’t our call. I can’t make that any more clear. Here’s what’s gonna happen if we don’t give the users a rollback option. Someone in the community is going to launch an alternate sequencer which has the rollback, and that rollback will become the canonical chain. We will loose control of our own chain and the rollback will still go through. Theres nothing we can do to stop the rollback. This is a decentralized system. Welcome to web3.
-
-
-
-Judy, call circle and loop them in.
-
-
-
-Sorry. Loop them in on what?
-
-
-
-There will be two versions of the chain now. Users can’t redeem the same USDC on both chains. The USDC on the canonical chain will be backed up by circle. The USDC on the other fork will have no value. 
-
-
+"There will be two versions of the chain now. Users can’t redeem the same USDC on both chains. The USDC on the canonical chain will be backed up by circle. The USDC on the other fork will have no value."
 
 What about the L1 bridge?
 
