@@ -4,7 +4,7 @@ hidden: true
 description: "Eigenlayer game-theory."
 header: 
   teaser: "https://docs.safe.global/_next/static/media/safenet-introduction.cf3046fd.png"
-date: 2024-12-15T15:34:30-04:00
+date: 2024-12-11T15:34:30-04:00
 categories:
   - crypto
 tags:
