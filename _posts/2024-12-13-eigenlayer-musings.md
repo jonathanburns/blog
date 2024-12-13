@@ -5,6 +5,10 @@ description: "Eigenlayer game-theory."
 header: 
   teaser: "https://docs.safe.global/_next/static/media/safenet-introduction.cf3046fd.png"
 date: 2024-12-13T15:34:30-04:00
+categories:
+  - crypto
+tags:
+  - intents
 ---
 # Eigenlayer Stream-Of-Consciousness
 
