@@ -8,7 +8,7 @@ date: 2024-12-13T15:34:30-04:00
 categories:
   - crypto
 tags:
-  - intents
+  - eigenlayer
 ---
 # Eigenlayer Stream-Of-Consciousness
 
