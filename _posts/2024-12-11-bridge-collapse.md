@@ -8,195 +8,123 @@ date: 2024-12-11T15:34:30-04:00
 ---
 
 
-3:00 am
+An alarm buzzes from a nightstand next to a bed. Borinski reluctantly cracks an eyelid. He turns on the lamp on the nightstand and grabs his phone. There's a message on the screen. Borinski sighs. He sits upright, presses a button, and puts it to his ear. His voice is groggy from sleep.
 
+“Borinkski. This better be important”
 
+“Sir, we have a big problem.” 
 
-I’m paged.
-
-
-
-Borinksi calls in, his voice is groggy from sleep.
-
-
-
-“Borinkski here. This better be important”
-
-
-
-“Sir. We have a big problem.”
-
-
-
-“Okay. We’ll get on with it.”
-
-
+Borinski waits for elaborations that don't materialize. “Okay. We’ll get on with it.”
 
 “Jelly finance was hacked.”
 
+“Fuck." Borinski takes a sip from the glass of water on the nightstand. "When?” He puts on his slippers.
 
-
-“Fuck. When?”
-
-
-
-“Started about 10 minutes ago. They’re still draining accounts. The jelly team are trying to patch the contract but they’re having trouble getting the transactions to go through. The attacker is still taking funds and everyone is trying to pull out. The chain is bogged down.”
-
-
+“Started about 10 minutes ago. They’re still draining accounts. The Jelly team is trying to patch the contract, but they can't get the transactions through. The attacker's still draining funds and everyone is trying to pull out. The chain is bogged down.”
 
 “What’s the damage?”
 
-
-
-“We’re still analyzing. At least 2 billion. Losses are still climbing.“
-
-
+“We’re still analyzing. Two billion at least. Losses are still climbing.“
 
 “Give me an upper bound. What’s the TVL in Jelly?”
 
+“30 billion. 20% of the chain is locked in those accounts.” 
 
+“Fucking hell. Did we post the update on the L1 yet?”
 
-“Around 30 billion. 20% of the chain is locked up in those accounts.” 
+“I don't know. Is Patrick on the call? Patrick, can you check on that?”
 
+Patrick's voice is squeaky. “Hasn’t posted yet. Next update is in 5 min--”
 
+“Shut it down," says Borinski. "Shut down the sequencer.”
 
-“Fucking hell. Did we post the transactions on the L1 yet?”
+Jasper clears his throat. "Shut down the sequencer? Are you... sure?"
 
+"Yes."
 
+"Okay, it's just... X is gonna have a field day with it. They'll say we're centralized."
 
-“Patrick, can you check on that?”
+"That's the least of our worries. If those transactions post, we can’t roll back anymore. We need to retain the rollback option. Shut it down ASAP."
 
+"Roll back?" says Jasper. "You can’t be serious. What about the transactions that aren't involved in the hack?"
 
+"Those transactions haven’t posted to the L1.  They’re not finalized."
 
-….
+"Technically, yeah, but we’ve never rolled back anything before. Our users have come to rely on the preconfirmations. They don’t wait for the L1. They trust the sequencer."
 
+"Jasper. We can debate the rollback later. Shut it down."
 
+“Patrick, can you handle that?”
 
-“Hasn’t posted yet. Next state dump should land in 5 minutes”
+“I’ve been trying to get in. I don’t have access. We built a lot of security guardrails on this machine. I need Jill to approve the SSH request. She's on vacation.”
 
+Borinski paces back and forth across the bedroom. "Fuck. Patrick. How long do we have?"
 
+“2 minutes.”
 
-“Shut it down. Shut down the sequencer”
+“Page everyone. Get me the data center. We need someone on-site, now. Do _not_ let those transactions post."
 
+"I'm paging the them"
 
+"Burn the whole data center down. I don't care."
 
-Shut down the sequencer? Are you sure? We could be looking at brand damage if we intentionally shut down the sequencer. They’ll say we’re centralized.
+Borinski paces.
 
+"We've got about 1 minute, 20 seconds," says Patrick.
 
+There's a beep. "Hey this is Jack from--"
 
-If we post the transactions on the L1, we can’t roll back anymore. We need to keep our options open. Shut it down ASAP. 
+"Jack, you're at the data center?" says Borinski.
 
+"Yes."
 
+"Jack, I need you to kill the server immediately. Pull the plug, and I need it in the next 30 seconds."
 
-Roll back? You can’t be serious. What about the transactions that have happened since the hack?
+"Guys, know I can't do that. I don't even know this call is authentic. They got people that'll AI clone your voice and--."
 
+"Jack, we've had a major hack. Look it up. It's all over X. If you don't kill that server in the next 30 seconds, billions of dollars are going down the drain."
 
+A long pause ensues.
 
-Those transactions haven’t posted to the L1.  They’re not finalized.
+"Now, Jack!"
 
+"Alright. Okay, give me a minute."
 
+"We don't have a minute. Now, Jack."
 
-Technically, yeah. But We’ve never rolled back anything before. In practice, the users don’t wait for the L1. They trust the sequencer.
+There's a beep as Jack badges into the server room.
 
+"Patrick. Time check," says Borinski.
 
+“Hard to say. 10 seconds maybe.”
 
-Those are pre confirmations. The transactions are not finalized until they hit the L1. Shut it down. Now.
+"Hurry up, Jack. Just nuke everything.”
 
+“Hold on," says Jack.
 
+“3 seconds," says Patrick.
 
-“Tim, can you handle that?”
-
-
-
-“I’m trying to get in to the sequencer but I don’t have SSH access. It’s a highly secure machine. I’m paging the engineers now.”
-
-
-
-“Time check. We’ve got 2 minutes until the state root updates”
-
-
-
-“Page everyone. Do whatever you have to. Set the data center on fire. Do not let those transactions post. How long do we have?”
-
-
-
-1 minute, 20 seconds…
-
-
-
-“We’re trying.”
-
-
-
-“Tony is on the call now. He’s an engineer on the team”
-
-
-
-“Hey this is Tony. I’m gonna ssh and try to kill the process. I need someone to approve the ssh request. Tim, can you approve?”
-
-
-
-“The page isn’t loading…. Oh wait. There, I got it. Tony, are you in?”
-
-
-
-“Yep. I gotta find the process now. Hold on.”
-
-
-
-“Time check”
-
-
-
-“10 seconds”
-
-
-
-“Just nuke everything”
-
-
-
-“I think I found the process. Hold on.”
-
-
-
-“3 seconds”
-
-
-
-…
-
-
+The fan on the machine dies and everything gets quiet.
 
 “Did you get it?”
 
+Jack sighs. “Yeah.”
 
+"Patrick, can you confirm?"
 
-“Maybe. Let me double check…. Yeah. Looks like it’s shut down.”
-
-
+"One sec, let me refresh," says Patrick. "Yeah, stats have all flatlined."
 
 “Did we make it in time?”
 
+"Hold on, I’m checking the L1."
 
+"Oh fuck… it posted."
 
-Hold on, I’m checking the L1.
+"Tell me you’re kidding."
 
+"No. The transactions posted to the L1. I can send you the hash."
 
-
-Oh fuck… it posted.
-
-
-
-Tell me you’re kidding.
-
-
-
-No. The transactions posted to the L1.
-
-
-
-Fuck.
+"Fuck."
 
 … 
 
