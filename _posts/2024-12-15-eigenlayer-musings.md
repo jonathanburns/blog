@@ -10,6 +10,7 @@ categories:
 tags:
   - intents
 ---
+
 # Eigenlayer Stream-Of-Consciousness
 
 I've been studying a lot about Eigenlayer recently.
