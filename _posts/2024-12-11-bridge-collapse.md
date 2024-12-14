@@ -11,49 +11,38 @@ date: 2024-12-11T15:34:30-04:00
 .dialogue {
   overflow: hidden;
   margin-bottom: 15px;
-  position: relative;
-  min-height: 120px; /* Ensure enough space for the background image */
 }
 
-.dialogue::before {
-  content: "";
+.dialogue img {
   width: 31%;
   height: auto;
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
 }
 
-.left::before {
-  left: 0;
+.left img {
+  float: left;
   margin-right: 15px;
 }
 
-.right::before {
-  right: 0;
+.right img {
+  float: right;
   margin-left: 15px;
 }
 
 .left p {
   text-align: left;
-  margin-left: 35%; /* Ensure text doesn't overlap the image */
 }
 
 .right p {
   text-align: right;
-  margin-right: 35%; /* Ensure text doesn't overlap the image */
 }
 
-/* Define images based on the character class */
-.borinski::before {
-  background-image: url('https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihtzeavzedqj6hfzcux4yvvkj4j5cveml3lodqankb2n2x2lv27my');
+/* Assign images based on character classes */
+.borinski img {
+  content: url('https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihtzeavzedqj6hfzcux4yvvkj4j5cveml3lodqankb2n2x2lv27my');
 }
 
-.assistant::before {
-  background-image: url('https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeic77k6cvafrsz6k4fs3nsglq4klzwztyhf6v7bmwn6wxruc4kjx2e');
+.assistant img {
+  content: url('https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeic77k6cvafrsz6k4fs3nsglq4klzwztyhf6v7bmwn6wxruc4kjx2e');
 }
 </style>
 
