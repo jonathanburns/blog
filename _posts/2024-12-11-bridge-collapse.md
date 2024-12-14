@@ -18,8 +18,8 @@ date: 2024-12-11T15:34:30-04:00
 </div>
 
 <div style="text-align: right;">
+    Sir, we have a big problem.
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeic77k6cvafrsz6k4fs3nsglq4klzwztyhf6v7bmwn6wxruc4kjx2e" alt="drawing" style="width: 31%; height: auto;"/>
-  Sir, we have a big problem.
 </div>
 
 Okay. We’ll get on with it.
