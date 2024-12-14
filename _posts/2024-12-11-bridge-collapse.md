@@ -19,6 +19,7 @@ Borinkski. This better be important
 foo
 
 <img align="right" src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeic77k6cvafrsz6k4fs3nsglq4klzwztyhf6v7bmwn6wxruc4kjx2e" alt="drawing" style="width: 31%; height: auto;"/>
+
 <p align="right">
 Sir, we have a big problem.
 </p>
