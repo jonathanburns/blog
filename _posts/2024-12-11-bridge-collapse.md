@@ -20,6 +20,8 @@ Borinski waits for elaborations, but they don't materialize. “Okay. We’ll ge
 
 <img src="https://files.oaiusercontent.com/file-6fB3LMkcmpBXz8keBVrWXh?se=2024-12-14T16%3A43%3A01Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D78a2ae9b-b61a-4aec-bec8-ae32e8a508cf.webp&sig=/TaI/0oq5X7kpfPpYjeWvjQPYuMSQHv1fArYkClPNrY%3D" alt="drawing" width="200"/>
 <img src="https://files.oaiusercontent.com/file-6fB3LMkcmpBXz8keBVrWXh?se=2024-12-14T16%3A43%3A01Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D78a2ae9b-b61a-4aec-bec8-ae32e8a508cf.webp&sig=/TaI/0oq5X7kpfPpYjeWvjQPYuMSQHv1fArYkClPNrY%3D" alt="drawing" width="200"/>
+<img src="https://files.oaiusercontent.com/file-6fB3LMkcmpBXz8keBVrWXh?se=2024-12-14T16%3A43%3A01Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D78a2ae9b-b61a-4aec-bec8-ae32e8a508cf.webp&sig=/TaI/0oq5X7kpfPpYjeWvjQPYuMSQHv1fArYkClPNrY%3D" alt="drawing" width="200"/>
+<img src="https://files.oaiusercontent.com/file-6fB3LMkcmpBXz8keBVrWXh?se=2024-12-14T16%3A43%3A01Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D78a2ae9b-b61a-4aec-bec8-ae32e8a508cf.webp&sig=/TaI/0oq5X7kpfPpYjeWvjQPYuMSQHv1fArYkClPNrY%3D" alt="drawing" width="200"/>
 
 “Jelly finance was hacked.”
 
