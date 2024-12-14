@@ -7,19 +7,23 @@ header:
 date: 2024-12-11T15:34:30-04:00
 ---
 
+
 <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeiag2j7ea3st7qvgveo3t64ffhmcs2yg5lrqhixaqgvveoufwtoj5i" alt="drawing" style="width: 31%; height: auto;"/>
 <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeiho7t3vxg3tgxruus2tq4nhlgnhnbi2gzwgwnkgumd2epdfrgx2yi" alt="drawing" style="width: 31%; height: auto;"/>
 <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihtzeavzedqj6hfzcux4yvvkj4j5cveml3lodqankb2n2x2lv27my" alt="drawing" style="width: 31%; height: auto;"/>
 
+Borinkski. This better be important
 
-A cellphone alarm on a nightstand illuminates a dark bedroom. Borinski groans and rolls over in the bed. He fumbles around the wall until he finds the switch that turns the lamp on. He picks up the phone, reads the screen, and sighs. He sits upright, presses a button on the screen, and places the phone to his ear. His voice is groggy.
+<img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeic77k6cvafrsz6k4fs3nsglq4klzwztyhf6v7bmwn6wxruc4kjx2e" alt="drawing" style="width: 31%; height: auto;"/>
 
+foo
 
-“Borinkski. This better be important”
+<p align="right">
+<img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeic77k6cvafrsz6k4fs3nsglq4klzwztyhf6v7bmwn6wxruc4kjx2e" alt="drawing" style="width: 31%; height: auto;"/>
+Sir, we have a big problem.
+</p>
 
-A woman replies. “Sir, we have a big problem.” 
-
-Borinski waits for elaborations, but they don't materialize. “Okay. We’ll get on with it.”
+Okay. We’ll get on with it.
 
 “Jelly finance was hacked.”
 
