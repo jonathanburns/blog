@@ -49,15 +49,13 @@ date: 2024-12-11T15:34:30-04:00
 
 <div class="dialogue right">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeic77k6cvafrsz6k4fs3nsglq4klzwztyhf6v7bmwn6wxruc4kjx2e" alt="drawing">
-  <p style="text-align: left;">
-    Borinkski. This better be important. 
-  </p>
+  <p>Borinkski. This better be important. </p>
 </div>
 
 
-<div style="overflow: hidden; margin-bottom: 15px;">
-  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeic77k6cvafrsz6k4fs3nsglq4klzwztyhf6v7bmwn6wxruc4kjx2e" alt="drawing" style="width: 31%; height: auto; float: right; margin-left: 15px;">
-  <p style="text-align: right;">
+<div class="dialogue left">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihtzeavzedqj6hfzcux4yvvkj4j5cveml3lodqankb2n2x2lv27my" alt="drawing">
+  <p>
     Sir, we have a big problem.
   </p>
 </div>
