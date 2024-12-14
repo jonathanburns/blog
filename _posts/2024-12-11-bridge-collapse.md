@@ -237,49 +237,87 @@ Borinski paces.
   <p>Jack, we've had a major hack. Look it up. It's all over X. If you don't kill that server in the next 30 seconds, billions of dollars are going to go down the fucking shitter! You're the only person that can stop it.</p>
 </div>
 
+Jack checks his phone.
 
+<div class="dialogue left">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihtzeavzedqj6hfzcux4yvvkj4j5cveml3lodqankb2n2x2lv27my" alt="drawing">
+  <p>Now, Jack!</p>
+</div>
 
-"Guys, know I can't do that. I can't even prove this call is authentic. This could be an AI voice and--."
+<div class="dialogue left">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihtzeavzedqj6hfzcux4yvvkj4j5cveml3lodqankb2n2x2lv27my" alt="drawing">
+  <p>Alright. Okay, give me a minute.</p>
+</div>
 
-"Jack, we've had a major hack. Look it up. It's all over X. If you don't kill that server in the next 30 seconds, billions of dollars will be lost."
-
-A long pause ensues.
-
-"Now, Jack!"
-
-"Alright. Okay, give me a minute."
-
-"We don't have a minute. Now."
+<div class="dialogue left">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihtzeavzedqj6hfzcux4yvvkj4j5cveml3lodqankb2n2x2lv27my" alt="drawing">
+  <p>We don't have a minute. Now.</p>
+</div>
 
 There's a beep as Jack badges into the server room. His feet tump at sprint pace down the aisle of racks.
 
-"Patrick. Time check," says Borinski.
+<div class="dialogue left">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihtzeavzedqj6hfzcux4yvvkj4j5cveml3lodqankb2n2x2lv27my" alt="drawing">
+  <p>Patrick. Time check.</p>
+</div>
 
-“Hard to say. Less than a minute. Seconds, maybe.”
+<div class="dialogue right">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihfgmywf6lpgx3k2p6j23qw636x3hg3jap2vwhufi4izyj3ifnwoy" alt="drawing">
+  <p>Hard to say. Less than a minute. Seconds, maybe.</p>
+</div>
 
-"Hurry up, Jack. Nuke everything.”
+<div class="dialogue left">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihtzeavzedqj6hfzcux4yvvkj4j5cveml3lodqankb2n2x2lv27my" alt="drawing">
+  <p>Hurry up, Jack. Nuke everything.</p>
+</div>
 
-“Hold on," says Jack.
+Jack yanks the plug on the machine.
 
-The fan on the machine dies and everything gets quiet.
+<div class="dialogue left">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihtzeavzedqj6hfzcux4yvvkj4j5cveml3lodqankb2n2x2lv27my" alt="drawing">
+  <p>Did you kill it?</p>
+</div>
 
-“Did you kill it?”
+<div class="dialogue left">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihtzeavzedqj6hfzcux4yvvkj4j5cveml3lodqankb2n2x2lv27my" alt="drawing">
+  <p>Yeah. I got it.</p>
+</div>
 
-Jack sighs. “Yeah.”
+<div class="dialogue left">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihtzeavzedqj6hfzcux4yvvkj4j5cveml3lodqankb2n2x2lv27my" alt="drawing">
+  <p>Patrick, can you confirm?</p>
+</div>
 
-"Patrick, can you confirm?"
+<div class="dialogue right">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihfgmywf6lpgx3k2p6j23qw636x3hg3jap2vwhufi4izyj3ifnwoy" alt="drawing">
+  <p>One sec, let me refresh... Yeah, stats are flatlined. Can someone open up their wallet and try a test transaction?</p>
+</div>
 
-"One sec, let me refresh," says Patrick. "Yeah, stats are flatlined. Can someone open up their wallet and try a test transaction?"
+<div class="dialogue left">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihtzeavzedqj6hfzcux4yvvkj4j5cveml3lodqankb2n2x2lv27my" alt="drawing">
+  <p>Nevermind that. Patrick, check the L1. Did we kill it before the update?</p>
+</div>
 
-“Nevermind that. Patrick, check the L1. Did we kill it before the update?”
+<div class="dialogue right">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihfgmywf6lpgx3k2p6j23qw636x3hg3jap2vwhufi4izyj3ifnwoy" alt="drawing">
+  <p>Hold on, I’m checking.... Oh fuck, it posted.</p>
+</div>
 
-"Hold on, I’m checking.... Oh fuck, it posted."
+<div class="dialogue left">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihtzeavzedqj6hfzcux4yvvkj4j5cveml3lodqankb2n2x2lv27my" alt="drawing">
+  <p>Are you fuckin' with me?</p>
+</div>
 
-"Don't fuck with me."
+<div class="dialogue right">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihfgmywf6lpgx3k2p6j23qw636x3hg3jap2vwhufi4izyj3ifnwoy" alt="drawing">
+  <p>No. The transactions posted to the L1. I can send you the hash.</p>
+</div>
 
-"No. The transactions posted to the L1. I can send you the hash."
+<div class="dialogue left">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihtzeavzedqj6hfzcux4yvvkj4j5cveml3lodqankb2n2x2lv27my" alt="drawing">
+  <p>Fuck.</p>
+</div>
 
-"Fuck."
 
 … 
 
