@@ -12,7 +12,10 @@ date: 2024-12-11T15:34:30-04:00
 <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeiho7t3vxg3tgxruus2tq4nhlgnhnbi2gzwgwnkgumd2epdfrgx2yi" alt="drawing" style="width: 31%; height: auto;"/>
 <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihtzeavzedqj6hfzcux4yvvkj4j5cveml3lodqankb2n2x2lv27my" alt="drawing" style="width: 31%; height: auto;"/>
 
-Borinkski. This better be important
+<div style="text-align: left;">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeic77k6cvafrsz6k4fs3nsglq4klzwztyhf6v7bmwn6wxruc4kjx2e" alt="drawing" style="width: 31%; height: auto;"/>
+  Borinkski. This better be important
+</div>
 
 <div style="text-align: right;">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeic77k6cvafrsz6k4fs3nsglq4klzwztyhf6v7bmwn6wxruc4kjx2e" alt="drawing" style="width: 31%; height: auto;"/>
