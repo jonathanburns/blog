@@ -7,9 +7,9 @@ header:
 date: 2024-12-11T15:34:30-04:00
 ---
 
-<img src="https://files.oaiusercontent.com/file-6fB3LMkcmpBXz8keBVrWXh?se=2024-12-14T16%3A43%3A01Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D78a2ae9b-b61a-4aec-bec8-ae32e8a508cf.webp&sig=/TaI/0oq5X7kpfPpYjeWvjQPYuMSQHv1fArYkClPNrY%3D" alt="drawing" width="200"/>
-<img src="https://files.oaiusercontent.com/file-7FGSnj7vgGoSoqGd7RuGMf?se=2024-12-14T16%3A53%3A18Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3Df7906e10-1878-4c61-9d4f-ed2e2ffcba3d.webp&sig=KLdRRYbULVIaF1j6QUjny6h5xZZIyDgNO0Nvx6Ess/M%3D" alt="drawing" width="200"/>
-<img src="https://files.oaiusercontent.com/file-FCEn1UgM7RaiqhAtr9CP7z?se=2024-12-14T16%3A56%3A28Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D4f698a4d-ec1a-4a69-93e0-3e8ae5d17737.webp&sig=2iCAFHiUumdfhC8yOeo/gjwnO51pZ9KBMh6vz1VhafA%3D" alt="drawing" width="200"/>
+<img src="https://files.oaiusercontent.com/file-6fB3LMkcmpBXz8keBVrWXh?se=2024-12-14T16%3A43%3A01Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D78a2ae9b-b61a-4aec-bec8-ae32e8a508cf.webp&sig=/TaI/0oq5X7kpfPpYjeWvjQPYuMSQHv1fArYkClPNrY%3D" alt="drawing" style="width: 33.33%; height: auto;"/>
+<img src="https://files.oaiusercontent.com/file-7FGSnj7vgGoSoqGd7RuGMf?se=2024-12-14T16%3A53%3A18Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3Df7906e10-1878-4c61-9d4f-ed2e2ffcba3d.webp&sig=KLdRRYbULVIaF1j6QUjny6h5xZZIyDgNO0Nvx6Ess/M%3D" alt="drawing" style="width: 33.33%; height: auto;"/>
+<img src="https://files.oaiusercontent.com/file-FCEn1UgM7RaiqhAtr9CP7z?se=2024-12-14T16%3A56%3A28Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D604800%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3D4f698a4d-ec1a-4a69-93e0-3e8ae5d17737.webp&sig=2iCAFHiUumdfhC8yOeo/gjwnO51pZ9KBMh6vz1VhafA%3D" alt="drawing" style="width: 33.33%; height: auto;"/>
 
 
 A cellphone alarm on a nightstand illuminates a dark bedroom. Borinski groans and rolls over in the bed. He fumbles around the wall until he finds the switch that turns the lamp on. He picks up the phone, reads the screen, and sighs. He sits upright, presses a button on the screen, and places the phone to his ear. His voice is groggy.
