@@ -99,7 +99,7 @@ date: 2024-12-11T15:34:30-04:00
 
 <div class="dialogue left">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihtzeavzedqj6hfzcux4yvvkj4j5cveml3lodqankb2n2x2lv27my" alt="drawing">
-  <p>Fucking hell. I told them they were moving too fast. Did we post the update on the L1 yet?</p>
+  <p>Fucking hell. I warned them about this bullshit. Did we post the update on the L1 yet?</p>
 </div>
 
 <div class="dialogue right">
@@ -112,164 +112,89 @@ date: 2024-12-11T15:34:30-04:00
   <p>Hasn’t posted yet. Next update is in 5 min--</p>
 </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<div class="dialogue left">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihtzeavzedqj6hfzcux4yvvkj4j5cveml3lodqankb2n2x2lv27my" alt="drawing">
+  <p>Shut it down," says Borinski. "Shut down the sequencer.</p>
+</div>
 
 <div class="dialogue right">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeic77k6cvafrsz6k4fs3nsglq4klzwztyhf6v7bmwn6wxruc4kjx2e" alt="drawing">
-  <p>Borinkski. This better be important. </p>
+  <p>Shut it down? Are you... sure?</p>
 </div>
-
 
 <div class="dialogue left">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihtzeavzedqj6hfzcux4yvvkj4j5cveml3lodqankb2n2x2lv27my" alt="drawing">
-  <p>
-    Sir, we have a big problem.
-  </p>
+  <p>Shut it down.</p>
 </div>
 
 <div class="dialogue right">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeic77k6cvafrsz6k4fs3nsglq4klzwztyhf6v7bmwn6wxruc4kjx2e" alt="drawing">
-  <p style="text-align: left;">
-    Okay. We’ll get on with it.
-  </p>
+  <p>Okay, it's just... X is gonna have a field day with that. They already give us hard time about the centralized sequencer. When they find out we intentionally shut it down...</p>
+</div>
+
+<div class="dialogue left">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihtzeavzedqj6hfzcux4yvvkj4j5cveml3lodqankb2n2x2lv27my" alt="drawing">
+  <p>That's the least of our worries. If those transactions post, we can’t roll back anymore. We need to keep our options open. Shut it down.</p>
+</div>
+
+<div class="dialogue right">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeic77k6cvafrsz6k4fs3nsglq4klzwztyhf6v7bmwn6wxruc4kjx2e" alt="drawing">
+  <p>Roll back? You can’t be serious. What about the transactions that aren't involved in the hack?</p>
+</div>
+
+<div class="dialogue left">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihtzeavzedqj6hfzcux4yvvkj4j5cveml3lodqankb2n2x2lv27my" alt="drawing">
+  <p>They haven’t posted to the L1. They’re not finalized.</p>
+</div>
+
+<div class="dialogue right">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeic77k6cvafrsz6k4fs3nsglq4klzwztyhf6v7bmwn6wxruc4kjx2e" alt="drawing">
+  <p>Well, technically, yeah, but we’ve never rolled back anything. Our users trust the preconfirmations. They don’t wait for the L1.</p>
+</div>
+
+<div class="dialogue left">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihtzeavzedqj6hfzcux4yvvkj4j5cveml3lodqankb2n2x2lv27my" alt="drawing">
+  <p>Judith. We can debate the rollback later. Shut down the sequencer.</p>
+</div>
+
+<div class="dialogue right">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeic77k6cvafrsz6k4fs3nsglq4klzwztyhf6v7bmwn6wxruc4kjx2e" alt="drawing">
+  <p>Patrick, can you handle that?</p>
+</div>
+
+<div class="dialogue right">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihfgmywf6lpgx3k2p6j23qw636x3hg3jap2vwhufi4izyj3ifnwoy" alt="drawing">
+  <p>I’ve been trying to get in. I don’t have access. We built a lot of security guardrails on this machine. I need Jill to approve the SSH request. She's on vacation</p>
+</div>
+
+Borinski paces back and forth across the bedroom.
+
+<div class="dialogue left">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihtzeavzedqj6hfzcux4yvvkj4j5cveml3lodqankb2n2x2lv27my" alt="drawing">
+  <p>Fuck. Patrick, how long do we have?</p>
+</div>
+
+<div class="dialogue right">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihfgmywf6lpgx3k2p6j23qw636x3hg3jap2vwhufi4izyj3ifnwoy" alt="drawing">
+  <p>2 minutes.</p>
+</div>
+
+<div class="dialogue left">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihtzeavzedqj6hfzcux4yvvkj4j5cveml3lodqankb2n2x2lv27my" alt="drawing">
+  <p>Page everyone. Get me the data center. We need someone on-site, now. Do _not_ let those transactions post.</p>
+</div>
+
+<div class="dialogue right">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeic77k6cvafrsz6k4fs3nsglq4klzwztyhf6v7bmwn6wxruc4kjx2e" alt="drawing">
+  <p>I'm paging the them now.</p>
+</div>
+
+<div class="dialogue left">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihtzeavzedqj6hfzcux4yvvkj4j5cveml3lodqankb2n2x2lv27my" alt="drawing">
+  <p>Burn the whole building down. I don't care. Turn it off.</p>
 </div>
 
 
-<div style="overflow: hidden; margin-bottom: 15px;">
-  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeic77k6cvafrsz6k4fs3nsglq4klzwztyhf6v7bmwn6wxruc4kjx2e" alt="drawing" style="width: 31%; height: auto; float: right; margin-left: 15px;">
-  <p style="text-align: right;">
-    Jelly finance was hacked.
-  </p>
-</div>
-
-<div style="overflow: hidden; margin-bottom: 15px;">
-  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihtzeavzedqj6hfzcux4yvvkj4j5cveml3lodqankb2n2x2lv27my" alt="drawing" style="width: 31%; height: auto; float: left; margin-right: 15px;">
-  <p style="text-align: left;">
-    Fuck. Which contract? Not the liquid staking...
-  </p>
-</div>
-
-
-<div style="overflow: hidden; margin-bottom: 15px;">
-  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeic77k6cvafrsz6k4fs3nsglq4klzwztyhf6v7bmwn6wxruc4kjx2e" alt="drawing" style="width: 31%; height: auto; float: right; margin-left: 15px;">
-  <p style="text-align: right;">
-    It's the liquid staking.
-  </p>
-</div>
-
-<div style="overflow: hidden; margin-bottom: 15px;">
-  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihtzeavzedqj6hfzcux4yvvkj4j5cveml3lodqankb2n2x2lv27my" alt="drawing" style="width: 31%; height: auto; float: left; margin-right: 15px;">
-  <p style="text-align: left;">
-    Shit. When?
-  </p>
-</div>
-
-
-<div style="overflow: hidden; margin-bottom: 15px;">
-  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeic77k6cvafrsz6k4fs3nsglq4klzwztyhf6v7bmwn6wxruc4kjx2e" alt="drawing" style="width: 31%; height: auto; float: right; margin-left: 15px;">
-  <p style="text-align: right;">
-    Started about 10 minutes ago. They’re still draining accounts. The Jelly team is trying to patch the contract, but they can't get the transactions to post. The attacker's still draining funds and everyone is trying to pull out. The chain is all bogged down.
-  </p>
-</div>
-
-<div style="overflow: hidden; margin-bottom: 15px;">
-  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihtzeavzedqj6hfzcux4yvvkj4j5cveml3lodqankb2n2x2lv27my" alt="drawing" style="width: 31%; height: auto; float: left; margin-right: 15px;">
-  <p style="text-align: left;">
-    What’s the damage?
-  </p>
-</div>
-
-
-<div style="overflow: hidden; margin-bottom: 15px;">
-  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeic77k6cvafrsz6k4fs3nsglq4klzwztyhf6v7bmwn6wxruc4kjx2e" alt="drawing" style="width: 31%; height: auto; float: right; margin-left: 15px;">
-  <p style="text-align: right;">
-    We’re still analyzing. Two billion at least. Losses are still climbing.
-  </p>
-</div>
-
-<div style="overflow: hidden; margin-bottom: 15px;">
-  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihtzeavzedqj6hfzcux4yvvkj4j5cveml3lodqankb2n2x2lv27my" alt="drawing" style="width: 31%; height: auto; float: left; margin-right: 15px;">
-  <p style="text-align: left;">
-    Give me an upper bound. What’s the TVL in those contracts?
-  </p>
-</div>
-
-
-<div style="overflow: hidden; margin-bottom: 15px;">
-  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeic77k6cvafrsz6k4fs3nsglq4klzwztyhf6v7bmwn6wxruc4kjx2e" alt="drawing" style="width: 31%; height: auto; float: right; margin-left: 15px;">
-  <p style="text-align: right;">
-    30 billion. 
-  </p>
-</div>
-
-<div style="overflow: hidden; margin-bottom: 15px;">
-  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihtzeavzedqj6hfzcux4yvvkj4j5cveml3lodqankb2n2x2lv27my" alt="drawing" style="width: 31%; height: auto; float: left; margin-right: 15px;">
-  <p style="text-align: left;">
-    Fucking hell. I told them this shit would happen. Did we post the update on the L1 yet?
-  </p>
-</div>
-
-
-<div style="overflow: hidden; margin-bottom: 15px;">
-  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeic77k6cvafrsz6k4fs3nsglq4klzwztyhf6v7bmwn6wxruc4kjx2e" alt="drawing" style="width: 31%; height: auto; float: right; margin-left: 15px;">
-  <p style="text-align: right;">
-    I don't know. Is Patrick on the call? Patrick, can you check on that?
-  </p>
-</div>
-
-<div style="overflow: hidden; margin-bottom: 15px;">
-  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihfgmywf6lpgx3k2p6j23qw636x3hg3jap2vwhufi4izyj3ifnwoy" alt="drawing" style="width: 31%; height: auto; float: right; margin-left: 15px;">
-  <p style="text-align: right;">
-    Hasn’t posted yet. Next update is in 5 min--
-  </p>
-</div>
-
-<div style="overflow: hidden; margin-bottom: 15px;">
-  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihtzeavzedqj6hfzcux4yvvkj4j5cveml3lodqankb2n2x2lv27my" alt="drawing" style="width: 31%; height: auto; float: left; margin-right: 15px;">
-  <p style="text-align: left;">
-    Shut it down. Shut down the sequencer.
-  </p>
-</div>
-
-Judith clears her throat. "Shut it down? Are you... sure?"
-
-"Yes."
-
-"Okay, it's just... X is gonna have a field day with that. They already give us hard time about the centralized sequencer. If we shut it down..."
-
-"That's the least of our worries. If those transactions post, we can’t roll back anymore. We need to keep our options open. Shut it down."
-
-"Roll back?" says Judith. "You can’t be serious. What about the transactions that aren't involved in the hack?"
-
-"They haven’t posted to the L1.  They’re not finalized."
-
-"Well, technically, yeah, but we’ve never rolled back anything. Our users trust the preconfirmations. They don’t wait for the L1."
-
-"Judith. We can debate the rollback later. Shut it down."
-
-“Patrick, can you handle that?”
-
-“I’ve been trying to get in. I don’t have access. We built a lot of security guardrails on this machine. I need Jill to approve the SSH request. She's on vacation.”
-
-Borinski paces back and forth across the bedroom. "Fuck. Patrick. How long do we have?"
-
-“2 minutes.”
-
-“Page everyone. Get me the data center. We need someone on-site, now. Do _not_ let those transactions post."
 
 "I'm paging the them"
 
