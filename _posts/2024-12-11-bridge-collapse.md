@@ -8,51 +8,29 @@ date: 2024-12-11T15:34:30-04:00
 ---
 
 <style>
-.dialogue {
-  overflow: hidden;
-  margin-bottom: 15px;
-}
-
-.dialogue img {
-  width: 31%;
-  height: auto;
-}
-
-.left img {
-  float: left;
-  margin-right: 15px;
-}
-
-.right img {
-  float: right;
-  margin-left: 15px;
-}
-
-.left p {
-  text-align: left;
-}
-
-.right p {
-  text-align: right;
-}
-
-/* Assign images based on character classes */
-.borinski img {
-  content: url('https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihtzeavzedqj6hfzcux4yvvkj4j5cveml3lodqankb2n2x2lv27my');
-}
-
-.assistant img {
-  content: url('https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeic77k6cvafrsz6k4fs3nsglq4klzwztyhf6v7bmwn6wxruc4kjx2e');
-}
+  .dialogue {
+    overflow: hidden;
+    margin-bottom: 15px;
+  }
+  .dialogue img {
+    width: 31%;
+    height: auto;
+  }
+  .left img {
+    float: left;
+    margin-right: 15px;
+  }
+  .right img {
+    float: right;
+    margin-left: 15px;
+  }
+  .left p {
+    text-align: left;
+  }
+  .right p {
+    text-align: right;
+  }
 </style>
-
-<div class="dialogue left borinski">
-  <p>Borinkski. This better be important.</p>
-</div>
-
-<div class="dialogue right assistant">
-  <p>Sir, we have a big problem.</p>
-</div>
 
 <div class="dialogue left">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihtzeavzedqj6hfzcux4yvvkj4j5cveml3lodqankb2n2x2lv27my" alt="drawing">
