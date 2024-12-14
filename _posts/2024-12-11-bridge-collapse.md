@@ -152,12 +152,19 @@ date: 2024-12-11T15:34:30-04:00
   </p>
 </div>
 
+<div style="overflow: hidden; margin-bottom: 15px;">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihfgmywf6lpgx3k2p6j23qw636x3hg3jap2vwhufi4izyj3ifnwoy" alt="drawing" style="width: 31%; height: auto; float: right; margin-left: 15px;">
+  <p style="text-align: right;">
+    Hasn’t posted yet. Next update is in 5 min--
+  </p>
+</div>
 
-
-
-Patrick's voice is squeaky. “Hasn’t posted yet. Next update is in 5 min--”
-
-“Shut it down," says Borinski. "Shut down the sequencer.”
+<div style="overflow: hidden; margin-bottom: 15px;">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihtzeavzedqj6hfzcux4yvvkj4j5cveml3lodqankb2n2x2lv27my" alt="drawing" style="width: 31%; height: auto; float: left; margin-right: 15px;">
+  <p style="text-align: left;">
+    Shut it down. Shut down the sequencer.
+  </p>
+</div>
 
 Judith clears her throat. "Shut it down? Are you... sure?"
 
