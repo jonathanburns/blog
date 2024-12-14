@@ -49,73 +49,92 @@ date: 2024-12-11T15:34:30-04:00
 
 <div class="dialogue left">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihtzeavzedqj6hfzcux4yvvkj4j5cveml3lodqankb2n2x2lv27my" alt="drawing">
-  <p>Borinkski. This better be important.</p>
-</div>
-
-<div class="dialogue right">
-  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeic77k6cvafrsz6k4fs3nsglq4klzwztyhf6v7bmwn6wxruc4kjx2e" alt="drawing">
-  <p>Sir, we have a big problem.</p>
-</div>
-
-<div class="dialogue left">
-  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihtzeavzedqj6hfzcux4yvvkj4j5cveml3lodqankb2n2x2lv27my" alt="drawing">
   <p>Okay. We’ll get on with it.</p>
 </div>
 
 <div class="dialogue right">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeic77k6cvafrsz6k4fs3nsglq4klzwztyhf6v7bmwn6wxruc4kjx2e" alt="drawing">
-  <p>Sir, we have a big problem.</p>
+  <p>Jelly finance was hacked.</p>
 </div>
 
 <div class="dialogue left">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihtzeavzedqj6hfzcux4yvvkj4j5cveml3lodqankb2n2x2lv27my" alt="drawing">
-  <p>Borinkski. This better be important.</p>
+  <p>Fuck. Which contract? Not the liquid staking...</p>
 </div>
 
 <div class="dialogue right">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeic77k6cvafrsz6k4fs3nsglq4klzwztyhf6v7bmwn6wxruc4kjx2e" alt="drawing">
-  <p>Sir, we have a big problem.</p>
+  <p>It's the liquid staking.</p>
 </div>
 
 <div class="dialogue left">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihtzeavzedqj6hfzcux4yvvkj4j5cveml3lodqankb2n2x2lv27my" alt="drawing">
-  <p>Borinkski. This better be important.</p>
+  <p>Shit. When?</p>
 </div>
 
 <div class="dialogue right">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeic77k6cvafrsz6k4fs3nsglq4klzwztyhf6v7bmwn6wxruc4kjx2e" alt="drawing">
-  <p>Sir, we have a big problem.</p>
+  <p>Started about 10 minutes ago. They’re still draining accounts. The Jelly team is trying to patch the contract, but they can't get the transactions to post. The attacker's still draining funds and everyone is trying to pull out. The chain is all bogged down.</p>
 </div>
 
 <div class="dialogue left">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihtzeavzedqj6hfzcux4yvvkj4j5cveml3lodqankb2n2x2lv27my" alt="drawing">
-  <p>Borinkski. This better be important.</p>
+  <p>What’s the damage?</p>
 </div>
 
 <div class="dialogue right">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeic77k6cvafrsz6k4fs3nsglq4klzwztyhf6v7bmwn6wxruc4kjx2e" alt="drawing">
-  <p>Sir, we have a big problem.</p>
+  <p>We’re still analyzing. Two billion at least. Losses are still climbing.</p>
 </div>
 
 <div class="dialogue left">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihtzeavzedqj6hfzcux4yvvkj4j5cveml3lodqankb2n2x2lv27my" alt="drawing">
-  <p>Borinkski. This better be important.</p>
+  <p>Give me an upper bound. What’s the TVL in those contracts?</p>
 </div>
 
 <div class="dialogue right">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeic77k6cvafrsz6k4fs3nsglq4klzwztyhf6v7bmwn6wxruc4kjx2e" alt="drawing">
-  <p>Sir, we have a big problem.</p>
+  <p>30 billion.</p>
 </div>
 
 <div class="dialogue left">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihtzeavzedqj6hfzcux4yvvkj4j5cveml3lodqankb2n2x2lv27my" alt="drawing">
-  <p>Borinkski. This better be important.</p>
+  <p>Fucking hell. I told them they were moving too fast. Did we post the update on the L1 yet?</p>
 </div>
 
 <div class="dialogue right">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeic77k6cvafrsz6k4fs3nsglq4klzwztyhf6v7bmwn6wxruc4kjx2e" alt="drawing">
-  <p>Sir, we have a big problem.</p>
+  <p>Fucking hell. Did we post the update on the L1 yet?</p>
 </div>
+
+<div class="dialogue left">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihtzeavzedqj6hfzcux4yvvkj4j5cveml3lodqankb2n2x2lv27my" alt="drawing">
+  <p>I don't know. Is Patrick on the call? Patrick, can you check on that?</p>
+</div>
+
+<div class="dialogue right">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeic77k6cvafrsz6k4fs3nsglq4klzwztyhf6v7bmwn6wxruc4kjx2e" alt="drawing">
+  <p></p>
+</div>
+
+<div class="dialogue right">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihfgmywf6lpgx3k2p6j23qw636x3hg3jap2vwhufi4izyj3ifnwoy" alt="drawing">
+  <p>Hasn’t posted yet. Next update is in 5 min--</p>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
