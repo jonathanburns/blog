@@ -8,29 +8,68 @@ date: 2024-12-11T15:34:30-04:00
 ---
 
 <style>
-  .dialogue {
-    overflow: hidden;
-    margin-bottom: 15px;
-  }
-  .dialogue img {
-    width: 31%;
-    height: auto;
-  }
-  .left img {
-    float: left;
-    margin-right: 15px;
-  }
-  .right img {
-    float: right;
-    margin-left: 15px;
-  }
-  .left p {
-    text-align: left;
-  }
-  .right p {
-    text-align: right;
-  }
+/* Base dialogue styling */
+.dialogue {
+  overflow: hidden;
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+}
+
+.dialogue p {
+  max-width: 60%;
+  margin: 0;
+}
+
+/* Alignment control */
+.left {
+  flex-direction: row;
+  text-align: left;
+}
+
+.right {
+  flex-direction: row-reverse;
+  text-align: right;
+}
+
+/* Image pseudo-element */
+.dialogue::before {
+  content: '';
+  width: 31%;
+  height: auto;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100px;
+}
+
+/* Margins for alignment */
+.left::before {
+  margin-right: 15px;
+}
+
+.right::before {
+  margin-left: 15px;
+}
+
+/* Character-specific images */
+.borinski::before {
+  background-image: url('https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihtzeavzedqj6hfzcux4yvvkj4j5cveml3lodqankb2n2x2lv27my');
+}
+
+.assistant::before {
+  background-image: url('https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeic77k6cvafrsz6k4fs3nsglq4klzwztyhf6v7bmwn6wxruc4kjx2e');
+}
 </style>
+
+<div class="dialogue left borinski">
+  <p>Borinkski. This better be important.</p>
+</div>
+
+<div class="dialogue right assistant">
+  <p>Sir, we have a big problem.</p>
+</div>
 
 
 <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeiag2j7ea3st7qvgveo3t64ffhmcs2yg5lrqhixaqgvveoufwtoj5i" alt="drawing" style="width: 31%; height: auto;"/>
@@ -47,54 +86,7 @@ date: 2024-12-11T15:34:30-04:00
   <p>Sir, we have a big problem.</p>
 </div>
 
-<div style="overflow: hidden; margin-bottom: 15px;">
-  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihtzeavzedqj6hfzcux4yvvkj4j5cveml3lodqankb2n2x2lv27my" alt="drawing" style="width: 31%; height: auto; float: left; margin-right: 15px;">
-  <p style="text-align: left;">
-    Borinkski. This better be important. 
-  </p>
-</div>
 
-
-<div style="overflow: hidden; margin-bottom: 15px;">
-  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeic77k6cvafrsz6k4fs3nsglq4klzwztyhf6v7bmwn6wxruc4kjx2e" alt="drawing" style="width: 31%; height: auto; float: right; margin-left: 15px;">
-  <p style="text-align: right;">
-    Sir, we have a big problem.
-  </p>
-</div>
-
-
-<div style="overflow: hidden; margin-bottom: 15px;">
-  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihtzeavzedqj6hfzcux4yvvkj4j5cveml3lodqankb2n2x2lv27my" alt="drawing" style="width: 31%; height: auto; float: left; margin-right: 15px;">
-  <p style="text-align: left;">
-    Borinkski. This better be important. Borinkski. This better be important. Borinkski. This better be important. Borinkski. This better be important. Borinkski. This better be important. Borinkski. This better be important. Borinkski. This better be important. Borinkski. This better be important. Borinkski. This better be important. Borinkski. This better be important. Borinkski. This better be important. Borinkski. This better be important. Borinkski. This better be important. Borinkski. This better be important. Borinkski. This better be important. 
-  </p>
-</div>
-
-<div style="overflow: hidden; margin-bottom: 15px;">
-  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeic77k6cvafrsz6k4fs3nsglq4klzwztyhf6v7bmwn6wxruc4kjx2e" alt="drawing" style="width: 31%; height: auto; float: right; margin-left: 15px;">
-  <p style="text-align: right;">
-    Sir, we have a big problem. Sir, we have a big problem.Sir, we have a big problem.Sir, we have a big problem.Sir, we have a big problem.Sir, we have a big problem.Sir, we have a big problem.Sir, we have a big problem.Sir, we have a big problem.Sir, we have a big problem.Sir, we have a big problem.Sir, we have a big problem.Sir, we have a big problem.Sir, we have a big problem.Sir, we have a big problem.Sir, we have a big problem.Sir, we have a big problem.Sir, we have a big problem.Sir, we have a big problem.Sir, we have a big problem.Sir, we have a big problem.
-  </p>
-</div>
-
-
-
-
-<div style="text-align: left;">
-  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihtzeavzedqj6hfzcux4yvvkj4j5cveml3lodqankb2n2x2lv27my" alt="drawing" style="width: 31%; height: auto;"/>
-  Borinkski. This better be important. Give me some good news or don't give me news at all. I'm tired.
-</div>
-
-<div style="text-align: right;">
-    Sir, we have a big problem.
-  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeic77k6cvafrsz6k4fs3nsglq4klzwztyhf6v7bmwn6wxruc4kjx2e" alt="drawing" style="width: 31%; height: auto;"/>
-</div>
-
-
-<div style="overflow: hidden;">
-  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihtzeavzedqj6hfzcux4yvvkj4j5cveml3lodqankb2n2x2lv27my" alt="drawing" style="width: 31%; height: auto; float: left; margin-right: 15px;">
-  Borinkski. This better be important. Give me some good news or don't give me news at all. I'm tired.
-</div>
 
 Okay. We’ll get on with it.
 
