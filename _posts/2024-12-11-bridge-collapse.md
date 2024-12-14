@@ -32,16 +32,6 @@ date: 2024-12-11T15:34:30-04:00
   }
 </style>
 
-<div class="dialogue left">
-  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihtzeavzedqj6hfzcux4yvvkj4j5cveml3lodqankb2n2x2lv27my" alt="drawing">
-  <p>Borinkski. This better be important.</p>
-</div>
-
-<div class="dialogue right">
-  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeic77k6cvafrsz6k4fs3nsglq4klzwztyhf6v7bmwn6wxruc4kjx2e" alt="drawing">
-  <p>Sir, we have a big problem.</p>
-</div>
-
 
 <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeiag2j7ea3st7qvgveo3t64ffhmcs2yg5lrqhixaqgvveoufwtoj5i" alt="drawing" style="width: 31%; height: auto;"/>
 <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeiho7t3vxg3tgxruus2tq4nhlgnhnbi2gzwgwnkgumd2epdfrgx2yi" alt="drawing" style="width: 31%; height: auto;"/>
