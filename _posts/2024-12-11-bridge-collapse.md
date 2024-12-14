@@ -22,6 +22,12 @@ date: 2024-12-11T15:34:30-04:00
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeic77k6cvafrsz6k4fs3nsglq4klzwztyhf6v7bmwn6wxruc4kjx2e" alt="drawing" style="width: 31%; height: auto;"/>
 </div>
 
+
+<div style="overflow: hidden;">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihtzeavzedqj6hfzcux4yvvkj4j5cveml3lodqankb2n2x2lv27my" alt="drawing" style="width: 31%; height: auto; float: left; margin-right: 15px;">
+  Borinkski. This better be important. Give me some good news or don't give me news at all. I'm tired.
+</div>
+
 Okay. We’ll get on with it.
 
 “Jelly finance was hacked.”
