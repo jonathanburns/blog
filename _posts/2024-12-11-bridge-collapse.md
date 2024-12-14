@@ -62,47 +62,37 @@ date: 2024-12-11T15:34:30-04:00
   </p>
 </div>
 
-
 <div style="overflow: hidden; margin-bottom: 15px;">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihtzeavzedqj6hfzcux4yvvkj4j5cveml3lodqankb2n2x2lv27my" alt="drawing" style="width: 31%; height: auto; float: left; margin-right: 15px;">
   <p style="text-align: left;">
-    Borinkski. This better be important. Borinkski. This better be important. Borinkski. This better be important. Borinkski. This better be important. Borinkski. This better be important. Borinkski. This better be important. Borinkski. This better be important. Borinkski. This better be important. Borinkski. This better be important. Borinkski. This better be important. Borinkski. This better be important. Borinkski. This better be important. Borinkski. This better be important. Borinkski. This better be important. Borinkski. This better be important. 
+    Okay. We’ll get on with it.
   </p>
 </div>
+
 
 <div style="overflow: hidden; margin-bottom: 15px;">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeic77k6cvafrsz6k4fs3nsglq4klzwztyhf6v7bmwn6wxruc4kjx2e" alt="drawing" style="width: 31%; height: auto; float: right; margin-left: 15px;">
   <p style="text-align: right;">
-    Sir, we have a big problem. Sir, we have a big problem.Sir, we have a big problem.Sir, we have a big problem.Sir, we have a big problem.Sir, we have a big problem.Sir, we have a big problem.Sir, we have a big problem.Sir, we have a big problem.Sir, we have a big problem.Sir, we have a big problem.Sir, we have a big problem.Sir, we have a big problem.Sir, we have a big problem.Sir, we have a big problem.Sir, we have a big problem.Sir, we have a big problem.Sir, we have a big problem.Sir, we have a big problem.Sir, we have a big problem.Sir, we have a big problem.
+    Jelly finance was hacked.
+  </p>
+</div>
+
+<div style="overflow: hidden; margin-bottom: 15px;">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihtzeavzedqj6hfzcux4yvvkj4j5cveml3lodqankb2n2x2lv27my" alt="drawing" style="width: 31%; height: auto; float: left; margin-right: 15px;">
+  <p style="text-align: left;">
+    Fuck. Which contract? Not the liquid staking...
   </p>
 </div>
 
 
-
-
-<div style="text-align: left;">
-  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihtzeavzedqj6hfzcux4yvvkj4j5cveml3lodqankb2n2x2lv27my" alt="drawing" style="width: 31%; height: auto;"/>
-  Borinkski. This better be important. Give me some good news or don't give me news at all. I'm tired.
-</div>
-
-<div style="text-align: right;">
-    Sir, we have a big problem.
-  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeic77k6cvafrsz6k4fs3nsglq4klzwztyhf6v7bmwn6wxruc4kjx2e" alt="drawing" style="width: 31%; height: auto;"/>
+<div style="overflow: hidden; margin-bottom: 15px;">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeic77k6cvafrsz6k4fs3nsglq4klzwztyhf6v7bmwn6wxruc4kjx2e" alt="drawing" style="width: 31%; height: auto; float: right; margin-left: 15px;">
+  <p style="text-align: right;">
+    It's the liquid staking.
+  </p>
 </div>
 
 
-<div style="overflow: hidden;">
-  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihtzeavzedqj6hfzcux4yvvkj4j5cveml3lodqankb2n2x2lv27my" alt="drawing" style="width: 31%; height: auto; float: left; margin-right: 15px;">
-  Borinkski. This better be important. Give me some good news or don't give me news at all. I'm tired.
-</div>
-
-Okay. We’ll get on with it.
-
-“Jelly finance was hacked.”
-
-"Fuck." Borinski takes a sip from the glass of water on the nightstand. "Which contract? Not the liquid staking, right?” 
-
-"It's the liquid staking."
 
 "Shit. When?” He puts on his slippers.
 
