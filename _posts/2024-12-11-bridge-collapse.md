@@ -8,59 +8,60 @@ date: 2024-12-11T15:34:30-04:00
 ---
 
 <style>
-/* Base dialogue styling */
-.dialogue {
-  overflow: hidden;
-  margin-bottom: 15px;
-  display: flex;
-  align-items: center;
-  max-width: 100%;
-}
+  /* Base dialogue styling */
+  .dialogue {
+    overflow: hidden;
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    max-width: 100%;
+  }
 
-.dialogue p {
-  max-width: 60%;
-  margin: 0;
-}
+  .dialogue p {
+    max-width: 60%;
+    margin: 0;
+    font-size: 1.2em;
+  }
 
-/* Alignment control */
-.left {
-  flex-direction: row;
-  text-align: left;
-}
+  /* Alignment control */
+  .left {
+    flex-direction: row;
+    text-align: left;
+  }
 
-.right {
-  flex-direction: row-reverse;
-  text-align: right;
-}
+  .right {
+    flex-direction: row-reverse;
+    text-align: right;
+  }
 
-/* Image pseudo-element */
-.dialogue::before {
-  content: '';
-  width: 31%;
-  height: auto;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  min-height: 100px;
-}
+  /* Image styling */
+  .dialogue::before {
+    content: '';
+    width: 100px; /* Fixed size for consistency */
+    height: 100px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    flex-shrink: 0; /* Prevent the image from shrinking */
+  }
 
-/* Margins for alignment */
-.left::before {
-  margin-right: 15px;
-}
+  /* Margins for alignment */
+  .left::before {
+    margin-right: 15px;
+  }
 
-.right::before {
-  margin-left: 15px;
-}
+  .right::before {
+    margin-left: 15px;
+  }
 
-/* Character-specific images */
-.borinski::before {
-  background-image: url('https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihtzeavzedqj6hfzcux4yvvkj4j5cveml3lodqankb2n2x2lv27my');
-}
+  /* Character-specific images */
+  .borinski::before {
+    background-image: url('https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihtzeavzedqj6hfzcux4yvvkj4j5cveml3lodqankb2n2x2lv27my');
+  }
 
-.assistant::before {
-  background-image: url('https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeic77k6cvafrsz6k4fs3nsglq4klzwztyhf6v7bmwn6wxruc4kjx2e');
-}
+  .assistant::before {
+    background-image: url('https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeic77k6cvafrsz6k4fs3nsglq4klzwztyhf6v7bmwn6wxruc4kjx2e');
+  }
 </style>
 
 <div class="dialogue left borinski">
