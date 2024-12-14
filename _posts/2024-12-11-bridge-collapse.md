@@ -354,22 +354,43 @@ Jack yanks the plug on the machine.
 </div>
 
 
-
-“Jesus. Okay. Everyone grab some coffee. It’s going to be a long night. What we’re about to do is something we said could never happen. Everybody take a minute. I’m gonna step outside. I need a cigarette.”
-
 Borinski walks out of the bedroom and down the hall. He slips a long pea coat over his pajamas, changes from his slippers into shoes, and walks out the font door. He walks down the porch steps and into the parking circle outside his auspicious home. He slips a cigarette into his mouth and flicks a a lighter.
 
-“Okay. Here’s where things stand. 25 billion was lost in the hack. Unfortunately, those transactions have already posted to the L1, and that's going to make this rollback complicated. The cascading impacts of this are something I'm still wrapping my head around.”
+<div class="dialogue left">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihtzeavzedqj6hfzcux4yvvkj4j5cveml3lodqankb2n2x2lv27my" alt="drawing">
+  <p>Okay. Here’s where things stand. 25 billion was lost in the hack. Unfortunately, those transactions have already posted to the L1, and that's going to make this rollback complicated. The cascading impacts of this are something I'm still wrapping my head around.</p>
+</div>
 
-"I mean, we can't rollback anymore, right?"
+<div class="dialogue right">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihfgmywf6lpgx3k2p6j23qw636x3hg3jap2vwhufi4izyj3ifnwoy" alt="drawing">
+  <p>I mean, we can't rollback anymore, right?</p>
+</div>
 
-"We can."
+<div class="dialogue left">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihtzeavzedqj6hfzcux4yvvkj4j5cveml3lodqankb2n2x2lv27my" alt="drawing">
+  <p>We can.</p>
+</div>
 
-"What do you mean? The bridge contract on the L1 is immutable. It won’t let us revert to an older block. You said it yourself. We can’t roll back once we post to the L1."
+<div class="dialogue right">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihfgmywf6lpgx3k2p6j23qw636x3hg3jap2vwhufi4izyj3ifnwoy" alt="drawing">
+  <p>What do you mean? The bridge contract on the L1 is immutable. It won’t let us revert to an older block. We can’t roll back once we post to the L1. You said it yourself.</p>
+</div>
 
-"I know what I said, but that was before I knew the full extent of the losses. We can roll back, it's just going to be extremely painful. The L1 bridge can't follow our path, and so we're going to have to fork away from the L1."
+<div class="dialogue left">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihtzeavzedqj6hfzcux4yvvkj4j5cveml3lodqankb2n2x2lv27my" alt="drawing">
+  <p>I know what I said, but that was before I knew the full extent of the losses. We can roll back, it's just going to be extremely painful. The L1 bridge can't follow our path, and so we're going to have to fork away from the L1.</p>
+</div>
 
-"Fork away? What do you mean?"
+<div class="dialogue right">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeic77k6cvafrsz6k4fs3nsglq4klzwztyhf6v7bmwn6wxruc4kjx2e" alt="drawing">
+  <p>Fork away? What do you mean?</p>
+</div>
+
+<div class="dialogue left">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihtzeavzedqj6hfzcux4yvvkj4j5cveml3lodqankb2n2x2lv27my" alt="drawing">
+  <p>What I mean is that the L1 bridge will have one view of the chain, which is not rolled back, and our sequencer is going to have a completely different view... a fork. On our fork, we will perform the rollback. This fork will be completely disconnected from the L1 bridge.</p>
+</div>
+
 
 "What I mean is that the L1 bridge will have one view of the chain, which is not rolled back, and our sequencer is going to have a completely different view... a fork. On our fork, we will perform the rollback. This fork will be completely disconnected from the L1 bridge."
 
