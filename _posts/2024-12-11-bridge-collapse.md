@@ -15,7 +15,7 @@ date: 2024-12-11T15:34:30-04:00
 Borinkski. This better be important
 
 <div style="text-align: right;">
-  <img src="<img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeic77k6cvafrsz6k4fs3nsglq4klzwztyhf6v7bmwn6wxruc4kjx2e" alt="drawing" style="width: 31%; height: auto;"/>" alt="drawing" style="width: 31%;">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeic77k6cvafrsz6k4fs3nsglq4klzwztyhf6v7bmwn6wxruc4kjx2e" alt="drawing" style="width: 31%; height: auto;"/>
 </div>
 
 test
