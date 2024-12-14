@@ -92,23 +92,68 @@ date: 2024-12-11T15:34:30-04:00
   </p>
 </div>
 
+<div style="overflow: hidden; margin-bottom: 15px;">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihtzeavzedqj6hfzcux4yvvkj4j5cveml3lodqankb2n2x2lv27my" alt="drawing" style="width: 31%; height: auto; float: left; margin-right: 15px;">
+  <p style="text-align: left;">
+    Shit. When?
+  </p>
+</div>
 
 
-"Shit. When?” He puts on his slippers.
+<div style="overflow: hidden; margin-bottom: 15px;">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeic77k6cvafrsz6k4fs3nsglq4klzwztyhf6v7bmwn6wxruc4kjx2e" alt="drawing" style="width: 31%; height: auto; float: right; margin-left: 15px;">
+  <p style="text-align: right;">
+    Started about 10 minutes ago. They’re still draining accounts. The Jelly team is trying to patch the contract, but they can't get the transactions to post. The attacker's still draining funds and everyone is trying to pull out. The chain is all bogged down.
+  </p>
+</div>
 
-“Started about 10 minutes ago. They’re still draining accounts. The Jelly team is trying to patch the contract, but they can't get the transactions to post. The attacker's still draining funds and everyone is trying to pull out. The chain is all bogged down.”
+<div style="overflow: hidden; margin-bottom: 15px;">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihtzeavzedqj6hfzcux4yvvkj4j5cveml3lodqankb2n2x2lv27my" alt="drawing" style="width: 31%; height: auto; float: left; margin-right: 15px;">
+  <p style="text-align: left;">
+    What’s the damage?
+  </p>
+</div>
 
-“What’s the damage?”
 
-“We’re still analyzing. Two billion at least. Losses are still climbing.“
+<div style="overflow: hidden; margin-bottom: 15px;">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeic77k6cvafrsz6k4fs3nsglq4klzwztyhf6v7bmwn6wxruc4kjx2e" alt="drawing" style="width: 31%; height: auto; float: right; margin-left: 15px;">
+  <p style="text-align: right;">
+    We’re still analyzing. Two billion at least. Losses are still climbing.
+  </p>
+</div>
 
-“Give me an upper bound. What’s the TVL in those contracts?”
+<div style="overflow: hidden; margin-bottom: 15px;">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihtzeavzedqj6hfzcux4yvvkj4j5cveml3lodqankb2n2x2lv27my" alt="drawing" style="width: 31%; height: auto; float: left; margin-right: 15px;">
+  <p style="text-align: left;">
+    Give me an upper bound. What’s the TVL in those contracts?
+  </p>
+</div>
 
-“30 billion. It's 20% of the chain.” 
 
-“Fucking hell. Did we post the update on the L1 yet?”
+<div style="overflow: hidden; margin-bottom: 15px;">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeic77k6cvafrsz6k4fs3nsglq4klzwztyhf6v7bmwn6wxruc4kjx2e" alt="drawing" style="width: 31%; height: auto; float: right; margin-left: 15px;">
+  <p style="text-align: right;">
+    30 billion. 
+  </p>
+</div>
 
-“I don't know. Is Patrick on the call? Patrick, can you check on that?”
+<div style="overflow: hidden; margin-bottom: 15px;">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihtzeavzedqj6hfzcux4yvvkj4j5cveml3lodqankb2n2x2lv27my" alt="drawing" style="width: 31%; height: auto; float: left; margin-right: 15px;">
+  <p style="text-align: left;">
+    Fucking hell. I told them this shit would happen. Did we post the update on the L1 yet?
+  </p>
+</div>
+
+
+<div style="overflow: hidden; margin-bottom: 15px;">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeic77k6cvafrsz6k4fs3nsglq4klzwztyhf6v7bmwn6wxruc4kjx2e" alt="drawing" style="width: 31%; height: auto; float: right; margin-left: 15px;">
+  <p style="text-align: right;">
+    I don't know. Is Patrick on the call? Patrick, can you check on that?
+  </p>
+</div>
+
+
+
 
 Patrick's voice is squeaky. “Hasn’t posted yet. Next update is in 5 min--”
 
