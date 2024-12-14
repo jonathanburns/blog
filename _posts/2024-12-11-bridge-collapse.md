@@ -318,24 +318,42 @@ Jack yanks the plug on the machine.
   <p>Fuck.</p>
 </div>
 
+<div class="dialogue right">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeic77k6cvafrsz6k4fs3nsglq4klzwztyhf6v7bmwn6wxruc4kjx2e" alt="drawing">
+  <p>We’ve got a calculation update on the losses. It’s north of 25 billion.</p>
+</div>
 
-… 
+<div class="dialogue right">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihfgmywf6lpgx3k2p6j23qw636x3hg3jap2vwhufi4izyj3ifnwoy" alt="drawing">
+  <p>Holy shit.</p>
+</div>
 
-“We’ve got a calculation update on the losses. It’s north of 25 billion”
+<div class="dialogue right">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeic77k6cvafrsz6k4fs3nsglq4klzwztyhf6v7bmwn6wxruc4kjx2e" alt="drawing">
+  <p>X is blowing up. Everybody’s saying roll back.</p>
+</div>
 
-“Holy shit.”
+<div class="dialogue right">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihfgmywf6lpgx3k2p6j23qw636x3hg3jap2vwhufi4izyj3ifnwoy" alt="drawing">
+  <p>Can we call Vitalik? What if they roll back the L1?</p>
+</div>
 
-“X is blowing up. Everybody’s saying roll back”
+<div class="dialogue left">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihtzeavzedqj6hfzcux4yvvkj4j5cveml3lodqankb2n2x2lv27my" alt="drawing">
+  <p>It’ll never happen. Judith... How much value is in the bridge contract on the L1?</p>
+</div>
 
-“It’s not possible”
+<div class="dialogue right">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeic77k6cvafrsz6k4fs3nsglq4klzwztyhf6v7bmwn6wxruc4kjx2e" alt="drawing">
+  <p>Let me see... Looks like about 4 billion.</p>
+</div>
 
-“Can we call Vitalik? What if they roll back the L1?”
+<div class="dialogue left">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihtzeavzedqj6hfzcux4yvvkj4j5cveml3lodqankb2n2x2lv27my" alt="drawing">
+  <p>Jesus. Okay. Everyone grab some coffee. It’s going to be a long night. What we’re about to do is something we said could never happen. Everybody take a minute. I’m gonna step outside. I need a cigarette.</p>
+</div>
 
-“It’ll never happen”
 
-“Patrick… How much value is in the bridge contract on the L1?”
-
-“Let me see: Looks like about 4 billion.”
 
 “Jesus. Okay. Everyone grab some coffee. It’s going to be a long night. What we’re about to do is something we said could never happen. Everybody take a minute. I’m gonna step outside. I need a cigarette.”
 
