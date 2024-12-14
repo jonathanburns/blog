@@ -114,7 +114,7 @@ date: 2024-12-11T15:34:30-04:00
 
 <div class="dialogue left">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihtzeavzedqj6hfzcux4yvvkj4j5cveml3lodqankb2n2x2lv27my" alt="drawing">
-  <p>Shut it down," says Borinski. "Shut down the sequencer.</p>
+  <p>Shut it down. Shut down the sequencer.</p>
 </div>
 
 <div class="dialogue right">
@@ -129,7 +129,7 @@ date: 2024-12-11T15:34:30-04:00
 
 <div class="dialogue right">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeic77k6cvafrsz6k4fs3nsglq4klzwztyhf6v7bmwn6wxruc4kjx2e" alt="drawing">
-  <p>Okay, it's just... X is gonna have a field day with that. They already give us hard time about the centralized sequencer. When they find out we intentionally shut it down...</p>
+  <p>Okay, it's just... X is gonna have a field day with this. They already give us hard time about the centralized sequencer. When they find out we intentionally shut it down...</p>
 </div>
 
 <div class="dialogue left">
@@ -186,7 +186,7 @@ Borinski paces back and forth across the bedroom.
 
 <div class="dialogue right">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeic77k6cvafrsz6k4fs3nsglq4klzwztyhf6v7bmwn6wxruc4kjx2e" alt="drawing">
-  <p>I'm paging the them now.</p>
+  <p>I'm paging the the data center now.</p>
 </div>
 
 <div class="dialogue left">
@@ -194,23 +194,50 @@ Borinski paces back and forth across the bedroom.
   <p>Burn the whole building down. I don't care. Turn it off.</p>
 </div>
 
-
-
-"I'm paging the them"
-
-"Burn the whole building down. I don't care."
-
 Borinski paces.
 
-"We've got about 1 minute, 20 seconds," says Patrick.
+<div class="dialogue right">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihfgmywf6lpgx3k2p6j23qw636x3hg3jap2vwhufi4izyj3ifnwoy" alt="drawing">
+  <p>We've got about 1 minute, 20 seconds.</p>
+</div>
 
-Someone beeps into the call. "Hey this is Jack from--"
+<div class="dialogue left">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihtzeavzedqj6hfzcux4yvvkj4j5cveml3lodqankb2n2x2lv27my" alt="drawing">
+  <p>Where's the damn data center rep?</p>
+</div>
 
-"Jack, you're at the data center?" says Borinski.
 
-"Yes."
+<div class="dialogue right">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeiaymhsntltlmxgttwvhqxd7ggtsayrh32b5krixotkqxygc6vroma" alt="drawing">
+  <p>Hey this is Jack over at--</p>
+</div>
 
-"Jack, I need you to kill the sequencer immediately. Pull the plug, and I need it done in the next 30 seconds."
+<div class="dialogue left">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihtzeavzedqj6hfzcux4yvvkj4j5cveml3lodqankb2n2x2lv27my" alt="drawing">
+  <p>Jack, you're at the data center?</p>
+</div>
+
+<div class="dialogue right">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeiaymhsntltlmxgttwvhqxd7ggtsayrh32b5krixotkqxygc6vroma" alt="drawing">
+  <p>Yeah.</p>
+</div>
+
+<div class="dialogue left">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihtzeavzedqj6hfzcux4yvvkj4j5cveml3lodqankb2n2x2lv27my" alt="drawing">
+  <p>Jack, I need you to kill the sequencer immediately. Pull the plug, and I need it done in the next 30 seconds.</p>
+</div>
+
+<div class="dialogue right">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeiaymhsntltlmxgttwvhqxd7ggtsayrh32b5krixotkqxygc6vroma" alt="drawing">
+  <p>Guys, know I can't do that. I can't even prove this call is authentic. They got these AI voice clone th--.</p>
+</div>
+
+<div class="dialogue left">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihtzeavzedqj6hfzcux4yvvkj4j5cveml3lodqankb2n2x2lv27my" alt="drawing">
+  <p>Jack, we've had a major hack. Look it up. It's all over X. If you don't kill that server in the next 30 seconds, billions of dollars are going to go down the fucking shitter! You're the only person that can stop it.</p>
+</div>
+
+
 
 "Guys, know I can't do that. I can't even prove this call is authentic. This could be an AI voice and--."
 
