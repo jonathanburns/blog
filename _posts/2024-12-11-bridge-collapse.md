@@ -9,6 +9,18 @@ date: 2024-12-11T15:34:30-04:00
 
 A cellphone alarm on a nightstand illuminates a dark bedroom. Borinski groans and rolls over in the bed. He fumbles around the wall until he finds the switch that turns the lamp on. He picks up the phone, reads the screen, and sighs. He sits upright, presses a button on the screen, and places the phone to his ear. His voice is groggy.
 
+```mermaid
+sequenceDiagram
+Alice ->> Bob: Hello Bob, how are you?
+Bob-->>John: How about you John?
+Bob--x Alice: I am good thanks!
+Bob-x John: I am good thanks!
+Note right of John: Bob thinks a long<br/>long time, so long<br/>that the text does<br/>not fit on a row.
+
+Bob-->Alice: Checking with John...
+Alice->John: Yes... John, how are you?
+```
+
 “Borinkski. This better be important”
 
 A woman replies. “Sir, we have a big problem.” 
