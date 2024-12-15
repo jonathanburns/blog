@@ -406,8 +406,6 @@ Jack checks his phone.
 </div>
 <br />
 
-
-
 <div class="dialogue left">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeiai3i7qsdsc5hj47ajhpevwifnxowcd6idbdcwbnrznyqmn47zmjq" alt="drawing">
   <p>Okay. Here’s where things stand. 25 billion was lost in the hack. Unfortunately, those transactions have already posted to the L1, and that's going to make this rollback complicated. The cascading impacts of this are something I'm still wrapping my head around.</p>
@@ -430,7 +428,7 @@ Jack checks his phone.
 
 <div class="dialogue left">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeiai3i7qsdsc5hj47ajhpevwifnxowcd6idbdcwbnrznyqmn47zmjq" alt="drawing">
-  <p>I know what I said, but that was before I knew the full extent of the losses. We can roll back, it's just going to be extremely painful. The L1 bridge can't follow our path, and so we're going to have to fork away from the L1.</p>
+  <p>I know what I said, but that was before I knew the full extent of the losses. We can roll back, it's just going to be extremely painful. The L1 bridge can't roll back with us, and so we're going to have to fork away from the L1.</p>
 </div>
 
 <div class="dialogue right">
@@ -443,178 +441,163 @@ Jack checks his phone.
   <p>What I mean is that the L1 bridge will have one view of the chain, which is not rolled back, and our sequencer is going to have a completely different view... a fork. On our fork, we will perform the rollback. This fork will be completely disconnected from the L1 bridge.</p>
 </div>
 
+<div class="dialogue right">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihkf5xiyp3so7qfro3hdzhtewst3f3rw7jh25pcmyl55v5otnkmzy" alt="drawing">
+  <p>What? We can’t fork away from the bridge. We’re a rollup. It’s in our whitepaper. We’re an L2. Ethereum is the source of truth.</p>
+</div>
+
+<div class="dialogue left">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeiai3i7qsdsc5hj47ajhpevwifnxowcd6idbdcwbnrznyqmn47zmjq" alt="drawing">
+  <p>I know what’s in the whitepaper, Judith — I wrote it. But isn’t up to us. We’re a decentralized blockchain. The social consensus gets to decide this. We’re going to have to launch two sequencers. One sequencer will have the rollback, and one won’t. Social consensus will determine which chain is canonical. Based on the losses we’re looking at, we can assume rollback fork is going to preserve here.</p>
+</div>
 
-"What I mean is that the L1 bridge will have one view of the chain, which is not rolled back, and our sequencer is going to have a completely different view... a fork. On our fork, we will perform the rollback. This fork will be completely disconnected from the L1 bridge."
+<div class="dialogue right">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihkf5xiyp3so7qfro3hdzhtewst3f3rw7jh25pcmyl55v5otnkmzy" alt="drawing">
+  <p>How do you know?</p>
+</div>
 
-"What? We can’t fork away from the bridge. We’re a rollup. It’s in our whitepaper. We’re an L2. Ethereum is the source of truth."
+<div class="dialogue left">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeiai3i7qsdsc5hj47ajhpevwifnxowcd6idbdcwbnrznyqmn47zmjq" alt="drawing">
+  <p>Because it's happened before. In 2016, there was a hack on ethereum and the chain rolled back.</p>
+</div>
 
-"I know what’s in the damn white-paper, Judith. I wrote it. This isn’t up to us. The chain is a decentralized system. The social consensus will decide this. We’re going to have to launch two sequencers. One sequencer will have the rollback, and one won’t. Social consensus will determine which chain is canonical. Based on the losses we’re looking at, we can assume rollback fork is going to preserve here."
+<div class="dialogue right">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihkf5xiyp3so7qfro3hdzhtewst3f3rw7jh25pcmyl55v5otnkmzy" alt="drawing">
+  <p>There were no L2s or bridges back then. We can’t fork away from the bridge. We’re an L2. An extension of Ethereum.</p>
+</div>
 
-"How do you know?"
+<div class="dialogue left">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeiai3i7qsdsc5hj47ajhpevwifnxowcd6idbdcwbnrznyqmn47zmjq" alt="drawing">
+  <p>Like I said, this isn’t our call. Let me tell you what happens if we don’t give the users a rollback option: Someone in the community is going to launch an alternate sequencer, a sequencer that has the rollback, and that sequencer will become the canonical chain. There's nothing we can do to stop rollback. The sooner we accept that, the better. If we fight this, we will lose our sequencer and all the transaction fees that go along with it, and we all better start looking for new work. Sequencing is a privilege, not a right, and I have no intention of losing that privilege. </p>
+</div>
 
-"Because it's happened before. In 2016, there was a hack on ethereum and the chain rolled back."
+<div class="dialogue right">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihkf5xiyp3so7qfro3hdzhtewst3f3rw7jh25pcmyl55v5otnkmzy" alt="drawing">
+  <p>I’m still confused. There’s a bunch of ethereum locked in the bridge contract, right? If our fork isn’t connected to the bridge, how will people get their ethereum out?</p>
+</div>
 
-"There were no L2s or bridges back then. We can’t fork away from the bridge. The L1 is supposed to be the source of truth."
+<div class="dialogue left">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeiai3i7qsdsc5hj47ajhpevwifnxowcd6idbdcwbnrznyqmn47zmjq" alt="drawing">
+  <p>The users will have wrapped eth on both forks. They can use the fork that is connected to the bridge to pull out their ETH on the L1.</p>
+</div>
 
-"Like I said, this isn’t our call. Here’s what happens if we don’t give the users a rollback option: Someone in the community is going to launch an alternate sequencer, and that sequencer will have the rollback, and their fork will become the canonical chain. We will lose our sequencer and all the transaction fees and our entire business goes down the shitter. Sequencing is a privilege, not a right, and I have no intention of losing that privilege. There's nothing we can do to stop rollback. Judith, call circle and loop them in."
+<div class="dialogue right">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihkf5xiyp3so7qfro3hdzhtewst3f3rw7jh25pcmyl55v5otnkmzy" alt="drawing">
+  <p>So what about the wrapped ETH that’s on our fork?</p>
+</div>
 
-"Sorry. Loop them in on what?"
+<div class="dialogue left">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeiai3i7qsdsc5hj47ajhpevwifnxowcd6idbdcwbnrznyqmn47zmjq" alt="drawing">
+  <p>It’s worthless. It’s not connected to the bridge. It’s not backed up by anything.</p>
+</div>
 
-"There will be two versions of the chain now. Users can’t redeem the same USDC on both chains. The USDC on the canonical chain will be backed up by circle. The USDC on the other fork will have no value."
+<div class="dialogue right">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihkf5xiyp3so7qfro3hdzhtewst3f3rw7jh25pcmyl55v5otnkmzy" alt="drawing">
+  <p>If our whole fork is worthless, why are we doing this?</p>
+</div>
 
-What about the L1 bridge?
+<div class="dialogue left">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeiai3i7qsdsc5hj47ajhpevwifnxowcd6idbdcwbnrznyqmn47zmjq" alt="drawing">
+  <p>Only the wrapped tokens are worthless. The ones locked in the bridge. The bridged tokens live on Ethereum, and so they have no value if you can’t redeem them on the L1. Everything else... Our native token, our NFTs, our ERC20 tokens... Those tokens live on our chain.</p>
+</div>
 
+<div class="dialogue right">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihkf5xiyp3so7qfro3hdzhtewst3f3rw7jh25pcmyl55v5otnkmzy" alt="drawing">
+  <p>Those tokens will be on both forks, right?</p>
+</div>
 
+<div class="dialogue left">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeiai3i7qsdsc5hj47ajhpevwifnxowcd6idbdcwbnrznyqmn47zmjq" alt="drawing">
+  <p>Right, but our native tokens will have no value on the bridge fork, because the source of truth for those tokens will be our fork, the one with the rollback. Those assets will be worthless on the bridge fork.</p>
+</div>
 
-L1 bridge cannot be rolled back. This means the bridge will have no connection to the canonical chain. The bridge will follow the the other fork.
+<div class="dialogue right">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihkf5xiyp3so7qfro3hdzhtewst3f3rw7jh25pcmyl55v5otnkmzy" alt="drawing">
+  <p>I’m trying to wrap my head around this... you’re saying that <i>all</i> the tokens will exist in both forks, but for the wrapped assets, those will only have value on the bridge fork, and for the native assets, they’ll only have value on our fork?</p>
+</div>
 
+<div class="dialogue left">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeiai3i7qsdsc5hj47ajhpevwifnxowcd6idbdcwbnrznyqmn47zmjq" alt="drawing">
+  <p>Right. All the tokens will have value on one fork or the other.</p>
+</div>
 
+<div class="dialogue right">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihkf5xiyp3so7qfro3hdzhtewst3f3rw7jh25pcmyl55v5otnkmzy" alt="drawing">
+  <p>So the users' funds are all safe?</p>
+</div>
 
-You mean the fork without the rollback?
+<div class="dialogue right">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihkf5xiyp3so7qfro3hdzhtewst3f3rw7jh25pcmyl55v5otnkmzy" alt="drawing">
+  <p>So the users' funds are all safe?</p>
+</div>
 
 
+So the users' funds are all safe?
 
-Right. The bridge will be connected to the fork without the rollback.
+Not exactly.
 
+What do you mean?
 
+Well, let’s say you own wrapped ETH. Your wrapped ETH is safe, because you can pull it out on the bridge fork.
 
-Okay. What does that mean in practice?
+Right.
 
+But you also have wrapped ETH on our fork, right? 
 
+Right. That ETH is worthless on our fork.
 
-It means that any wrapped assets that were bridged from ethereum can only be redeemed via the bridge fork. These assets will have no value on the canonical fork.
+Yeah, but you can still use a DEX to swap the worthless wrapped eth for a native token.
 
+Shit. Yeah. Patrick is right. 
 
+It’s not like everyone can double their money though, right? Someone’s gotta hold the bag here.
 
-But the wrapped eth still exists on both forks, right?
+Yeah, it’s the liquidity providers. If you’re providing liquidity for a liquidity pool, you’re gonna get cooked by divergence loss.
 
+Yeah, but only if the trading pair is a native asset and a wrapped asset. If the assets are both native, or both wrapped, you should be fine. If you have one native asset and one wrapped asset, you’re exposed on both forks. Each fork will have one useless asset in the pool.
 
+We can’t let that happen, right? 
 
-Right. If you own wrapped eth, your assets will exist on both forks. You can use the bridge fork and pull out your funds on the L1. 
+There’s nothing we can do about it. This is the risk you take when you provide liquidity. We should advise the liquidity providers to exit these pools as quickly as possible. 
 
+Getting transactions in is gonna be hard. There’s going to be a frenzy of activity when we turn on the sequencer. Tons of congestion as people clamor to capitalize on the situation. The sharks are gonna take out massive loans and swap out worthless tokens for valuable ones. Those pools will be drained in minutes.
 
+It’s not just the liquidity pools, either. Any contract that lets you swap native tokens and wrapped tokens is exposed.
 
-What about your wrapped eth on the canonical fork?
+Like what?
 
+Like imagine you own an NFT on our chain, and you’ve got it listed for sale for 1 wrapped ETH. Wrapped ETH is gonna be worthless on our chain, so anybody can get your NFT for almost nothing.
 
+What if we give all these exposed people a chance to get out?
 
-The canonical fork is disconnected from the L1 bridge. Any wrapped eth on that fork will not be redeemable for eth on the L1. Those assets have little to no value.
+How?
 
+Well we have all these people that are going to try to take advantage of the situation. What if we ignore those transactions? We can give the liquidity providers a grace period to get out. For a short period, the sequencer will only accept requests to exit those liquidity pools. 
 
+It’s a good idea.
 
-If the bridge fork holds all the value, why don’t we just make the bridge fork the canonical one?
+It’s probably the ethical thing to do, but we can’t do it.
 
+Why?
 
+Because what you’re talking about is censorship. If we censor transactions, we will lose all trust from our users.
 
-The bridge fork only holds the value the assets bridged from ethereum. Wrapped eth. Wrapped USDC. Those kinds of things. For those assets, the bridge fork is the source of truth. It’s the only way to redeem the assets for the unwrapped token.
 
 
 
-For any other assets on our chain, including our native token, all our NFTs, our ERC20 tokens, etc. The source of truth for those tokens will be the canonical chain. On the bridge fork, those assets will have no value.
 
 
 
-I’m trying to wrap my head around this… you’re staying that all the tokens will exist in both chains, but each token one fork where it is valuable, and one fork where it is worthless. Depending on the token, it might have value on one fork or the other.
 
 
 
-Right. Any wrapped assets will live on the bridge fork. They will have no value on the canonical fork. Any other assets will live on the canonical fork. Those assets will have no value on the bridge fork.
 
 
 
-Wait….
 
 
 
-Okay, so let’s say I own some wrapped eth. That will exist on both forks, right? But the wrapped eth is worthless on the canonical fork. So let’s say I go on the canonical fork and I use a Dex to swap out all my useless wrapped eth for a native coin. That coin has value on the canonical chain.
 
-
-
-Now… on the bridge fork, I still have the wrapped eth. I can safely redeem that for eth on the L1.
-
-
-
-Yes. That’s right.
-
-
-
-So I just doubled my money, right? That’s not possible. Someone has to lose.
-
-
-
-Right. The liquidity providers are going to lose their shirts here. Well… depending on the pool.
-
-
-
-Depending on the pool?
-
-
-
-If you’re providing liquidity in a pool where both assets are native, you’re fine. If you’re in a pool where both assets are bridged, you’re fine.
-
-
-
-If you’re providing liquidity in a pool where one asset is native and the other asset is bridged, you have extreme loss exposure. One asset in the pair is useless. That asset will be swapped for the asset of value until the pool has nothing but worthless tokens left. When you withdraw from the pool, there won’t be any value left. You’ll have lost everything to divergence loss.
-
-
-
-We can’t let that happen, right?
-
-
-
-This is the risk you take when you provide liquidity. If I were an LP, I would exit the pool as quickly as possible. 
-
-
-
-Remember that the liquidity pool exists on both forks. Each fork will have the opposite effect. Let’s take a liquidity pair which has wrapped-eth and the native token.
-
-
-
-On the bridge fork, all the native L2 tokens are worthless because it’s not the canonical chain for the L2. Users will swap out the native tokens for wrapped eth until the only thing left in the liquidity pool is the useless native tokens.
-
-
-
-The same liquidity pool exists on the canonical fork. On the canonical fork, the wrapped eth is useless because that fork is not connected to the bridge. On that fork, the wrapped eth will be swapped out for the native asset until all that’s left in the liquidity pool is the useless wrapped eth.
-
-
-
-There’s going to be a frenzy of activity when we turn on the sequencer. Gas prices will go through the roof as users clamor to capitalize on the situation or protect their assets. I expect users will leverage borrowing protocols to borrow the worthless tokens and swap them out for useful ones.
-
-
-
-What other kinds of protocols are at risk?
-
-
-
-It’s hard to say. It’s hard to foresee all the repercussions of this. Anyone who is in a contract which allows swapping a native token and an L1 token can be exposed to extreme losses. 
-
-
-
-So NFTs sales.
-
-
-
-If your NFT is for sale, and the sale is denominated in wrapped eth, you’re in trouble. The wrapped eth is useless on the canonical chain. Anyone will be able to get wrapped eth for very low prices and buy your NFT.
-
-
-
-There are also problems on the bridge chain. Imagine you made an offer for an NFT to buy it for 1 wETH.
-
-
-
-The seller can accept your offer on the bridge chain and collect the valuable wETH. However, the NFT you getting back is useless, because it’s on the bridge chain, which is not the canonical chain for the NFTs. The seller still owns the NFT on the canonical chain.
-
-
-
-Okay. So if you hold a token, you’re safe, but if you’re in a contract which allows for swapping native tokens and bridged ones, you’re in big trouble. The sharks are going to eat them alive.
-
-
-
-What if we give the liquidity providers a chance to get out? When we turn on the sequencer, we can ignore all transactions that are trying to swap in those pools. This will give the liquidity providers a grace period to exit the liquidity pool before we allow trading in the pool. 
-
-
-
-That would be the ethical thing to do, but unfortunately we can’t do that. What you’re describing is censorship. If we do that, even for good reasons, We’ll lose the community.
 
 
 
