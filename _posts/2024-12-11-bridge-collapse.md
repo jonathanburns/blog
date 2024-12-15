@@ -294,12 +294,16 @@ Jack checks his phone.
   <p>Hurry up, Jack. Nuke everything.</p>
 </div>
 
-Jack yanks the plug on the machine.
-
 <div class="dialogue left">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeibiqluicewk6yyddl2qemscxo2zjhzpeeeorex77dhej5a3g727wa" alt="drawing">
   <p>Did you kill it?</p>
 </div>
+
+<div style="border: 5px solid black; padding: 10px; display: inline-block; font-size: 0;">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeielzz7kfwx4rafc4jydlq7aapul75ihacypuzqyhxj4nblixfvkie" alt="drawing" style="width: 50%; height: auto; font-size: initial;"/>
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihuwfc2jcalyvwpm4w4e23dbityhwc6a4o6pqepiko5cnaj7ch2qm" alt="drawing" style="width: 50%; height: auto; font-size: initial;"/>
+</div>
+<br />
 
 <div class="dialogue right">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeiaymhsntltlmxgttwvhqxd7ggtsayrh32b5krixotkqxygc6vroma" alt="drawing">
