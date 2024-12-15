@@ -356,6 +356,12 @@ Jack yanks the plug on the machine.
   <p>Jesus. Okay. Everyone grab some coffee. It’s going to be a long night. What we’re about to do is something we said could never happen. Everybody take a minute. I’m gonna step outside. I need a cigarette.</p>
 </div>
 
+<div style="border: 5px solid black; padding: 10px; display: inline-block; font-size: 0;">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeidupujj5umy5pxpuqgjtj7uaztprn63bebr3vga354ufzb4ktmuyi" alt="drawing" style="width: 33.33%; height: auto; font-size: initial;"/>
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeicxdfk4hmbnw4dl6mqkdy445hw6elgkihdkzvcseimubsgfim4xqq" alt="drawing" style="width: 33.33%; height: auto; font-size: initial;"/>
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeigzswrj5syxmmwkvmgu26ns5inq3rk2fjcqjq2fd245haoqlahgrm" alt="drawing" style="width: 33.33%; height: auto; font-size: initial;"/>
+</div>
+
 
 Borinski walks out of the bedroom and down the hall. He slips a long pea coat over his pajamas, changes from his slippers into shoes, and walks out the font door. He walks down the porch steps and into the parking circle outside his auspicious home. He slips a cigarette into his mouth and flicks a a lighter.
 
