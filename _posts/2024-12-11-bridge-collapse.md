@@ -363,15 +363,14 @@ Jack yanks the plug on the machine.
 </div>
 <div style="border: 5px solid black; padding: 10px; display: inline-block; font-size: 0;">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeibakc2vrcnvqkok765nr5zmn5nmkf7c25e3wrzh7wu3cvbh2csoiu" alt="drawing" style="width: 33.33%; height: auto; font-size: initial;"/>
-  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeicxdfk4hmbnw4dl6mqkdy445hw6elgkihdkzvcseimubsgfim4xqq" alt="drawing" style="width: 33.33%; height: auto; font-size: initial;"/>
-  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeifv36im7diamawpspd5rjdvonffeoz4iccclb4jdu7oltku65us5e" alt="drawing" style="width: 33.33%; height: auto; font-size: initial;"/>
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeid4m6v2c7jkejvnh5sqhrdvzulyu75o3j24nxv3fclqbhlggyqecm" alt="drawing" style="width: 33.33%; height: auto; font-size: initial;"/>
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeigv7lz3auu3cugtar7c5titn5b6chxv6nvqujpfsg7w4yyruzosti" alt="drawing" style="width: 33.33%; height: auto; font-size: initial;"/>
 </div>
 
 
-Borinski walks out of the bedroom and down the hall. He slips a long pea coat over his pajamas, changes from his slippers into shoes, and walks out the font door. He walks down the porch steps and into the parking circle outside his auspicious home. He slips a cigarette into his mouth and flicks a a lighter.
 
 <div class="dialogue left">
-  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihtzeavzedqj6hfzcux4yvvkj4j5cveml3lodqankb2n2x2lv27my" alt="drawing">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeigoq5qi2cfhvs4p3fvd7lnwn6h26cp437sgtlnehodbfreui4g2gu" alt="drawing">
   <p>Okay. Here’s where things stand. 25 billion was lost in the hack. Unfortunately, those transactions have already posted to the L1, and that's going to make this rollback complicated. The cascading impacts of this are something I'm still wrapping my head around.</p>
 </div>
 
