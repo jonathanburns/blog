@@ -108,7 +108,7 @@ date: 2024-12-11T15:34:30-04:00
 
 <div class="dialogue left">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeibiqluicewk6yyddl2qemscxo2zjhzpeeeorex77dhej5a3g727wa" alt="drawing">
-  <p>Fucking hell. I warned them about this bullshit. Did we post the update on the L1 yet?</p>
+  <p>Fucking hell. I warned them about this bullshit. They're too careless. Did we post the update on the L1 yet?</p>
 </div>
 
 <div class="dialogue right">
@@ -203,7 +203,12 @@ Borinski paces back and forth across the bedroom.
   <p>Burn the whole building down. I don't care. Turn it off.</p>
 </div>
 
-Borinski paces.
+<div style="border: 5px solid black; padding: 10px; display: inline-block; font-size: 0;">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihaf7oueyv3m2aye4zgglsdiktimlgucye55r3bejzbmylsvv6zme" alt="drawing" style="width: 33.33%; height: auto; font-size: initial;"/>
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeiexpyutyabwn2gw3fyuncp2lpqnorqdp6d3oq6rs53lqei5nq4zvi" alt="drawing" style="width: 33.33%; height: auto; font-size: initial;"/>
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeigsczf3oj6cqahlcxrjzd2wnhtxe6wxblfzbeu4pihwlezqaepetm" alt="drawing" style="width: 33.33%; height: auto; font-size: initial;"/>
+</div>
+<br />
 
 <div class="dialogue right">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihfgmywf6lpgx3k2p6j23qw636x3hg3jap2vwhufi4izyj3ifnwoy" alt="drawing">
@@ -212,7 +217,7 @@ Borinski paces.
 
 <div class="dialogue left">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeibiqluicewk6yyddl2qemscxo2zjhzpeeeorex77dhej5a3g727wa" alt="drawing">
-  <p>Where's the damn data center rep?</p>
+  <p>Where's the damn data center rep? What do we fucking pay them for?</p>
 </div>
 
 
