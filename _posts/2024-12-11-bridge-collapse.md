@@ -312,7 +312,7 @@ Jack checks his phone.
 
 <div class="dialogue left">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeibiqluicewk6yyddl2qemscxo2zjhzpeeeorex77dhej5a3g727wa" alt="drawing">
-  <p>Patrick, can you confirm the chain is down?</p>
+  <p>Patrick, can you confirm we're down?</p>
 </div>
 
 <div class="dialogue right">
