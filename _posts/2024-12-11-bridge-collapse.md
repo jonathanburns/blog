@@ -359,7 +359,12 @@ Jack yanks the plug on the machine.
 <div style="border: 5px solid black; padding: 10px; display: inline-block; font-size: 0;">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeidupujj5umy5pxpuqgjtj7uaztprn63bebr3vga354ufzb4ktmuyi" alt="drawing" style="width: 33.33%; height: auto; font-size: initial;"/>
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeicxdfk4hmbnw4dl6mqkdy445hw6elgkihdkzvcseimubsgfim4xqq" alt="drawing" style="width: 33.33%; height: auto; font-size: initial;"/>
-  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeigzswrj5syxmmwkvmgu26ns5inq3rk2fjcqjq2fd245haoqlahgrm" alt="drawing" style="width: 33.33%; height: auto; font-size: initial;"/>
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeifv36im7diamawpspd5rjdvonffeoz4iccclb4jdu7oltku65us5e" alt="drawing" style="width: 33.33%; height: auto; font-size: initial;"/>
+</div>
+<div style="border: 5px solid black; padding: 10px; display: inline-block; font-size: 0;">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeibakc2vrcnvqkok765nr5zmn5nmkf7c25e3wrzh7wu3cvbh2csoiu" alt="drawing" style="width: 33.33%; height: auto; font-size: initial;"/>
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeicxdfk4hmbnw4dl6mqkdy445hw6elgkihdkzvcseimubsgfim4xqq" alt="drawing" style="width: 33.33%; height: auto; font-size: initial;"/>
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeifv36im7diamawpspd5rjdvonffeoz4iccclb4jdu7oltku65us5e" alt="drawing" style="width: 33.33%; height: auto; font-size: initial;"/>
 </div>
 
 
