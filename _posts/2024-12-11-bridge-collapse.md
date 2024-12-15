@@ -527,46 +527,90 @@ Jack checks his phone.
 </div>
 
 <div class="dialogue right">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihfgmywf6lpgx3k2p6j23qw636x3hg3jap2vwhufi4izyj3ifnwoy" alt="drawing">
+  <p>Not exactly.</p>
+</div>
+
+<div class="dialogue right">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihkf5xiyp3so7qfro3hdzhtewst3f3rw7jh25pcmyl55v5otnkmzy" alt="drawing">
-  <p>So the users' funds are all safe?</p>
+  <p>What do you mean? What funds aren't safe?</p>
+</div>
+
+<div class="dialogue right">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihfgmywf6lpgx3k2p6j23qw636x3hg3jap2vwhufi4izyj3ifnwoy" alt="drawing">
+  <p>Well, let’s say you own wrapped ETH. Your wrapped ETH is safe, because you can pull it out on the bridge fork.</p>
+</div>
+
+<div class="dialogue right">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihkf5xiyp3so7qfro3hdzhtewst3f3rw7jh25pcmyl55v5otnkmzy" alt="drawing">
+  <p>But you also have wrapped ETH on our fork, right?</p>
+</div>
+
+<div class="dialogue right">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihfgmywf6lpgx3k2p6j23qw636x3hg3jap2vwhufi4izyj3ifnwoy" alt="drawing">
+  <p>Right. The wrapped ETH is worthless on our fork.</p>
+</div>
+
+<div class="dialogue right">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihkf5xiyp3so7qfro3hdzhtewst3f3rw7jh25pcmyl55v5otnkmzy" alt="drawing">
+  <p>Yeah, but you can still use a DEX to swap the worthless wrapped eth for a native token.</p>
+</div>
+
+<div class="dialogue left">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeiai3i7qsdsc5hj47ajhpevwifnxowcd6idbdcwbnrznyqmn47zmjq" alt="drawing">
+  <p>Ah, Shit. Yeah. Patrick is right.</p>
+</div>
+
+<div class="dialogue right">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihfgmywf6lpgx3k2p6j23qw636x3hg3jap2vwhufi4izyj3ifnwoy" alt="drawing">
+  <p>It’s not like everyone can just double their money though, right? Someone’s gotta hold the bag here.</p>
+</div>
+
+<div class="dialogue left">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeiai3i7qsdsc5hj47ajhpevwifnxowcd6idbdcwbnrznyqmn47zmjq" alt="drawing">
+  <p>Yeah, it’s the liquidity providers. If you’re providing liquidity for a liquidity pool, you’re gonna get cooked by divergence loss.</p>
+</div>
+
+<div class="dialogue right">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihkf5xiyp3so7qfro3hdzhtewst3f3rw7jh25pcmyl55v5otnkmzy" alt="drawing">
+  <p>Yes, but only if the trading pair is a native asset and a wrapped asset. If the assets are both native, or both wrapped, you should be fine. For pools that have one native asset and one wrapped asset, they're exposed on both forks. Each fork will have one useless asset in the pool.</p>
+</div>
+
+<div class="dialogue right">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihfgmywf6lpgx3k2p6j23qw636x3hg3jap2vwhufi4izyj3ifnwoy" alt="drawing">
+  <p>We can’t let that happen, right?</p>
+</div>
+
+<div class="dialogue left">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeiai3i7qsdsc5hj47ajhpevwifnxowcd6idbdcwbnrznyqmn47zmjq" alt="drawing">
+  <p>There’s nothing we can do about it. This is the risk you take when you provide liquidity. If I were a liquidity provider, I would exit these pools as quickly as possible.</p>
+</div>
+
+<div class="dialogue right">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihkf5xiyp3so7qfro3hdzhtewst3f3rw7jh25pcmyl55v5otnkmzy" alt="drawing">
+  <p>It's gonna be hard to get the transactions through. There’s going to be a frenzy of activity when we turn on the sequencer. Tons of congestion as people clamor to capitalize on the situation. The sharks are gonna take out massive loans and swap out worthless tokens for valuable ones. Those pools will be drained in minutes.</p>
+</div>
+
+<div class="dialogue right">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihkf5xiyp3so7qfro3hdzhtewst3f3rw7jh25pcmyl55v5otnkmzy" alt="drawing">
+</div>
+
+<div class="dialogue right">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihkf5xiyp3so7qfro3hdzhtewst3f3rw7jh25pcmyl55v5otnkmzy" alt="drawing">
+  <p>It’s not just the liquidity pools, either. Any contract that lets you swap native tokens and wrapped tokens is exposed.</p>
+</div>
+
+<div class="dialogue left">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeiai3i7qsdsc5hj47ajhpevwifnxowcd6idbdcwbnrznyqmn47zmjq" alt="drawing">
+  <p>Like what?</p>
+</div>
+
+<div class="dialogue right">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihkf5xiyp3so7qfro3hdzhtewst3f3rw7jh25pcmyl55v5otnkmzy" alt="drawing">
+  <p>Like imagine you own an NFT on our chain, and you’ve got it listed for sale for 1 wrapped ETH. Wrapped ETH is gonna be worthless on our chain, so anybody can get your NFT for almost nothing.</p>
 </div>
 
 
-So the users' funds are all safe?
-
-Not exactly.
-
-What do you mean?
-
-Well, let’s say you own wrapped ETH. Your wrapped ETH is safe, because you can pull it out on the bridge fork.
-
-Right.
-
-But you also have wrapped ETH on our fork, right? 
-
-Right. That ETH is worthless on our fork.
-
-Yeah, but you can still use a DEX to swap the worthless wrapped eth for a native token.
-
-Shit. Yeah. Patrick is right. 
-
-It’s not like everyone can double their money though, right? Someone’s gotta hold the bag here.
-
-Yeah, it’s the liquidity providers. If you’re providing liquidity for a liquidity pool, you’re gonna get cooked by divergence loss.
-
-Yeah, but only if the trading pair is a native asset and a wrapped asset. If the assets are both native, or both wrapped, you should be fine. If you have one native asset and one wrapped asset, you’re exposed on both forks. Each fork will have one useless asset in the pool.
-
-We can’t let that happen, right? 
-
-There’s nothing we can do about it. This is the risk you take when you provide liquidity. We should advise the liquidity providers to exit these pools as quickly as possible. 
-
-Getting transactions in is gonna be hard. There’s going to be a frenzy of activity when we turn on the sequencer. Tons of congestion as people clamor to capitalize on the situation. The sharks are gonna take out massive loans and swap out worthless tokens for valuable ones. Those pools will be drained in minutes.
-
-It’s not just the liquidity pools, either. Any contract that lets you swap native tokens and wrapped tokens is exposed.
-
-Like what?
-
-Like imagine you own an NFT on our chain, and you’ve got it listed for sale for 1 wrapped ETH. Wrapped ETH is gonna be worthless on our chain, so anybody can get your NFT for almost nothing.
 
 What if we give all these exposed people a chance to get out?
 
