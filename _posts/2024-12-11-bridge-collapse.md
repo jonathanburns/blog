@@ -56,7 +56,7 @@ date: 2024-12-11T15:34:30-04:00
 
 <div class="dialogue right">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeic77k6cvafrsz6k4fs3nsglq4klzwztyhf6v7bmwn6wxruc4kjx2e" alt="drawing">
-  <p>Jelly finance contract was hacked.</p>
+  <p>Jelly finance got hacked. There was a vulnerability in one of the contracts.</p>
 </div>
 
 <div class="dialogue left">
