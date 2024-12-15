@@ -334,8 +334,9 @@ Jack checks his phone.
 </div>
 
 <div style="border: 5px solid black; padding: 10px; display: inline-block; font-size: 0;">
-  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeigmnh66lbi6fu7bqfbuyojbxikttjkes4vggijtpmuyn53ps4ujme" alt="drawing" style="width: 50%; height: auto; font-size: initial;"/>
-  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeiffnp4g2csy7r525gbgiocrwrefgckw5xhmzamqjn5gtw45tixrha" alt="drawing" style="width: 50%; height: auto; font-size: initial;"/>
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeigmnh66lbi6fu7bqfbuyojbxikttjkes4vggijtpmuyn53ps4ujme" alt="drawing" style="width: 33.33%; height: auto; font-size: initial;"/>
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeiffnp4g2csy7r525gbgiocrwrefgckw5xhmzamqjn5gtw45tixrha" alt="drawing" style="width: 33.33%; height: auto; font-size: initial;"/>
+    <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihq5cfp2g5kik6o45bhbm3v64qwv26n7q5rpzxspu74lx3v3gfwoi" alt="drawing" style="width: 33.33%; height: auto; font-size: initial;"/>
 </div>
 <br />
 
