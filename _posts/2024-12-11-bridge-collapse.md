@@ -276,7 +276,7 @@ Jack checks his phone.
 <div style="border: 5px solid black; padding: 10px; display: inline-block; font-size: 0;">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeidcvvx6elgbsggb42uue2yhuwrvrx52mxcjazqh2n4rs4usdsnpce" alt="drawing" style="width: 33.33%; height: auto; font-size: initial;"/>
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeier456limcxfkuqtsurnepfdt77mz75e2qdgrjre3n2phi3abz6ky" alt="drawing" style="width: 33.33%; height: auto; font-size: initial;"/>
-  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeiahebqcn6fny5jvm77rdr6g4oxj5trgabkdv2k6pw4birhthazoo4" alt="drawing" style="width: 33.33%; height: auto; font-size: initial;"/>
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeiaw4weoyp5tqqyucrssvlybf5dqpqorvcgzfsggai6cer4m7h3df4" alt="drawing" style="width: 33.33%; height: auto; font-size: initial;"/>
 </div>
 <br />
 <div class="dialogue left">
