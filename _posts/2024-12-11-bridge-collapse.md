@@ -113,7 +113,7 @@ date: 2024-12-11T15:34:30-04:00
 
 <div class="dialogue right">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeic77k6cvafrsz6k4fs3nsglq4klzwztyhf6v7bmwn6wxruc4kjx2e" alt="drawing">
-  <p>I don't know. Is Patrick on the call? Patrick, can you check on that?</p>
+  <p>I don't know. Patrick, can you check on that?</p>
 </div>
 
 <div class="dialogue right">
