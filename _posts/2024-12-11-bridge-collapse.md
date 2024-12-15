@@ -493,12 +493,12 @@ Jack checks his phone.
 
 <div class="dialogue right">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihkf5xiyp3so7qfro3hdzhtewst3f3rw7jh25pcmyl55v5otnkmzy" alt="drawing">
-  <p>If our whole fork has no value, why are we doing this?</p>
+  <p>If the tokens on our fork has no value, why are we doing this?</p>
 </div>
 
 <div class="dialogue left">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeiai3i7qsdsc5hj47ajhpevwifnxowcd6idbdcwbnrznyqmn47zmjq" alt="drawing">
-  <p>Not all the tokens on our fork are worthless. It's only the wrapped ones - The tokens locked in the bridge. The bridged tokens live on Ethereum, and so they have no value if you can’t redeem them on the L1. Those tokens will only have value on the bridge fork. Everything else... Our native token, our NFTs, our ERC20 tokens... Those tokens live on our chain. They will only have value on our fork.</p>
+  <p>Not <i>all</i> the tokens on our fork are worthless. It's only the wrapped ones - The tokens locked in the bridge. The bridged tokens live on Ethereum, and so they have no value if you can’t redeem them on the L1. Those tokens will only have value on the bridge fork. All the other tokens — Our native token, our NFTs, our ERC20 tokens... Those tokens live on our chain. They will only have value on our fork.</p>
 </div>
 
 <div class="dialogue right">
@@ -508,7 +508,7 @@ Jack checks his phone.
 
 <div class="dialogue left">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeiai3i7qsdsc5hj47ajhpevwifnxowcd6idbdcwbnrznyqmn47zmjq" alt="drawing">
-  <p>Right, but our native tokens will have no value on the bridge fork, because the source of truth for those tokens will be our fork, the one with the rollback. Those assets will be worthless on the bridge fork.</p>
+  <p>Right, but our <i>native</i> tokens will have no value on the bridge fork, because the source of truth for those tokens will be our fork, the one with the rollback. Those assets will be worthless on the bridge fork.</p>
 </div>
 
 <div class="dialogue right">
@@ -553,7 +553,7 @@ Jack checks his phone.
 
 <div class="dialogue right">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihkf5xiyp3so7qfro3hdzhtewst3f3rw7jh25pcmyl55v5otnkmzy" alt="drawing">
-  <p>Right. The wrapped ETH is worthless on our fork, but that's fine because you'll have it on the bridge fork.</p>
+  <p>Right. The wrapped ETH on our fork is worthless, but that's okay because you'll have that same wrapped ETH on the bridge fork.</p>
 </div>
 
 <div class="dialogue right">
@@ -573,7 +573,7 @@ Jack checks his phone.
 
 <div class="dialogue left">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeiai3i7qsdsc5hj47ajhpevwifnxowcd6idbdcwbnrznyqmn47zmjq" alt="drawing">
-  <p>Yeah, it’s the liquidity providers. If you’re providing liquidity for a liquidity pool, you’re gonna get cooked by divergence loss.</p>
+  <p>Yeah, it’s the liquidity providers. People are going to swap out all the useful tokens and trade them for useless ones. If you’re providing liquidity for a liquidity pool, you’re gonna get cooked by divergence loss.</p>
 </div>
 
 <div class="dialogue right">
