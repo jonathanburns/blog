@@ -61,7 +61,7 @@ date: 2024-12-11T15:34:30-04:00
 </div>
 
 <div class="dialogue left">
-  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihtzeavzedqj6hfzcux4yvvkj4j5cveml3lodqankb2n2x2lv27my" alt="drawing">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeia44q7nhwd7q6fhvalxjyjp362x7f7doayxzqz3ctwg7fx66o3l2m" alt="drawing">
   <p>Fuck. Which contract? Not the liquid staking...</p>
 </div>
 
