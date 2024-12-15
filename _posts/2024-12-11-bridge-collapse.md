@@ -578,7 +578,7 @@ Jack checks his phone.
 
 <div class="dialogue right">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihfgmywf6lpgx3k2p6j23qw636x3hg3jap2vwhufi4izyj3ifnwoy" alt="drawing">
-  <p>Yes, but only if the trading pair is a native asset and a wrapped asset. If the assets in the pool are both native, or both wrapped, you should be fine. For pools that have one native asset and one wrapped asset, they're exposed on both forks. Each fork will have one useless asset in the pool.</p>
+  <p>Yes, but only the pools where the trading pair is one native asset and one wrapped asset. If the assets in the pool are both native, or both wrapped, you should be fine. For pools that have one native asset and one wrapped asset, they're exposed on both forks. Each fork will have one useless asset in the pool.</p>
 </div>
 
 <div class="dialogue right">
@@ -593,7 +593,7 @@ Jack checks his phone.
 
 <div class="dialogue right">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihfgmywf6lpgx3k2p6j23qw636x3hg3jap2vwhufi4izyj3ifnwoy" alt="drawing">
-  <p>It's gonna be hard to get the transactions through. There’s going to be a frenzy of activity when we turn on the sequencer. Tons of congestion as people clamor to capitalize on the situation. The sharks are gonna take out massive loans and swap out worthless tokens for valuable ones. Those pools will be drained in minutes.</p>
+  <p>Even if you want to get out, it's gonna be hard to get the transactions through. There’s going to be a frenzy of activity when we turn on the sequencer. The congestion will be insane. The sharks are gonna take out massive loans to drain the pools. Those pools will be empty in minutes.</p>
 </div>
 
 <div class="dialogue right">
@@ -602,7 +602,7 @@ Jack checks his phone.
 
 <div class="dialogue right">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihfgmywf6lpgx3k2p6j23qw636x3hg3jap2vwhufi4izyj3ifnwoy" alt="drawing">
-  <p>It’s not just the liquidity pools, either. Any contract that lets you swap native tokens and wrapped tokens is exposed.</p>
+  <p>Come to think of it, it’s not just the liquidity pools, either. Any contract that lets you swap native tokens and wrapped tokens is exposed.</p>
 </div>
 
 <div class="dialogue left">
@@ -613,6 +613,11 @@ Jack checks his phone.
 <div class="dialogue right">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihfgmywf6lpgx3k2p6j23qw636x3hg3jap2vwhufi4izyj3ifnwoy" alt="drawing">
   <p>Like imagine you own an NFT on our chain, and you’ve got it listed for sale for 1 wrapped ETH. Wrapped ETH is gonna be worthless on our chain, so anybody can get your NFT for almost nothing.</p>
+</div>
+
+<div class="dialogue left">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeiai3i7qsdsc5hj47ajhpevwifnxowcd6idbdcwbnrznyqmn47zmjq" alt="drawing">
+  <p>Yeah. That's right. They're exposed.</p>
 </div>
 
 <div class="dialogue right">
@@ -627,7 +632,7 @@ Jack checks his phone.
 
 <div class="dialogue right">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihkf5xiyp3so7qfro3hdzhtewst3f3rw7jh25pcmyl55v5otnkmzy" alt="drawing">
-  <p>Well, we have all these sharks that are going to try to take advantage of the situation. What if we disallow trading in the pools for a short period? We can give the liquidity providers a chance to exit first. During the grace period, the sequencer will only accept requests to exit those liquidity pools.</p>
+  <p>Well, we have all these sharks that are going to try to drain the liquidity pools. What if we disallow any trading in these pools for a short period? We can give the liquidity providers a chance to exit first. During the grace period, the sequencer will only accept requests to exit those liquidity pools.</p>
 </div>
 
 <div class="dialogue left">
