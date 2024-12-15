@@ -107,7 +107,7 @@ date: 2024-12-11T15:34:30-04:00
 
 <div class="dialogue left">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeibiqluicewk6yyddl2qemscxo2zjhzpeeeorex77dhej5a3g727wa" alt="drawing">
-  <p>Fucking hell. I warned them about this bullshit. They're too careless. Did we post those transactions to the L1 yet?</p>
+  <p>Fucking hell. I warned the Jelly team about this bullshit. They're too careless. They have no reguard for security. Did we post those transactions to the L1 yet?</p>
 </div>
 
 <div class="dialogue right">
