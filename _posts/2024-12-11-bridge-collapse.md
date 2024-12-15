@@ -268,8 +268,12 @@ Jack checks his phone.
   <p>We don't have a minute. Now.</p>
 </div>
 
-There's a beep as Jack badges into the server room. His feet tump at sprint pace down the aisle of racks.
-
+<div style="border: 5px solid black; padding: 10px; display: inline-block; font-size: 0;">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihaf7oueyv3m2aye4zgglsdiktimlgucye55r3bejzbmylsvv6zme" alt="drawing" style="width: 33.33%; height: auto; font-size: initial;"/>
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeicml6tlh75w277y4q4qofvkmjgnbt3a7fkt2bkhzop7jex4inroha" alt="drawing" style="width: 33.33%; height: auto; font-size: initial;"/>
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeiahebqcn6fny5jvm77rdr6g4oxj5trgabkdv2k6pw4birhthazoo4" alt="drawing" style="width: 33.33%; height: auto; font-size: initial;"/>
+</div>
+<br />
 <div class="dialogue left">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeibiqluicewk6yyddl2qemscxo2zjhzpeeeorex77dhej5a3g727wa" alt="drawing">
   <p>Patrick. Time check.</p>
