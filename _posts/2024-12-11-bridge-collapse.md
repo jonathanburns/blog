@@ -173,14 +173,12 @@ date: 2024-12-11T15:34:30-04:00
 
 <div class="dialogue right">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihfgmywf6lpgx3k2p6j23qw636x3hg3jap2vwhufi4izyj3ifnwoy" alt="drawing">
-  <p>I’ve been trying to get in. I don’t have access. We built a lot of security guardrails on this machine. I need Jill to approve the SSH request. She's on vacation.</p>
+  <p>I'm trying. I don’t have access. There's a lot of security guardrails on this machine. I need Jill to approve the SSH request. She's on vacation.</p>
 </div>
-
-Borinski paces back and forth across the bedroom.
 
 <div class="dialogue left">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeibiqluicewk6yyddl2qemscxo2zjhzpeeeorex77dhej5a3g727wa" alt="drawing">
-  <p>Fuck. Patrick, how long do we have?</p>
+  <p>Gah. Are you kidding me? Patrick, how long do we have?</p>
 </div>
 
 <div class="dialogue right">
