@@ -37,7 +37,6 @@ date: 2024-12-11T15:34:30-04:00
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeiho7t3vxg3tgxruus2tq4nhlgnhnbi2gzwgwnkgumd2epdfrgx2yi" alt="drawing" style="width: 33.33%; height: auto; font-size: initial;"/>
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeidbppeqv7fbvifcvnebm6tq2g67jr3cctqczdzxveg3c727723kxi" alt="drawing" style="width: 33.33%; height: auto; font-size: initial;"/>
 </div>
-
 <br />
 
 <div class="dialogue left">
@@ -89,6 +88,13 @@ date: 2024-12-11T15:34:30-04:00
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeic77k6cvafrsz6k4fs3nsglq4klzwztyhf6v7bmwn6wxruc4kjx2e" alt="drawing">
   <p>We’re still analyzing. Two billion at least. Losses are still climbing.</p>
 </div>
+
+<div style="border: 5px solid black; padding: 10px; display: inline-block; font-size: 0;">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeiars3k7fv5weug2dk4ff2vri4j7fdkg45epmyvc53q7uxzdqyg4fi" alt="drawing" style="width: 33.33%; height: auto; font-size: initial;"/>
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeic46djruliudbbwmeokl46so6hfvtluu57zifk5rf36vw364qzky4" alt="drawing" style="width: 33.33%; height: auto; font-size: initial;"/>
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeih4y2cyakxcl427asambrgvyzztn55sbzfjuwx6rp23e7s4733gjq" alt="drawing" style="width: 33.33%; height: auto; font-size: initial;"/>
+</div>
+<br />
 
 <div class="dialogue left">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihtzeavzedqj6hfzcux4yvvkj4j5cveml3lodqankb2n2x2lv27my" alt="drawing">
