@@ -538,22 +538,27 @@ Jack checks his phone.
 
 <div class="dialogue right">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihfgmywf6lpgx3k2p6j23qw636x3hg3jap2vwhufi4izyj3ifnwoy" alt="drawing">
-  <p>Well, let’s say you own wrapped ETH. Your wrapped ETH is safe, because you can pull it out on the bridge fork.</p>
+  <p>Well, let’s say I own wrapped ETH. My wrapped ETH is safe, because I can pull it out on the bridge fork.</p>
 </div>
 
 <div class="dialogue right">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihkf5xiyp3so7qfro3hdzhtewst3f3rw7jh25pcmyl55v5otnkmzy" alt="drawing">
-  <p>But you also have wrapped ETH on our fork, right?</p>
+  <p>Right.</p>
 </div>
 
 <div class="dialogue right">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihfgmywf6lpgx3k2p6j23qw636x3hg3jap2vwhufi4izyj3ifnwoy" alt="drawing">
-  <p>Right. The wrapped ETH is worthless on our fork.</p>
+  <p>But I also have wrapped ETH on our fork, right?</p>
 </div>
 
 <div class="dialogue right">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihkf5xiyp3so7qfro3hdzhtewst3f3rw7jh25pcmyl55v5otnkmzy" alt="drawing">
-  <p>Yeah, but you can still use a DEX to swap the worthless wrapped eth for a native token.</p>
+  <p>Right. The wrapped ETH is worthless on our fork, but that's fine because you have it on the bridge fork.</p>
+</div>
+
+<div class="dialogue right">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihfgmywf6lpgx3k2p6j23qw636x3hg3jap2vwhufi4izyj3ifnwoy" alt="drawing">
+  <p>Yeah, but on our fork, I can still use a DEX to swap the worthless wrapped eth for a native token. Now I have the ETH from the bridge fork, and I also have native tokens from our fork.</p>
 </div>
 
 <div class="dialogue left">
