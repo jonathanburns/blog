@@ -558,7 +558,7 @@ Jack checks his phone.
 
 <div class="dialogue right">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihfgmywf6lpgx3k2p6j23qw636x3hg3jap2vwhufi4izyj3ifnwoy" alt="drawing">
-  <p>Yeah, but on our fork, I can still use a DEX to swap the worthless wrapped eth for a native token. Now I have the ETH from the bridge fork, and I also have native tokens from our fork.</p>
+  <p>Yeah, but on our fork, I can still use a DEX to swap the worthless wrapped eth for a native token. Now I have the ETH from the bridge fork, and I also have native tokens on our fork.</p>
 </div>
 
 <div class="dialogue left">
@@ -567,7 +567,7 @@ Jack checks his phone.
 </div>
 
 <div class="dialogue right">
-  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihfgmywf6lpgx3k2p6j23qw636x3hg3jap2vwhufi4izyj3ifnwoy" alt="drawing">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihkf5xiyp3so7qfro3hdzhtewst3f3rw7jh25pcmyl55v5otnkmzy" alt="drawing">
   <p>It’s not like everyone can just double their money though, right? Someone’s gotta hold the bag here.</p>
 </div>
 
@@ -577,12 +577,12 @@ Jack checks his phone.
 </div>
 
 <div class="dialogue right">
-  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihkf5xiyp3so7qfro3hdzhtewst3f3rw7jh25pcmyl55v5otnkmzy" alt="drawing">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihfgmywf6lpgx3k2p6j23qw636x3hg3jap2vwhufi4izyj3ifnwoy" alt="drawing">
   <p>Yes, but only if the trading pair is a native asset and a wrapped asset. If the assets are both native, or both wrapped, you should be fine. For pools that have one native asset and one wrapped asset, they're exposed on both forks. Each fork will have one useless asset in the pool.</p>
 </div>
 
 <div class="dialogue right">
-  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihfgmywf6lpgx3k2p6j23qw636x3hg3jap2vwhufi4izyj3ifnwoy" alt="drawing">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihkf5xiyp3so7qfro3hdzhtewst3f3rw7jh25pcmyl55v5otnkmzy" alt="drawing">
   <p>We can’t let that happen, right?</p>
 </div>
 
