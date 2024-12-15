@@ -203,8 +203,6 @@ Borinski paces back and forth across the bedroom.
   <p>Burn the whole building down. I don't care. Turn it off.</p>
 </div>
 
-https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeibw6psmb7opdcuejqv4c2fk2k74t737wpqklrc3726gnwlpmrg5cu
-
 <div style="border: 5px solid black; padding: 10px; display: inline-block; font-size: 0;">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihaf7oueyv3m2aye4zgglsdiktimlgucye55r3bejzbmylsvv6zme" alt="drawing" style="width: 33.33%; height: auto; font-size: initial;"/>
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeibw6psmb7opdcuejqv4c2fk2k74t737wpqklrc3726gnwlpmrg5cu" alt="drawing" style="width: 33.33%; height: auto; font-size: initial;"/>
@@ -219,7 +217,7 @@ https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeibw6psmb7opdcuejq
 
 <div class="dialogue left">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeibiqluicewk6yyddl2qemscxo2zjhzpeeeorex77dhej5a3g727wa" alt="drawing">
-  <p>Where's the damn data center rep? What do we fucking pay them for?</p>
+  <p>Where's the damn data center rep? The fuck do we pay them for?</p>
 </div>
 
 
