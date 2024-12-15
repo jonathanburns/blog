@@ -333,9 +333,15 @@ Jack checks his phone.
   <p>Hold on, I’m checking....</p>
 </div>
 
+<div style="border: 5px solid black; padding: 10px; display: inline-block; font-size: 0;">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeigmnh66lbi6fu7bqfbuyojbxikttjkes4vggijtpmuyn53ps4ujme" alt="drawing" style="width: 50%; height: auto; font-size: initial;"/>
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeiffnp4g2csy7r525gbgiocrwrefgckw5xhmzamqjn5gtw45tixrha" alt="drawing" style="width: 50%; height: auto; font-size: initial;"/>
+</div>
+<br />
+
 <div class="dialogue right">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihfgmywf6lpgx3k2p6j23qw636x3hg3jap2vwhufi4izyj3ifnwoy" alt="drawing">
-  <p>Hold on, I’m checking.... Oh fuck, it posted.</p>
+  <p>Oh fuck, it posted.</p>
 </div>
 
 <div class="dialogue left">
