@@ -366,6 +366,7 @@ Jack yanks the plug on the machine.
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeid4m6v2c7jkejvnh5sqhrdvzulyu75o3j24nxv3fclqbhlggyqecm" alt="drawing" style="width: 33.33%; height: auto; font-size: initial;"/>
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeigv7lz3auu3cugtar7c5titn5b6chxv6nvqujpfsg7w4yyruzosti" alt="drawing" style="width: 33.33%; height: auto; font-size: initial;"/>
 </div>
+<br />
 
 
 
