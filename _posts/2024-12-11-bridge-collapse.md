@@ -44,7 +44,7 @@ date: 2024-12-11T15:34:30-04:00
 </div>
 
 <div class="dialogue right">
-  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeic77k6cvafrsz6k4fs3nsglq4klzwztyhf6v7bmwn6wxruc4kjx2e" alt="drawing">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeih764zw7jpqrt45bxseb5pve46u2qjeumd44i4d2g3edkz62oojxq" alt="drawing">
   <p>Sir, we have a big problem.</p>
 </div>
 
@@ -54,7 +54,7 @@ date: 2024-12-11T15:34:30-04:00
 </div>
 
 <div class="dialogue right">
-  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeic77k6cvafrsz6k4fs3nsglq4klzwztyhf6v7bmwn6wxruc4kjx2e" alt="drawing">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeih764zw7jpqrt45bxseb5pve46u2qjeumd44i4d2g3edkz62oojxq" alt="drawing">
   <p>Jelly finance got hacked. There was a vulnerability in one of the contracts.</p>
 </div>
 
@@ -64,7 +64,7 @@ date: 2024-12-11T15:34:30-04:00
 </div>
 
 <div class="dialogue right">
-  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeic77k6cvafrsz6k4fs3nsglq4klzwztyhf6v7bmwn6wxruc4kjx2e" alt="drawing">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeih764zw7jpqrt45bxseb5pve46u2qjeumd44i4d2g3edkz62oojxq" alt="drawing">
   <p>It's the liquid staking.</p>
 </div>
 
@@ -74,7 +74,7 @@ date: 2024-12-11T15:34:30-04:00
 </div>
 
 <div class="dialogue right">
-  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeic77k6cvafrsz6k4fs3nsglq4klzwztyhf6v7bmwn6wxruc4kjx2e" alt="drawing">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeih764zw7jpqrt45bxseb5pve46u2qjeumd44i4d2g3edkz62oojxq" alt="drawing">
   <p>Started about 10 minutes ago. They’re still draining accounts. The Jelly team is trying to patch the contract, but they can't get the transactions to post. The attacker's still draining funds and everyone is trying to pull out. The chain is all bogged down.</p>
 </div>
 
@@ -84,7 +84,7 @@ date: 2024-12-11T15:34:30-04:00
 </div>
 
 <div class="dialogue right">
-  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeic77k6cvafrsz6k4fs3nsglq4klzwztyhf6v7bmwn6wxruc4kjx2e" alt="drawing">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeih764zw7jpqrt45bxseb5pve46u2qjeumd44i4d2g3edkz62oojxq" alt="drawing">
   <p>We’re still analyzing. Two billion at least. Losses are still climbing.</p>
 </div>
 
@@ -101,7 +101,7 @@ date: 2024-12-11T15:34:30-04:00
 </div>
 
 <div class="dialogue right">
-  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeic77k6cvafrsz6k4fs3nsglq4klzwztyhf6v7bmwn6wxruc4kjx2e" alt="drawing">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeih764zw7jpqrt45bxseb5pve46u2qjeumd44i4d2g3edkz62oojxq" alt="drawing">
   <p>30 billion.</p>
 </div>
 
@@ -111,7 +111,7 @@ date: 2024-12-11T15:34:30-04:00
 </div>
 
 <div class="dialogue right">
-  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeic77k6cvafrsz6k4fs3nsglq4klzwztyhf6v7bmwn6wxruc4kjx2e" alt="drawing">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeih764zw7jpqrt45bxseb5pve46u2qjeumd44i4d2g3edkz62oojxq" alt="drawing">
   <p>I don't know. Patrick, can you check on that?</p>
 </div>
 
@@ -126,7 +126,7 @@ date: 2024-12-11T15:34:30-04:00
 </div>
 
 <div class="dialogue right">
-  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeic77k6cvafrsz6k4fs3nsglq4klzwztyhf6v7bmwn6wxruc4kjx2e" alt="drawing">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeih764zw7jpqrt45bxseb5pve46u2qjeumd44i4d2g3edkz62oojxq" alt="drawing">
   <p>Shut it down? Are you... sure?</p>
 </div>
 
@@ -136,7 +136,7 @@ date: 2024-12-11T15:34:30-04:00
 </div>
 
 <div class="dialogue right">
-  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeic77k6cvafrsz6k4fs3nsglq4klzwztyhf6v7bmwn6wxruc4kjx2e" alt="drawing">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeih764zw7jpqrt45bxseb5pve46u2qjeumd44i4d2g3edkz62oojxq" alt="drawing">
   <p>Okay, it's just... X is gonna have a field day with this. They already give us hard time about the centralized sequencer. When they find out we intentionally shut it down...</p>
 </div>
 
@@ -146,7 +146,7 @@ date: 2024-12-11T15:34:30-04:00
 </div>
 
 <div class="dialogue right">
-  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeic77k6cvafrsz6k4fs3nsglq4klzwztyhf6v7bmwn6wxruc4kjx2e" alt="drawing">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeih764zw7jpqrt45bxseb5pve46u2qjeumd44i4d2g3edkz62oojxq" alt="drawing">
   <p>Roll back? You can’t be serious. What about the transactions that aren't involved in the hack?</p>
 </div>
 
@@ -156,7 +156,7 @@ date: 2024-12-11T15:34:30-04:00
 </div>
 
 <div class="dialogue right">
-  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeic77k6cvafrsz6k4fs3nsglq4klzwztyhf6v7bmwn6wxruc4kjx2e" alt="drawing">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeih764zw7jpqrt45bxseb5pve46u2qjeumd44i4d2g3edkz62oojxq" alt="drawing">
   <p>Well, technically, yeah, but we’ve never rolled back anything. Our users trust the preconfirmations. They don’t wait for the L1.</p>
 </div>
 
@@ -166,7 +166,7 @@ date: 2024-12-11T15:34:30-04:00
 </div>
 
 <div class="dialogue right">
-  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeic77k6cvafrsz6k4fs3nsglq4klzwztyhf6v7bmwn6wxruc4kjx2e" alt="drawing">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeih764zw7jpqrt45bxseb5pve46u2qjeumd44i4d2g3edkz62oojxq" alt="drawing">
   <p>Patrick, can you handle that?</p>
 </div>
 
@@ -191,7 +191,7 @@ date: 2024-12-11T15:34:30-04:00
 </div>
 
 <div class="dialogue right">
-  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeic77k6cvafrsz6k4fs3nsglq4klzwztyhf6v7bmwn6wxruc4kjx2e" alt="drawing">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeih764zw7jpqrt45bxseb5pve46u2qjeumd44i4d2g3edkz62oojxq" alt="drawing">
   <p>I'm paging the the data center now.</p>
 </div>
 
@@ -360,7 +360,7 @@ Jack checks his phone.
 </div>
 
 <div class="dialogue right">
-  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeic77k6cvafrsz6k4fs3nsglq4klzwztyhf6v7bmwn6wxruc4kjx2e" alt="drawing">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeih764zw7jpqrt45bxseb5pve46u2qjeumd44i4d2g3edkz62oojxq" alt="drawing">
   <p>We’ve got a calculation update on the losses. It’s north of 25 billion.</p>
 </div>
 
@@ -370,7 +370,7 @@ Jack checks his phone.
 </div>
 
 <div class="dialogue right">
-  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeic77k6cvafrsz6k4fs3nsglq4klzwztyhf6v7bmwn6wxruc4kjx2e" alt="drawing">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeih764zw7jpqrt45bxseb5pve46u2qjeumd44i4d2g3edkz62oojxq" alt="drawing">
   <p>X is blowing up. Everybody’s saying roll back.</p>
 </div>
 
@@ -385,7 +385,7 @@ Jack checks his phone.
 </div>
 
 <div class="dialogue right">
-  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeic77k6cvafrsz6k4fs3nsglq4klzwztyhf6v7bmwn6wxruc4kjx2e" alt="drawing">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeih764zw7jpqrt45bxseb5pve46u2qjeumd44i4d2g3edkz62oojxq" alt="drawing">
   <p>Let me see... Looks like about 4 billion.</p>
 </div>
 
@@ -434,7 +434,7 @@ Jack checks his phone.
 </div>
 
 <div class="dialogue right">
-  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeic77k6cvafrsz6k4fs3nsglq4klzwztyhf6v7bmwn6wxruc4kjx2e" alt="drawing">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeih764zw7jpqrt45bxseb5pve46u2qjeumd44i4d2g3edkz62oojxq" alt="drawing">
   <p>Fork away? What do you mean?</p>
 </div>
 
