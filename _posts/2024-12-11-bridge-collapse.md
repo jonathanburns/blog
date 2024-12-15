@@ -203,9 +203,11 @@ Borinski paces back and forth across the bedroom.
   <p>Burn the whole building down. I don't care. Turn it off.</p>
 </div>
 
+https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeibw6psmb7opdcuejqv4c2fk2k74t737wpqklrc3726gnwlpmrg5cu
+
 <div style="border: 5px solid black; padding: 10px; display: inline-block; font-size: 0;">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihaf7oueyv3m2aye4zgglsdiktimlgucye55r3bejzbmylsvv6zme" alt="drawing" style="width: 33.33%; height: auto; font-size: initial;"/>
-  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeiexpyutyabwn2gw3fyuncp2lpqnorqdp6d3oq6rs53lqei5nq4zvi" alt="drawing" style="width: 33.33%; height: auto; font-size: initial;"/>
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeibw6psmb7opdcuejqv4c2fk2k74t737wpqklrc3726gnwlpmrg5cu" alt="drawing" style="width: 33.33%; height: auto; font-size: initial;"/>
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeigsczf3oj6cqahlcxrjzd2wnhtxe6wxblfzbeu4pihwlezqaepetm" alt="drawing" style="width: 33.33%; height: auto; font-size: initial;"/>
 </div>
 <br />
