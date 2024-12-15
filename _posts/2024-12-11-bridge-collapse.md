@@ -41,7 +41,7 @@ date: 2024-12-11T15:34:30-04:00
 <br />
 
 <div class="dialogue left">
-  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihtzeavzedqj6hfzcux4yvvkj4j5cveml3lodqankb2n2x2lv27my" alt="drawing">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeigzswrj5syxmmwkvmgu26ns5inq3rk2fjcqjq2fd245haoqlahgrm" alt="drawing">
   <p>Borinkski. This better be important.</p>
 </div>
 
@@ -51,7 +51,7 @@ date: 2024-12-11T15:34:30-04:00
 </div>
 
 <div class="dialogue left">
-  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihtzeavzedqj6hfzcux4yvvkj4j5cveml3lodqankb2n2x2lv27my" alt="drawing">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeigzswrj5syxmmwkvmgu26ns5inq3rk2fjcqjq2fd245haoqlahgrm" alt="drawing">
   <p>Okay. We’ll get on with it.</p>
 </div>
 
@@ -71,7 +71,7 @@ date: 2024-12-11T15:34:30-04:00
 </div>
 
 <div class="dialogue left">
-  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihtzeavzedqj6hfzcux4yvvkj4j5cveml3lodqankb2n2x2lv27my" alt="drawing">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeia3bqebqpj36dlabpa4gatep5rkozwhlgsjdoiufqa7hypsnxzsea" alt="drawing">
   <p>Shit. When?</p>
 </div>
 
