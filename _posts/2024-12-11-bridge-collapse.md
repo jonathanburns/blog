@@ -553,12 +553,12 @@ Jack checks his phone.
 
 <div class="dialogue right">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihkf5xiyp3so7qfro3hdzhtewst3f3rw7jh25pcmyl55v5otnkmzy" alt="drawing">
-  <p>Right. The wrapped ETH is worthless on our fork, but that's fine because you have it on the bridge fork.</p>
+  <p>Right. The wrapped ETH is worthless on our fork, but that's fine because you'll have it on the bridge fork.</p>
 </div>
 
 <div class="dialogue right">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihfgmywf6lpgx3k2p6j23qw636x3hg3jap2vwhufi4izyj3ifnwoy" alt="drawing">
-  <p>Yeah, but on our fork, I can still use a DEX to swap the worthless wrapped eth for a native token. Now I have the ETH from the bridge fork, and I also have native tokens on our fork.</p>
+  <p>Yeah, but then on our fork, I can still use a DEX to swap the worthless wrapped eth for a native token. Now I have the ETH from the bridge fork, and I also have native tokens on our fork.</p>
 </div>
 
 <div class="dialogue left">
@@ -578,7 +578,7 @@ Jack checks his phone.
 
 <div class="dialogue right">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihfgmywf6lpgx3k2p6j23qw636x3hg3jap2vwhufi4izyj3ifnwoy" alt="drawing">
-  <p>Yes, but only if the trading pair is a native asset and a wrapped asset. If the assets are both native, or both wrapped, you should be fine. For pools that have one native asset and one wrapped asset, they're exposed on both forks. Each fork will have one useless asset in the pool.</p>
+  <p>Yes, but only if the trading pair is a native asset and a wrapped asset. If the assets in the pool are both native, or both wrapped, you should be fine. For pools that have one native asset and one wrapped asset, they're exposed on both forks. Each fork will have one useless asset in the pool.</p>
 </div>
 
 <div class="dialogue right">
@@ -592,16 +592,16 @@ Jack checks his phone.
 </div>
 
 <div class="dialogue right">
-  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihkf5xiyp3so7qfro3hdzhtewst3f3rw7jh25pcmyl55v5otnkmzy" alt="drawing">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihfgmywf6lpgx3k2p6j23qw636x3hg3jap2vwhufi4izyj3ifnwoy" alt="drawing">
   <p>It's gonna be hard to get the transactions through. There’s going to be a frenzy of activity when we turn on the sequencer. Tons of congestion as people clamor to capitalize on the situation. The sharks are gonna take out massive loans and swap out worthless tokens for valuable ones. Those pools will be drained in minutes.</p>
 </div>
 
 <div class="dialogue right">
-  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihkf5xiyp3so7qfro3hdzhtewst3f3rw7jh25pcmyl55v5otnkmzy" alt="drawing">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihfgmywf6lpgx3k2p6j23qw636x3hg3jap2vwhufi4izyj3ifnwoy" alt="drawing">
 </div>
 
 <div class="dialogue right">
-  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihkf5xiyp3so7qfro3hdzhtewst3f3rw7jh25pcmyl55v5otnkmzy" alt="drawing">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihfgmywf6lpgx3k2p6j23qw636x3hg3jap2vwhufi4izyj3ifnwoy" alt="drawing">
   <p>It’s not just the liquidity pools, either. Any contract that lets you swap native tokens and wrapped tokens is exposed.</p>
 </div>
 
@@ -611,25 +611,40 @@ Jack checks his phone.
 </div>
 
 <div class="dialogue right">
-  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihkf5xiyp3so7qfro3hdzhtewst3f3rw7jh25pcmyl55v5otnkmzy" alt="drawing">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihfgmywf6lpgx3k2p6j23qw636x3hg3jap2vwhufi4izyj3ifnwoy" alt="drawing">
   <p>Like imagine you own an NFT on our chain, and you’ve got it listed for sale for 1 wrapped ETH. Wrapped ETH is gonna be worthless on our chain, so anybody can get your NFT for almost nothing.</p>
 </div>
 
+<div class="dialogue right">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihkf5xiyp3so7qfro3hdzhtewst3f3rw7jh25pcmyl55v5otnkmzy" alt="drawing">
+  <p>I have an idea. What if we give all these exposed people a chance to get out?</p>
+</div>
 
+<div class="dialogue left">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeiai3i7qsdsc5hj47ajhpevwifnxowcd6idbdcwbnrznyqmn47zmjq" alt="drawing">
+  <p>How?</p>
+</div>
 
-What if we give all these exposed people a chance to get out?
+<div class="dialogue right">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihkf5xiyp3so7qfro3hdzhtewst3f3rw7jh25pcmyl55v5otnkmzy" alt="drawing">
+  <p>Well, we have all these sharks that are going to try to take advantage of the situation. What if we disallow trading in the pools for a short period? We can give the liquidity providers a chance to exit first. During the grace period, the sequencer will only accept requests to exit those liquidity pools.</p>
+</div>
 
-How?
+<div class="dialogue left">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeiai3i7qsdsc5hj47ajhpevwifnxowcd6idbdcwbnrznyqmn47zmjq" alt="drawing">
+  <p>It’s a good idea. Ethically, it's the right thing to do, but we can’t do it.</p>
+</div>
 
-Well we have all these people that are going to try to take advantage of the situation. What if we ignore those transactions? We can give the liquidity providers a grace period to get out. For a short period, the sequencer will only accept requests to exit those liquidity pools. 
+<div class="dialogue right">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihkf5xiyp3so7qfro3hdzhtewst3f3rw7jh25pcmyl55v5otnkmzy" alt="drawing">
+  <p>Why?</p>
+</div>
 
-It’s a good idea.
+<div class="dialogue left">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeiai3i7qsdsc5hj47ajhpevwifnxowcd6idbdcwbnrznyqmn47zmjq" alt="drawing">
+  <p>Because what you’re talking about is censorship. Once we censor transactions, we will lose all trust from our users.</p>
+</div>
 
-It’s probably the ethical thing to do, but we can’t do it.
-
-Why?
-
-Because what you’re talking about is censorship. If we censor transactions, we will lose all trust from our users.
 
 
 
