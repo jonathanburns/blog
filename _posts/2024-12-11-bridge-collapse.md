@@ -473,12 +473,12 @@ Jack checks his phone.
 
 <div class="dialogue right">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihkf5xiyp3so7qfro3hdzhtewst3f3rw7jh25pcmyl55v5otnkmzy" alt="drawing">
-  <p>I’m still confused. There’s a bunch of ethereum locked in the bridge contract, right? If our fork isn’t connected to the bridge, how will people get their ethereum out?</p>
+  <p>I’m still confused. There’s a bunch of ethereum locked in the bridge contract, right? If our fork isn’t connected to the bridge, how will people get their ETH out?</p>
 </div>
 
 <div class="dialogue left">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeiai3i7qsdsc5hj47ajhpevwifnxowcd6idbdcwbnrznyqmn47zmjq" alt="drawing">
-  <p>The users will have wrapped eth on both forks. They can use the fork that is connected to the bridge to pull out their ETH on the L1.</p>
+  <p>The users will have wrapped ETH on both forks. They can use the fork that is connected to the bridge to redeem their ETH on the L1.</p>
 </div>
 
 <div class="dialogue right">
@@ -493,12 +493,12 @@ Jack checks his phone.
 
 <div class="dialogue right">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihkf5xiyp3so7qfro3hdzhtewst3f3rw7jh25pcmyl55v5otnkmzy" alt="drawing">
-  <p>If our whole fork is worthless, why are we doing this?</p>
+  <p>If our whole fork has no value, why are we doing this?</p>
 </div>
 
 <div class="dialogue left">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeiai3i7qsdsc5hj47ajhpevwifnxowcd6idbdcwbnrznyqmn47zmjq" alt="drawing">
-  <p>Only the wrapped tokens are worthless. The ones locked in the bridge. The bridged tokens live on Ethereum, and so they have no value if you can’t redeem them on the L1. Everything else... Our native token, our NFTs, our ERC20 tokens... Those tokens live on our chain.</p>
+  <p>Not all the tokens on our fork are worthless. It's only the wrapped ones - The tokens locked in the bridge. The bridged tokens live on Ethereum, and so they have no value if you can’t redeem them on the L1. Those tokens will only have value on the bridge fork. Everything else... Our native token, our NFTs, our ERC20 tokens... Those tokens live on our chain. They will only have value on our fork.</p>
 </div>
 
 <div class="dialogue right">
