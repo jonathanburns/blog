@@ -308,7 +308,7 @@ Jack checks his phone.
 <br />
 
 <div class="dialogue right">
-  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeiaymhsntltlmxgttwvhqxd7ggtsayrh32b5krixotkqxygc6vroma" alt="drawing">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeica5rr54k5vedjpd7ys2r2dijwdchshte2tloxkv6nwv77tewsahq" alt="drawing">
   <p>Yeah. I got it.</p>
 </div>
 
