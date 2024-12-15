@@ -71,7 +71,7 @@ date: 2024-12-11T15:34:30-04:00
 </div>
 
 <div class="dialogue left">
-  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeia3bqebqpj36dlabpa4gatep5rkozwhlgsjdoiufqa7hypsnxzsea" alt="drawing">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeigfybk5smxqpawbodefvzuu34aflabnoqdmfj5fafbjifyj4oc3ta" alt="drawing">
   <p>Shit. When?</p>
 </div>
 
