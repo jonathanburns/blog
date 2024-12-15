@@ -97,7 +97,7 @@ date: 2024-12-11T15:34:30-04:00
 <br />
 
 <div class="dialogue left">
-  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihtzeavzedqj6hfzcux4yvvkj4j5cveml3lodqankb2n2x2lv27my" alt="drawing">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeibiqluicewk6yyddl2qemscxo2zjhzpeeeorex77dhej5a3g727wa" alt="drawing">
   <p>Give me an upper bound. What’s the TVL in those contracts?</p>
 </div>
 
@@ -107,7 +107,7 @@ date: 2024-12-11T15:34:30-04:00
 </div>
 
 <div class="dialogue left">
-  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihtzeavzedqj6hfzcux4yvvkj4j5cveml3lodqankb2n2x2lv27my" alt="drawing">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeibiqluicewk6yyddl2qemscxo2zjhzpeeeorex77dhej5a3g727wa" alt="drawing">
   <p>Fucking hell. I warned them about this bullshit. Did we post the update on the L1 yet?</p>
 </div>
 
@@ -122,7 +122,7 @@ date: 2024-12-11T15:34:30-04:00
 </div>
 
 <div class="dialogue left">
-  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihtzeavzedqj6hfzcux4yvvkj4j5cveml3lodqankb2n2x2lv27my" alt="drawing">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeibiqluicewk6yyddl2qemscxo2zjhzpeeeorex77dhej5a3g727wa" alt="drawing">
   <p>Shut it down. Shut down the sequencer.</p>
 </div>
 
@@ -132,7 +132,7 @@ date: 2024-12-11T15:34:30-04:00
 </div>
 
 <div class="dialogue left">
-  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihtzeavzedqj6hfzcux4yvvkj4j5cveml3lodqankb2n2x2lv27my" alt="drawing">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeibiqluicewk6yyddl2qemscxo2zjhzpeeeorex77dhej5a3g727wa" alt="drawing">
   <p>Shut it down.</p>
 </div>
 
@@ -142,7 +142,7 @@ date: 2024-12-11T15:34:30-04:00
 </div>
 
 <div class="dialogue left">
-  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihtzeavzedqj6hfzcux4yvvkj4j5cveml3lodqankb2n2x2lv27my" alt="drawing">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeibiqluicewk6yyddl2qemscxo2zjhzpeeeorex77dhej5a3g727wa" alt="drawing">
   <p>That's the least of our worries. If those transactions post, we can’t roll back anymore. We need to keep our options open. Shut it down.</p>
 </div>
 
@@ -152,7 +152,7 @@ date: 2024-12-11T15:34:30-04:00
 </div>
 
 <div class="dialogue left">
-  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihtzeavzedqj6hfzcux4yvvkj4j5cveml3lodqankb2n2x2lv27my" alt="drawing">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeibiqluicewk6yyddl2qemscxo2zjhzpeeeorex77dhej5a3g727wa" alt="drawing">
   <p>They haven’t posted to the L1. They’re not finalized.</p>
 </div>
 
