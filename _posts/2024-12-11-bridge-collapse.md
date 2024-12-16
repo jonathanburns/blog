@@ -601,12 +601,12 @@ date: 2024-12-11T15:34:30-04:00
 
 <div class="dialogue left">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeiai3i7qsdsc5hj47ajhpevwifnxowcd6idbdcwbnrznyqmn47zmjq" alt="drawing">
-  <p>Like I said, there's nothing we can do to stop this fork. Theres 25 billion dollars in the hack, and there's only 4 billion L1 assets locked in the bridge. Most of that 4 billion is safe. It's just the portion in these pools that is at risk. This fork is happening. If I were a liquidity provider, I would exit these pools as quickly as possible.</p>
+  <p>Listen. Like I said before, there's nothing we can do to stop this fork. Theres 25 billion dollars in the hack, and there's only 4 billion L1 assets locked in the bridge. Most of that 4 billion is safe. There's nothing we can do about the assets in these pools. This fork is happening. If I were a liquidity provider, I would exit these pools as quickly as possible.</p>
 </div>
 
 <div class="dialogue right">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihfgmywf6lpgx3k2p6j23qw636x3hg3jap2vwhufi4izyj3ifnwoy" alt="drawing">
-  <p>Even if they want to get out, it's gonna be hard to get the transactions through. There’s going to be a frenzy of activity when we turn on the sequencers. The congestion will be insane. The sharks are gonna take out massive loans to drain the pools. Those pools will be empty in minutes. I have half a mind to drain 'em myself, if <i>someone's</i> gonna exploit this anyway, might as well be us.</p>
+  <p>Even if they want to get out, it's gonna be hard to get the transactions through. There’s going to be a frenzy of activity when we turn on the sequencers. The congestion will be insane. The sharks will take loans just to to drain these pools. They'll be empty in minutes. I have half a mind to drain 'em myself, if <i>someone's</i> gonna exploit this anyway, might as well be us.</p>
 </div>
 
 <div class="dialogue left">
