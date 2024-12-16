@@ -50,7 +50,7 @@ date: 2024-12-11T15:34:30-04:00
 
 <div class="dialogue left">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeigzswrj5syxmmwkvmgu26ns5inq3rk2fjcqjq2fd245haoqlahgrm" alt="drawing">
-  <p>Okay. We’ll get on with it.</p>
+  <p>Okay. Well get on with it.</p>
 </div>
 
 <div class="dialogue right">
@@ -451,7 +451,7 @@ date: 2024-12-11T15:34:30-04:00
 
 <div class="dialogue left">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeiai3i7qsdsc5hj47ajhpevwifnxowcd6idbdcwbnrznyqmn47zmjq" alt="drawing">
-  <p>I know what’s in the whitepaper, Judith — I wrote it. But isn’t up to us. We’re a decentralized blockchain. The social consensus gets to decide this. We’re going to have to launch two sequencers. One sequencer will have the rollback, and one won’t. Social consensus will determine which chain is canonical. Based on the losses we’re looking at, we can assume rollback fork is going to preserve here.</p>
+  <p>I know what’s in the whitepaper, Judith — I wrote it. But isn’t up to us. We’re a decentralized blockchain. The social consensus gets to decide this. We’re going to have to launch two sequencers. One sequencer will have the rollback, and one won’t. Social consensus will determine which chain is canonical. Based on the losses we’re looking at, we can expect the rollback fork to become canonical.</p>
 </div>
 
 <div class="dialogue right">
@@ -486,7 +486,7 @@ date: 2024-12-11T15:34:30-04:00
 
 <div class="dialogue right">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihkf5xiyp3so7qfro3hdzhtewst3f3rw7jh25pcmyl55v5otnkmzy" alt="drawing">
-  <p>So what about the wrapped ETH that’s on our fork?</p>
+  <p>So what about the wrapped ETH on our fork?</p>
 </div>
 
 <div class="dialogue left">
@@ -496,12 +496,12 @@ date: 2024-12-11T15:34:30-04:00
 
 <div class="dialogue right">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihkf5xiyp3so7qfro3hdzhtewst3f3rw7jh25pcmyl55v5otnkmzy" alt="drawing">
-  <p>If the tokens on our fork has no value, why are we doing this?</p>
+  <p>If the tokens on our fork have no value, why are we doing this?</p>
 </div>
 
 <div class="dialogue left">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeiai3i7qsdsc5hj47ajhpevwifnxowcd6idbdcwbnrznyqmn47zmjq" alt="drawing">
-  <p>Not <i>all</i> the tokens on our fork are worthless. It's only the wrapped ones - The tokens locked in the bridge. The bridged tokens live on Ethereum, and so they have no value if you can’t redeem them on the L1. Those tokens will only have value on the bridge fork. All the other tokens — Our native token, our NFTs, our ERC20 tokens... Those tokens live on our chain. They will only have value on our fork.</p>
+  <p>Not <i>all</i> the tokens on our fork are worthless. This only applies to the <i>wrapped</i> tokens — The ones locked in the bridge. Those bridged tokens live on Ethereum, and so they have no value if you can’t redeem them on the L1. Those tokens will only have value on the bridge fork. All the other tokens — Our native token, our NFTs, our ERC20 tokens... Those tokens live on our chain. They will only have value on our fork.</p>
 </div>
 
 <div class="dialogue right">
