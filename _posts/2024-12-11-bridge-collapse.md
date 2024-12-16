@@ -486,7 +486,7 @@ date: 2024-12-11T15:34:30-04:00
 
 <div class="dialogue right">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihkf5xiyp3so7qfro3hdzhtewst3f3rw7jh25pcmyl55v5otnkmzy" alt="drawing">
-  <p>So what about the wrapped ETH on our fork?</p>
+  <p>So what about the wrapped ETH on <i>our</i> fork?</p>
 </div>
 
 <div class="dialogue left">
@@ -501,27 +501,27 @@ date: 2024-12-11T15:34:30-04:00
 
 <div class="dialogue left">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeiai3i7qsdsc5hj47ajhpevwifnxowcd6idbdcwbnrznyqmn47zmjq" alt="drawing">
-  <p>Not <i>all</i> the tokens on our fork are worthless. This only applies to the <i>wrapped</i> tokens — The ones locked in the bridge. Those bridged tokens live on Ethereum, and so they have no value if you can’t redeem them on the L1. Those tokens will only have value on the bridge fork. All the other tokens — Our native token, our NFTs, our ERC20 tokens... Those tokens live on our chain. They will only have value on our fork.</p>
+  <p>Not <i>all</i> the tokens on our fork are worthless. This only applies to the <i>wrapped</i> tokens — The ones locked in the bridge. Those bridged tokens live on Ethereum, and so they have no value if you can’t redeem them on the L1. All the other tokens — Our native token, our NFTs, our ERC20 tokens... Those tokens live on our chain. They will only have value on <i>our</i> fork.</p>
 </div>
 
 <div class="dialogue right">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihkf5xiyp3so7qfro3hdzhtewst3f3rw7jh25pcmyl55v5otnkmzy" alt="drawing">
-  <p>Those tokens will be on both forks, right?</p>
+  <p>But all the tokens will exist on both forks, right?</p>
 </div>
 
 <div class="dialogue left">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeiai3i7qsdsc5hj47ajhpevwifnxowcd6idbdcwbnrznyqmn47zmjq" alt="drawing">
-  <p>Right, but our <i>native</i> tokens will have no value on the bridge fork, because the source of truth for those tokens will be our fork, the one with the rollback. Those assets will be worthless on the bridge fork.</p>
+  <p>Right. All the tokens will exist on both forks, but the wrapped tokens will have no value on our fork, and our native tokens will have no value on the bridge fork.</p>
 </div>
 
 <div class="dialogue right">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihkf5xiyp3so7qfro3hdzhtewst3f3rw7jh25pcmyl55v5otnkmzy" alt="drawing">
-  <p>I’m trying to wrap my head around this... you’re saying that <i>all</i> the tokens will exist in both forks, but for the wrapped assets, those will only have value on the bridge fork, and for the native assets, they’ll only have value on our fork?</p>
+  <p>I’m trying to wrap my head around this... You’re saying that <i>all</i> the tokens will exist in both forks, but each token will only have value on a single fork.</p>
 </div>
 
 <div class="dialogue left">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeiai3i7qsdsc5hj47ajhpevwifnxowcd6idbdcwbnrznyqmn47zmjq" alt="drawing">
-  <p>Right. All the tokens will have value on one fork or the other.</p>
+  <p>Right.</p>
 </div>
 
 <div class="dialogue right">
