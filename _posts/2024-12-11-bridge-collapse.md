@@ -631,7 +631,7 @@ date: 2024-12-11T15:34:30-04:00
 
 <div class="dialogue left">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeiai3i7qsdsc5hj47ajhpevwifnxowcd6idbdcwbnrznyqmn47zmjq" alt="drawing">
-  <p>Yeah. That's right. They're exposed as well. That's a much smaller market though. The liquidity pools will have it the worst.</p>
+  <p>Yeah. That's right. They're exposed as well. That's a much smaller market though, compared to the liquidity pools.</p>
 </div>
 
 <div class="dialogue right">
