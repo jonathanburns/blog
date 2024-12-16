@@ -616,7 +616,7 @@ date: 2024-12-11T15:34:30-04:00
 
 <div class="dialogue right">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihfgmywf6lpgx3k2p6j23qw636x3hg3jap2vwhufi4izyj3ifnwoy" alt="drawing">
-  <p>Even if they want to get out, it's gonna be hard to get the transactions through. There’s going to be a frenzy of activity when we turn on the sequencers. The congestion will be insane. The sharks are gonna take out massive loans to drain the pools. Those pools will be empty in minutes. I have half a mind to drain 'em myself, if <i>someone's</i> gonna do it anyway, might as well be us.</p>
+  <p>Even if they want to get out, it's gonna be hard to get the transactions through. There’s going to be a frenzy of activity when we turn on the sequencers. The congestion will be insane. The sharks are gonna take out massive loans to drain the pools. Those pools will be empty in minutes. I have half a mind to drain 'em myself, if <i>someone's</i> gonna exploit this anyway, might as well be us.</p>
 </div>
 
 <div class="dialogue left">
