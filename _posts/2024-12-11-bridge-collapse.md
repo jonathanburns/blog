@@ -615,12 +615,12 @@ date: 2024-12-11T15:34:30-04:00
 
 <div class="dialogue right">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihfgmywf6lpgx3k2p6j23qw636x3hg3jap2vwhufi4izyj3ifnwoy" alt="drawing">
-  <p>Like imagine you have an NFT listed for sale for 1 wrapped ETH. The NFT lives on our fork, but the wrapped ETH is worthless on that fork, so anybody can get your NFT for almost nothing.</p>
+  <p>Like imagine you have an NFT listed for sale for 1 wrapped ETH. That NFT will live on our fork, but the wrapped ETH is worthless there, so anybody can buy your NFT for almost nothing.</p>
 </div>
 
 <div class="dialogue left">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeiai3i7qsdsc5hj47ajhpevwifnxowcd6idbdcwbnrznyqmn47zmjq" alt="drawing">
-  <p>Yeah. That's right. They're exposed as well.</p>
+  <p>Yeah. That's right. They're exposed as well. That's a much smaller market though. The liquidity pools will have it the worst.</p>
 </div>
 
 <div class="dialogue right">
