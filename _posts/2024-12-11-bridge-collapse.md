@@ -456,12 +456,22 @@ date: 2024-12-11T15:34:30-04:00
 
 <div class="dialogue right">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihkf5xiyp3so7qfro3hdzhtewst3f3rw7jh25pcmyl55v5otnkmzy" alt="drawing">
+  <p>Sounds to me like you're deciding.</p>
+</div>
+
+<div class="dialogue left">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeiai3i7qsdsc5hj47ajhpevwifnxowcd6idbdcwbnrznyqmn47zmjq" alt="drawing">
+  <p>I'm not. We’re going to launch two sequencers. One sequencer will have the rollback, and one won’t. Social consensus will determine which chain is canonical. Based on the losses we’re looking at, we can expect the rollback fork to become canonical.</p>
+</div>
+
+<div class="dialogue right">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihkf5xiyp3so7qfro3hdzhtewst3f3rw7jh25pcmyl55v5otnkmzy" alt="drawing">
   <p>How do you know?</p>
 </div>
 
 <div class="dialogue left">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeiai3i7qsdsc5hj47ajhpevwifnxowcd6idbdcwbnrznyqmn47zmjq" alt="drawing">
-  <p>Because it's happened before. In 2016, there was a hack on ethereum and the chain rolled back.</p>
+  <p>Because it's happened before. In 2016, there was a hack on ethereum and the chain rolled back. Our losses are bigger than that. We lost almost 20% of the chain.</p>
 </div>
 
 <div class="dialogue right">
@@ -601,7 +611,7 @@ date: 2024-12-11T15:34:30-04:00
 
 <div class="dialogue left">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeiai3i7qsdsc5hj47ajhpevwifnxowcd6idbdcwbnrznyqmn47zmjq" alt="drawing">
-  <p>Like I said, there's nothing we can do to stop this fork. Theres 25 billion dollars in the hack, and there's only 4 billion L1 assets locked in the bridge. The fork is happening. If I were a liquidity provider, I would exit these pools as quickly as possible.</p>
+  <p>Like I said, there's nothing we can do to stop this fork. Theres 25 billion dollars in the hack, and there's only 4 billion L1 assets locked in the bridge. Most of that 4 billion is safe. It's just the portion in these pools that is at risk. This fork is happening. If I were a liquidity provider, I would exit these pools as quickly as possible.</p>
 </div>
 
 <div class="dialogue right">
