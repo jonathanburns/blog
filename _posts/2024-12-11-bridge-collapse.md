@@ -615,7 +615,7 @@ date: 2024-12-11T15:34:30-04:00
 
 <div class="dialogue right">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihfgmywf6lpgx3k2p6j23qw636x3hg3jap2vwhufi4izyj3ifnwoy" alt="drawing">
-  <p>Like imagine you own an NFT on our chain, and you’ve got it listed for sale for 1 wrapped ETH. Wrapped ETH is gonna be worthless on our chain, so anybody can get your NFT for almost nothing.</p>
+  <p>Like imagine you have an NFT listed for sale for 1 wrapped ETH. The NFT lives on our fork, but the wrapped ETH is worthless on that fork, so anybody can get your NFT for almost nothing.</p>
 </div>
 
 <div class="dialogue left">
