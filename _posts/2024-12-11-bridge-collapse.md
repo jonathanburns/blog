@@ -476,7 +476,7 @@ date: 2024-12-11T15:34:30-04:00
 
 <div class="dialogue right">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihkf5xiyp3so7qfro3hdzhtewst3f3rw7jh25pcmyl55v5otnkmzy" alt="drawing">
-  <p>I’m still confused. There’s a bunch of ethereum locked in the bridge contract, right? If our fork isn’t connected to the bridge, how will people get their ETH out?</p>
+  <p>I’m still confused. There’s a bunch of ETH locked in the bridge contract, right? If our fork isn’t connected to the bridge, how will people get their ETH out?</p>
 </div>
 
 <div class="dialogue left">
@@ -521,7 +521,7 @@ date: 2024-12-11T15:34:30-04:00
 
 <div class="dialogue left">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeiai3i7qsdsc5hj47ajhpevwifnxowcd6idbdcwbnrznyqmn47zmjq" alt="drawing">
-  <p>Right. They can't hold their value in both places.</p>
+  <p>Right. The tokens can't hold their value on both forks.</p>
 </div>
 
 <div class="dialogue right">
