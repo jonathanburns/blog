@@ -451,7 +451,7 @@ date: 2024-12-11T15:34:30-04:00
 
 <div class="dialogue left">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeiai3i7qsdsc5hj47ajhpevwifnxowcd6idbdcwbnrznyqmn47zmjq" alt="drawing">
-  <p>I know what’s in the whitepaper, Judith — I wrote it. But isn’t up to us. We’re a decentralized blockchain. The social consensus gets to decide this. We’re going to have to launch two sequencers. One sequencer will have the rollback, and one won’t. Social consensus will determine which chain is canonical. Based on the losses we’re looking at, we can expect the rollback fork to become canonical.</p>
+  <p>I know what’s in the whitepaper, Judith — I wrote it. But this isn’t up to us. We’re a decentralized blockchain. The social consensus gets to decide this.</p>
 </div>
 
 <div class="dialogue right">
@@ -461,7 +461,7 @@ date: 2024-12-11T15:34:30-04:00
 
 <div class="dialogue left">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeiai3i7qsdsc5hj47ajhpevwifnxowcd6idbdcwbnrznyqmn47zmjq" alt="drawing">
-  <p>I'm not. We’re going to launch two sequencers. One sequencer will have the rollback, and one won’t. Social consensus will determine which chain is canonical. Based on the losses we’re looking at, we can expect the rollback fork to become canonical.</p>
+  <p>I'm not. We’re going to launch two sequencers. One sequencer will have the rollback, and one won’t. Social consensus will determine which chain is canonical. Based on the losses we’re looking at, I'm certain the rollback fork is going to win.</p>
 </div>
 
 <div class="dialogue right">
