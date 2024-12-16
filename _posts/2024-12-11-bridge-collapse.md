@@ -591,7 +591,17 @@ date: 2024-12-11T15:34:30-04:00
 
 <div class="dialogue left">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeiai3i7qsdsc5hj47ajhpevwifnxowcd6idbdcwbnrznyqmn47zmjq" alt="drawing">
-  <p>There’s nothing we can do about it. This is the risk you take when you provide liquidity. If I were a liquidity provider, I would exit these pools as quickly as possible.</p>
+  <p>There’s nothing we can do about it. This is the risk you take when you provide liquidity.</p>
+</div>
+
+<div class="dialogue right">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihkf5xiyp3so7qfro3hdzhtewst3f3rw7jh25pcmyl55v5otnkmzy" alt="drawing">
+  <p>You're saying they signed up for this?! We told them we wouldn't fork from the L1. We said it was impossible!</p>
+</div>
+
+<div class="dialogue left">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeiai3i7qsdsc5hj47ajhpevwifnxowcd6idbdcwbnrznyqmn47zmjq" alt="drawing">
+  <p>Like I said, there's nothing we can do to stop this fork. Theres 25 billion dollars in the hack, and there's only 4 billion L1 assets locked in the bridge. If I were a liquidity provider, I would exit these pools as quickly as possible.</p>
 </div>
 
 <div class="dialogue right">
@@ -653,6 +663,10 @@ date: 2024-12-11T15:34:30-04:00
   <p>Because what you’re talking about is censorship. Once we censor transactions, we will lose all trust from our users.</p>
 </div>
 
+<div class="dialogue left">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeiai3i7qsdsc5hj47ajhpevwifnxowcd6idbdcwbnrznyqmn47zmjq" alt="drawing">
+  <p>Because what you’re talking about is censorship. Once we censor transactions, we will lose all trust from our users.</p>
+</div>
 
 
 
