@@ -596,7 +596,7 @@ date: 2024-12-11T15:34:30-04:00
 
 <div class="dialogue right">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihkf5xiyp3so7qfro3hdzhtewst3f3rw7jh25pcmyl55v5otnkmzy" alt="drawing">
-  <p>You're saying they signed up for this?! We told them we'd diverge from the L1. We said it was impossible!</p>
+  <p>You're saying they signed up for this?! We told them we were part of Ethereum. We said this was impossible!</p>
 </div>
 
 <div class="dialogue left">
