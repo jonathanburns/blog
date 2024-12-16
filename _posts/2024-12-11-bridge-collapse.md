@@ -501,7 +501,7 @@ date: 2024-12-11T15:34:30-04:00
 
 <div class="dialogue left">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeiai3i7qsdsc5hj47ajhpevwifnxowcd6idbdcwbnrznyqmn47zmjq" alt="drawing">
-  <p>Not <i>all</i> the tokens on our fork are worthless. This only applies to the <i>wrapped</i> tokens — The ones locked in the bridge. Those bridged tokens live on Ethereum, and so they have no value if you can’t redeem them on the L1. All the other tokens — Our native token, our NFTs, our ERC20 tokens... Those tokens live on our chain. They will only have value on <i>our</i> fork.</p>
+  <p>Not <i>all</i> the tokens on our fork are worthless. This only applies to the <i>wrapped</i> tokens — The L1 tokens locked in the bridge. Those bridged tokens live on Ethereum, and so they have no value if you can’t redeem them on the L1. All the other tokens — Our native token, our NFTs, our ERC20 tokens... Those tokens live on our chain. They will only have value on <i>our</i> fork.</p>
 </div>
 
 <div class="dialogue right">
@@ -521,7 +521,7 @@ date: 2024-12-11T15:34:30-04:00
 
 <div class="dialogue left">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeiai3i7qsdsc5hj47ajhpevwifnxowcd6idbdcwbnrznyqmn47zmjq" alt="drawing">
-  <p>Right.</p>
+  <p>Right. They can't hold their value in both places.</p>
 </div>
 
 <div class="dialogue right">
@@ -561,7 +561,7 @@ date: 2024-12-11T15:34:30-04:00
 
 <div class="dialogue right">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihfgmywf6lpgx3k2p6j23qw636x3hg3jap2vwhufi4izyj3ifnwoy" alt="drawing">
-  <p>Yeah, but then on our fork, I can still use a DEX to swap the worthless wrapped eth for a native token. Now I have the ETH from the bridge fork, and I also have native tokens on our fork.</p>
+  <p>Yeah, but then on our fork, I can still use a DEX to swap the worthless wrapped eth for a native token. Now I have the valuable ETH from the bridge fork, and I also have valuable native tokens on our fork. I doubled up.</p>
 </div>
 
 <div class="dialogue left">
@@ -576,7 +576,7 @@ date: 2024-12-11T15:34:30-04:00
 
 <div class="dialogue left">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeiai3i7qsdsc5hj47ajhpevwifnxowcd6idbdcwbnrznyqmn47zmjq" alt="drawing">
-  <p>Yeah, it’s the liquidity providers. People are going to swap out all the useful tokens and trade them for useless ones. If you’re providing liquidity for a liquidity pool, you’re gonna get cooked by divergence loss.</p>
+  <p>Yeah, it’s the liquidity providers. People are going to remove all the valuable tokens from the liquidity pools. If you’re providing liquidity in one of these pools, you’re gonna get cooked by divergence loss.</p>
 </div>
 
 <div class="dialogue right">
