@@ -187,7 +187,7 @@ date: 2024-12-11T15:34:30-04:00
 
 <div class="dialogue left">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeibiqluicewk6yyddl2qemscxo2zjhzpeeeorex77dhej5a3g727wa" alt="drawing">
-  <p>Page everyone. Get me the data center. We need someone on-site, now. Do _not_ let those transactions post.</p>
+  <p>Page everyone. Get me the data center. We need someone on-site, now. Do <i>not</i> let those transactions post.</p>
 </div>
 
 <div class="dialogue right">
@@ -215,7 +215,7 @@ date: 2024-12-11T15:34:30-04:00
 
 <div class="dialogue left">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeibiqluicewk6yyddl2qemscxo2zjhzpeeeorex77dhej5a3g727wa" alt="drawing">
-  <p>Where's the damn data center rep? The fuck do we pay them for?</p>
+  <p>Where's the damn data center rep? What the fuck do we pay them for?</p>
 </div>
 
 
@@ -249,7 +249,9 @@ date: 2024-12-11T15:34:30-04:00
   <p>Listen to me, Jack. There's been had a major hack. Look it up. It's all over X. If you don't kill that server in the next 30 seconds, billions of dollars are going to go down the fucking shitter! You're the only person that can stop it.</p>
 </div>
 
-Jack checks his phone.
+<div style="border: 5px solid black; padding: 10px; display: inline-block; font-size: 0;">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeibvakolpq6fdq6uj45uikpeseee5uixrm55xb5ousvy23o4wsfsda" alt="drawing" style="width: 100%; height: auto; font-size: initial;"/>
+</div>
 
 <div class="dialogue left">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeibiqluicewk6yyddl2qemscxo2zjhzpeeeorex77dhej5a3g727wa" alt="drawing">
