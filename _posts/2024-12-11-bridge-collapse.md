@@ -252,6 +252,7 @@ date: 2024-12-11T15:34:30-04:00
 <div style="border: 5px solid black; padding: 10px; display: inline-block; font-size: 0;">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeibvakolpq6fdq6uj45uikpeseee5uixrm55xb5ousvy23o4wsfsda" alt="drawing" style="width: 100%; height: auto; font-size: initial;"/>
 </div>
+<br />
 
 <div class="dialogue left">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeibiqluicewk6yyddl2qemscxo2zjhzpeeeorex77dhej5a3g727wa" alt="drawing">
