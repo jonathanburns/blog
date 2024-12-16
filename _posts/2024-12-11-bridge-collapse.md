@@ -601,7 +601,7 @@ date: 2024-12-11T15:34:30-04:00
 
 <div class="dialogue left">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeiai3i7qsdsc5hj47ajhpevwifnxowcd6idbdcwbnrznyqmn47zmjq" alt="drawing">
-  <p>Like I said, there's nothing we can do to stop this fork. Theres 25 billion dollars in the hack, and there's only 4 billion L1 assets locked in the bridge. If I were a liquidity provider, I would exit these pools as quickly as possible.</p>
+  <p>Like I said, there's nothing we can do to stop this fork. Theres 25 billion dollars in the hack, and there's only 4 billion L1 assets locked in the bridge. The fork is happening. If I were a liquidity provider, I would exit these pools as quickly as possible.</p>
 </div>
 
 <div class="dialogue right">
