@@ -461,7 +461,7 @@ date: 2024-12-11T15:34:30-04:00
 
 <div class="dialogue left">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeiai3i7qsdsc5hj47ajhpevwifnxowcd6idbdcwbnrznyqmn47zmjq" alt="drawing">
-  <p>I'm not. We’re going to launch two sequencers. One sequencer will have the rollback, and one won’t. Social consensus will determine which chain is canonical. Based on the losses we’re looking at, I'm certain the rollback fork is going to win.</p>
+  <p>I'm not. We’re going to launch <i>two</i> sequencers. One sequencer will have the rollback, and one won’t. Social consensus will determine which chain is canonical. Based on the losses we’re looking at, I'm certain the rollback fork is going to win.</p>
 </div>
 
 <div class="dialogue right">
@@ -471,7 +471,7 @@ date: 2024-12-11T15:34:30-04:00
 
 <div class="dialogue left">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeiai3i7qsdsc5hj47ajhpevwifnxowcd6idbdcwbnrznyqmn47zmjq" alt="drawing">
-  <p>Because it's happened before. In 2016, there was a hack on ethereum and the chain rolled back. Our losses are bigger than that. We lost almost 20% of the chain.</p>
+  <p>Because it's happened before. In 2016, there was a hack on ethereum and the chain rolled back. Our losses are bigger than that. 20% of all the value on chain was just hacked.</p>
 </div>
 
 <div class="dialogue right">
