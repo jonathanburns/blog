@@ -311,7 +311,7 @@ date: 2024-12-11T15:34:30-04:00
 <br />
 
 <div class="dialogue right">
-  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeica5rr54k5vedjpd7ys2r2dijwdchshte2tloxkv6nwv77tewsahq" alt="drawing">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeigytuun3wexri4tzdc6hnvtowxfj2p5sgjlgndcppjgwumksrwbam" alt="drawing">
   <p>Yeah. I got it.</p>
 </div>
 
