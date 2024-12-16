@@ -666,7 +666,12 @@ date: 2024-12-11T15:34:30-04:00
 
 <div class="dialogue left">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeiai3i7qsdsc5hj47ajhpevwifnxowcd6idbdcwbnrznyqmn47zmjq" alt="drawing">
-  <p>Because what you’re talking about is censorship. Once we censor transactions, we will lose all trust from our users.</p>
+  <p>Patrick, I need you to work on launching the new sequencer. Work with Jelly to patch the fucking bug in their contract first. We'll also need to create a new L1 bridge for the new sequencer.</p>
+</div>
+
+<div class="dialogue left">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeiai3i7qsdsc5hj47ajhpevwifnxowcd6idbdcwbnrznyqmn47zmjq" alt="drawing">
+  <p>Judith, prepare comms. We should encourage the users to withdraw their ETH using bridge fork, and then send those funds to the new bridge.</p>
 </div>
 
 
