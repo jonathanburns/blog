@@ -259,16 +259,6 @@ date: 2024-12-11T15:34:30-04:00
   <p>Now, Jack!</p>
 </div>
 
-<div class="dialogue right">
-  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeiaymhsntltlmxgttwvhqxd7ggtsayrh32b5krixotkqxygc6vroma" alt="drawing">
-  <p>Alright. Okay, give me a minute.</p>
-</div>
-
-<div class="dialogue left">
-  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeibiqluicewk6yyddl2qemscxo2zjhzpeeeorex77dhej5a3g727wa" alt="drawing">
-  <p>We don't have a minute. Now.</p>
-</div>
-
 <div style="border: 5px solid black; padding: 10px; display: inline-block; font-size: 0;">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeidxi6sb7x4dhgfe6hgukwtdbjzsyetssjp3lr65x6xeffiwfoja5e" alt="drawing" style="width: 33.33%; height: auto; font-size: initial;"/>
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeicml6tlh75w277y4q4qofvkmjgnbt3a7fkt2bkhzop7jex4inroha" alt="drawing" style="width: 33.33%; height: auto; font-size: initial;"/>
