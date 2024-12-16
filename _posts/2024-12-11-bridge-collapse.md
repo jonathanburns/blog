@@ -354,7 +354,7 @@ date: 2024-12-11T15:34:30-04:00
 
 <div class="dialogue right">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihkf5xiyp3so7qfro3hdzhtewst3f3rw7jh25pcmyl55v5otnkmzy" alt="drawing">
-  <p>We’ve got a calculation update on the losses. It’s north of 25 billion.</p>
+  <p>There's a user on X that calculated the losses. It’s north of 25 billion.</p>
 </div>
 
 <div class="dialogue right">
@@ -364,7 +364,7 @@ date: 2024-12-11T15:34:30-04:00
 
 <div class="dialogue right">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihkf5xiyp3so7qfro3hdzhtewst3f3rw7jh25pcmyl55v5otnkmzy" alt="drawing">
-  <p>X is blowing up. Everybody’s saying roll back. We need to prepare a statement.</p>
+  <p>It's blowing up. Everybody’s saying roll back. We need to prepare a statement.</p>
 </div>
 
 <div class="dialogue right">
