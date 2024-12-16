@@ -466,12 +466,12 @@ date: 2024-12-11T15:34:30-04:00
 
 <div class="dialogue right">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihkf5xiyp3so7qfro3hdzhtewst3f3rw7jh25pcmyl55v5otnkmzy" alt="drawing">
-  <p>There were no L2s or bridges back then. We can’t fork away from the bridge. We’re an L2. An extension of Ethereum.</p>
+  <p>There were no L2s or bridges back then. We can’t fork away from the L1 We’re an L2 — An extension of Ethereum.</p>
 </div>
 
 <div class="dialogue left">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeiai3i7qsdsc5hj47ajhpevwifnxowcd6idbdcwbnrznyqmn47zmjq" alt="drawing">
-  <p>You wanna know what happens if we don’t give the users a rollback option? Someone in the community is going to launch an alternate sequencer, a sequencer that has the rollback, and that sequencer will become the canonical chain. There's nothing we can do to stop rollback. The sooner we accept that, the better. If we fight this, we will lose our sequencer and all the transaction fees that go along with it, and we all better start looking for new work. Sequencing is a privilege, not a right, and I have no intention of losing that privilege. </p>
+  <p>You wanna know what happens if we don’t give the users a rollback option? Someone in the community is going to launch an alternate sequencer, a sequencer that has the rollback, and that sequencer will become the canonical chain. There's nothing we can do to stop the rollback. The sooner we accept that, the better. If we fight this, we will lose our sequencer and all the transaction fees that go along with it, and we all better start looking for new work. Sequencing is a privilege, not a right, and I have no intention of losing that privilege. </p>
 </div>
 
 <div class="dialogue right">
