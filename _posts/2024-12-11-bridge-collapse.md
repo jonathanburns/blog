@@ -521,7 +521,7 @@ date: 2024-12-11T15:34:30-04:00
 
 <div class="dialogue left">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeiai3i7qsdsc5hj47ajhpevwifnxowcd6idbdcwbnrznyqmn47zmjq" alt="drawing">
-  <p>Right. The tokens can't have value on both forks, otherwise we could double everyone's wealth with a fork.</p>
+  <p>Right. The tokens can't have value on both forks. It's not like we can all just double our money by forking.</p>
 </div>
 
 <div class="dialogue right">
@@ -561,12 +561,12 @@ date: 2024-12-11T15:34:30-04:00
 
 <div class="dialogue left">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeiai3i7qsdsc5hj47ajhpevwifnxowcd6idbdcwbnrznyqmn47zmjq" alt="drawing">
-  <p>Right. The wrapped ETH on our fork is worthless, but that's fine because you'll have that same wrapped ETH on the bridge fork.</p>
+  <p>Right. The wrapped ETH on our fork is worthless, but that's fine. You have it on the bridge fork.</p>
 </div>
 
 <div class="dialogue right">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihfgmywf6lpgx3k2p6j23qw636x3hg3jap2vwhufi4izyj3ifnwoy" alt="drawing">
-  <p>Yeah, but then on our fork, I can still use a DEX to swap the worthless wrapped eth for a native token. Now I have the valuable ETH from the bridge fork, and I also have valuable native tokens on our fork. I doubled up.</p>
+  <p>Yeah, but then on our fork, I can still use a DEX to swap the worthless wrapped eth for a native token. Now I have the valuable ETH on the bridge fork, but I <i>also</i> have valuable native tokens on our fork. I doubled up.</p>
 </div>
 
 <div class="dialogue left">
