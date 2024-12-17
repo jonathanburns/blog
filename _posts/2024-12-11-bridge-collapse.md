@@ -586,7 +586,7 @@ date: 2024-12-11T15:34:30-04:00
 
 <div class="dialogue right">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihfgmywf6lpgx3k2p6j23qw636x3hg3jap2vwhufi4izyj3ifnwoy" alt="drawing">
-  <p>Yes, but only the pools where the trading pair is one native asset and one wrapped asset. If the assets in the pool are both native, or both wrapped, you should be fine. For pools that have one native asset and one wrapped asset, they're exposed on both forks. Each fork will have one useless asset in the pool.</p>
+  <p>Yes, but this only applies to pools where the trading pair is one native asset and one wrapped asset. If the assets in the pool are both native, or both wrapped, you should be fine. For pools that have one native asset and one wrapped asset, they're straddling the fork, so they're exposed on both forks. Each fork will have one useless asset in the pool, and one valuable one.</p>
 </div>
 
 <div class="dialogue right">
