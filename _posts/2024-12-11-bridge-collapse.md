@@ -89,9 +89,8 @@ date: 2024-12-11T15:34:30-04:00
 </div>
 
 <div style="border: 5px solid black; padding: 10px; display: inline-block; font-size: 0;">
-  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeiars3k7fv5weug2dk4ff2vri4j7fdkg45epmyvc53q7uxzdqyg4fi" alt="drawing" style="width: 33.33%; height: auto; font-size: initial;"/>
-  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeic46djruliudbbwmeokl46so6hfvtluu57zifk5rf36vw364qzky4" alt="drawing" style="width: 33.33%; height: auto; font-size: initial;"/>
-  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeih4y2cyakxcl427asambrgvyzztn55sbzfjuwx6rp23e7s4733gjq" alt="drawing" style="width: 33.33%; height: auto; font-size: initial;"/>
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeic46djruliudbbwmeokl46so6hfvtluu57zifk5rf36vw364qzky4" alt="drawing" style="width: 50%; height: auto; font-size: initial;"/>
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeih4y2cyakxcl427asambrgvyzztn55sbzfjuwx6rp23e7s4733gjq" alt="drawing" style="width: 50%; height: auto; font-size: initial;"/>
 </div>
 <br />
 
