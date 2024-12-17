@@ -1,9 +1,9 @@
 ---
-title: "Bridge Collapse"
+title: "How Rollups *Actually Actually Actually Actually* Work"
 hidden: true
-description: "Bridge Collapse."
+description: "How Rollups *Actually Actually Actually Actually* Work"
 header: 
-  teaser: "https://docs.safe.global/_next/static/media/safenet-introduction.cf3046fd.png"
+  teaser: "https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeifpbme4o6omwfgosbilii62ocd2pxi2wm33ym6nwupzr227jq7wwm"
 date: 2024-12-11T15:34:30-04:00
 ---
 <style>
