@@ -466,7 +466,7 @@ date: 2024-12-11T15:34:30-04:00
 
 <div class="dialogue right">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihkf5xiyp3so7qfro3hdzhtewst3f3rw7jh25pcmyl55v5otnkmzy" alt="drawing">
-  <p>There were no L2s or bridges back then. We can’t fork away from the L1 We’re an L2 — An extension of Ethereum.</p>
+  <p>There were no L2s or bridges back then. We can’t fork away from the L1. We’re an L2 — An extension of Ethereum.</p>
 </div>
 
 <div class="dialogue left">
@@ -646,7 +646,7 @@ date: 2024-12-11T15:34:30-04:00
 
 <div class="dialogue right">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihkf5xiyp3so7qfro3hdzhtewst3f3rw7jh25pcmyl55v5otnkmzy" alt="drawing">
-  <p>Well, we have all these sharks that are going to try to drain the liquidity pools. What if we disallow any trading in these pools for a short period? We can give the liquidity providers a chance to exit first. During the grace period, the sequencer will only accept requests to exit those liquidity pools.</p>
+  <p>Well, we know the sharks are going to try to drain the liquidity pools. What if we disallow any trading in these pools for a short period? We can give the liquidity providers a chance to exit first. During the grace period, the sequencer will only accept requests to exit those liquidity pools.</p>
 </div>
 
 <div class="dialogue left">
