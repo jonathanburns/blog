@@ -621,7 +621,7 @@ date: 2024-12-11T15:34:30-04:00
 
 <div class="dialogue right">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihfgmywf6lpgx3k2p6j23qw636x3hg3jap2vwhufi4izyj3ifnwoy" alt="drawing">
-  <p>Just kidding, geez. Come to think of it, it’s not just the liquidity pools, either. Any contract that lets you swap native tokens and wrapped tokens is exposed.</p>
+  <p>Just kidding, geez. Come to think of it, it’s not just the liquidity pools, either. Any contract that lets you exchange native tokens and wrapped tokens is exposed.</p>
 </div>
 
 <div class="dialogue left">
