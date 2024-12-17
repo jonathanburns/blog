@@ -181,7 +181,7 @@ date: 2024-12-11T15:34:30-04:00
 
 <div class="dialogue right">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihfgmywf6lpgx3k2p6j23qw636x3hg3jap2vwhufi4izyj3ifnwoy" alt="drawing">
-  <p>2 minutes.</p>
+  <p>3 minutes.</p>
 </div>
 
 <div class="dialogue left">
@@ -196,7 +196,7 @@ date: 2024-12-11T15:34:30-04:00
 
 <div class="dialogue left">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeibiqluicewk6yyddl2qemscxo2zjhzpeeeorex77dhej5a3g727wa" alt="drawing">
-  <p>Burn the whole building down. I don't care. Turn it off.</p>
+  <p>Bulldoze the building. I don't care how you do it. Turn the sequencer off.</p>
 </div>
 
 <div class="dialogue right">
@@ -214,7 +214,7 @@ date: 2024-12-11T15:34:30-04:00
 
 <div class="dialogue left">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeibiqluicewk6yyddl2qemscxo2zjhzpeeeorex77dhej5a3g727wa" alt="drawing">
-  <p>Where's the damn data center rep? What the fuck do we pay them for?</p>
+  <p>Where's the damn N.O.C. rep? What the fuck do we pay them for?</p>
 </div>
 
 
@@ -235,7 +235,7 @@ date: 2024-12-11T15:34:30-04:00
 
 <div class="dialogue left">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeibiqluicewk6yyddl2qemscxo2zjhzpeeeorex77dhej5a3g727wa" alt="drawing">
-  <p>Jack, we need you to kill the sequencer immediately. Pull the plug, and we need it done in the next 30 seconds.</p>
+  <p>Jack, we need you to kill our sequencer, immediately. Pull the plug, and we need it done in the next 30 seconds.</p>
 </div>
 
 <div class="dialogue right">
@@ -334,7 +334,7 @@ date: 2024-12-11T15:34:30-04:00
 
 <div class="dialogue right">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihfgmywf6lpgx3k2p6j23qw636x3hg3jap2vwhufi4izyj3ifnwoy" alt="drawing">
-  <p>Oh fuck, it posted.</p>
+  <p>Oh fuck. It posted.</p>
 </div>
 
 <div class="dialogue left">
@@ -354,7 +354,7 @@ date: 2024-12-11T15:34:30-04:00
 
 <div class="dialogue right">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihkf5xiyp3so7qfro3hdzhtewst3f3rw7jh25pcmyl55v5otnkmzy" alt="drawing">
-  <p>There's a user on X that calculated the losses. It’s north of 25 billion.</p>
+  <p>There's a user on X that calculated the losses. It’s almost 25 billion. As far as I can tell, the calculations seem right.</p>
 </div>
 
 <div class="dialogue right">
@@ -374,7 +374,7 @@ date: 2024-12-11T15:34:30-04:00
 
 <div class="dialogue left">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeibiqluicewk6yyddl2qemscxo2zjhzpeeeorex77dhej5a3g727wa" alt="drawing">
-  <p>It’ll never happen. Judith... How much value is in the bridge contract on the L1?</p>
+  <p>It’ll never happen. Judith... How much value is locked in the bridge contract on the L1?</p>
 </div>
 
 <div class="dialogue right">
@@ -401,7 +401,7 @@ date: 2024-12-11T15:34:30-04:00
 
 <div class="dialogue left">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeiai3i7qsdsc5hj47ajhpevwifnxowcd6idbdcwbnrznyqmn47zmjq" alt="drawing">
-  <p>Okay. Here’s where things stand. 25 billion was lost in the hack. Unfortunately, those transactions have already posted to the L1, and that's going to make this rollback complicated. The cascading impacts of this are something I'm still wrapping my head around.</p>
+  <p>Okay. Here’s where things stand. 25 billion was lost in the hack. Unfortunately, those transactions have already posted to the L1, and that's going to make this rollback very complicated. The cascading impacts of this are something I'm still wrapping my head around.</p>
 </div>
 
 <div class="dialogue right">
@@ -441,7 +441,7 @@ date: 2024-12-11T15:34:30-04:00
 
 <div class="dialogue left">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeiai3i7qsdsc5hj47ajhpevwifnxowcd6idbdcwbnrznyqmn47zmjq" alt="drawing">
-  <p>I know what’s in the whitepaper, Judith — I wrote it. But this isn’t up to us. We’re a decentralized blockchain. The social consensus gets to decide this.</p>
+  <p>I know what’s in the whitepaper, Judith — I wrote it. But this isn’t up to us. We’re a decentralized blockchain. Things are decided by social consensus.</p>
 </div>
 
 <div class="dialogue right">
@@ -451,7 +451,7 @@ date: 2024-12-11T15:34:30-04:00
 
 <div class="dialogue left">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeiai3i7qsdsc5hj47ajhpevwifnxowcd6idbdcwbnrznyqmn47zmjq" alt="drawing">
-  <p>I'm not. We’re going to launch <i>two</i> sequencers. One sequencer will have the rollback, and one won’t. Social consensus will determine which chain is canonical. Based on the losses we’re looking at, I'm certain the rollback fork is going to win.</p>
+  <p>I'm not. We’re going to launch <i>two</i> sequencers. One sequencer will have the rollback, and one won’t. The community will determine which chain is canonical, but based on the losses we’re looking at, I'm certain the rollback fork is going to win.</p>
 </div>
 
 <div class="dialogue right">
@@ -461,7 +461,7 @@ date: 2024-12-11T15:34:30-04:00
 
 <div class="dialogue left">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeiai3i7qsdsc5hj47ajhpevwifnxowcd6idbdcwbnrznyqmn47zmjq" alt="drawing">
-  <p>Because it's happened before. In 2016, there was a hack on ethereum and the chain rolled back. Our losses are bigger than that. 20% of all the value on chain was just hacked.</p>
+  <p>Because it's happened before. In 2016, there was a hack on Ethereum and the chain rolled back. Our losses are bigger than that. 20% of all the value on chain was just hacked.</p>
 </div>
 
 <div class="dialogue right">
@@ -521,7 +521,7 @@ date: 2024-12-11T15:34:30-04:00
 
 <div class="dialogue left">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeiai3i7qsdsc5hj47ajhpevwifnxowcd6idbdcwbnrznyqmn47zmjq" alt="drawing">
-  <p>Right. The tokens can't hold their value on both forks.</p>
+  <p>Right. The tokens can't have value on both forks, otherwise we could double everyone's wealth with a fork.</p>
 </div>
 
 <div class="dialogue right">
@@ -529,13 +529,18 @@ date: 2024-12-11T15:34:30-04:00
   <p>So the users' funds are all safe?</p>
 </div>
 
+<div class="dialogue left">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeiai3i7qsdsc5hj47ajhpevwifnxowcd6idbdcwbnrznyqmn47zmjq" alt="drawing">
+  <p>Yes.</p>
+</div>
+
 <div class="dialogue right">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihfgmywf6lpgx3k2p6j23qw636x3hg3jap2vwhufi4izyj3ifnwoy" alt="drawing">
   <p>Not exactly.</p>
 </div>
 
-<div class="dialogue right">
-  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihkf5xiyp3so7qfro3hdzhtewst3f3rw7jh25pcmyl55v5otnkmzy" alt="drawing">
+<div class="dialogue left">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeiai3i7qsdsc5hj47ajhpevwifnxowcd6idbdcwbnrznyqmn47zmjq" alt="drawing">
   <p>What do you mean? What funds aren't safe?</p>
 </div>
 
@@ -544,8 +549,8 @@ date: 2024-12-11T15:34:30-04:00
   <p>Well, let’s say I own wrapped ETH. My wrapped ETH is safe, because I can pull it out on the bridge fork.</p>
 </div>
 
-<div class="dialogue right">
-  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihkf5xiyp3so7qfro3hdzhtewst3f3rw7jh25pcmyl55v5otnkmzy" alt="drawing">
+<div class="dialogue left">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeiai3i7qsdsc5hj47ajhpevwifnxowcd6idbdcwbnrznyqmn47zmjq" alt="drawing">
   <p>Right.</p>
 </div>
 
@@ -554,9 +559,9 @@ date: 2024-12-11T15:34:30-04:00
   <p>But I also have wrapped ETH on our fork, right?</p>
 </div>
 
-<div class="dialogue right">
-  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihkf5xiyp3so7qfro3hdzhtewst3f3rw7jh25pcmyl55v5otnkmzy" alt="drawing">
-  <p>Right. The wrapped ETH on our fork is worthless, but that's okay because you'll have that same wrapped ETH on the bridge fork.</p>
+<div class="dialogue left">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeiai3i7qsdsc5hj47ajhpevwifnxowcd6idbdcwbnrznyqmn47zmjq" alt="drawing">
+  <p>Right. The wrapped ETH on our fork is worthless, but that's fine because you'll have that same wrapped ETH on the bridge fork.</p>
 </div>
 
 <div class="dialogue right">
@@ -596,17 +601,17 @@ date: 2024-12-11T15:34:30-04:00
 
 <div class="dialogue right">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihkf5xiyp3so7qfro3hdzhtewst3f3rw7jh25pcmyl55v5otnkmzy" alt="drawing">
-  <p>You're saying they signed up for this?! We told them we were part of Ethereum. We said this was impossible!</p>
+  <p>You're saying they signed up for this?! We told them we were part of Ethereum. We said this kind of thing was impossible!</p>
 </div>
 
 <div class="dialogue left">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeiai3i7qsdsc5hj47ajhpevwifnxowcd6idbdcwbnrznyqmn47zmjq" alt="drawing">
-  <p>Listen. Like I said before, there's nothing we can do to stop this fork. Theres 25 billion dollars in the hack, and there's only 4 billion L1 assets locked in the bridge. Most of that 4 billion is safe. There's nothing we can do about the assets in these pools. This fork is happening. If I were a liquidity provider, I would exit these pools as quickly as possible.</p>
+  <p>Listen. Like I said before, there's nothing we can do to stop this fork. Theres 25 billion dollars in the hack, and there's only 4 billion L1 assets locked in the bridge. The majority of those wrapped assets are safe. Yes, some of those funds are in these liquidity pools, and there's nothing we can do about that. This fork is happening. If I were a liquidity provider, I would exit these pools as quickly as possible.</p>
 </div>
 
 <div class="dialogue right">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihfgmywf6lpgx3k2p6j23qw636x3hg3jap2vwhufi4izyj3ifnwoy" alt="drawing">
-  <p>Even if they want to get out, it's gonna be hard to get the transactions through. There’s going to be a frenzy of activity when we turn on the sequencers. The congestion will be insane. The sharks are going to use lending protocols to borrow whatever assets they need to drain these pools. They'll be empty in minutes. I have half a mind to do it myself. If <i>someone's</i> gonna exploit this anyway, might as well be us.</p>
+  <p>Even if they want to get out, it's gonna be hard to get the transactions through. There’s going to be a frenzy of activity when we turn on the sequencers. The congestion will be insane. The sharks are going to use lending protocols to borrow whatever assets they need to drain these pools. The pools will be empty in minutes. I have half a mind to do it myself. If <i>someone's</i> gonna exploit this anyway, might as well be us.</p>
 </div>
 
 <div class="dialogue left">
@@ -631,7 +636,7 @@ date: 2024-12-11T15:34:30-04:00
 
 <div class="dialogue left">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeiai3i7qsdsc5hj47ajhpevwifnxowcd6idbdcwbnrznyqmn47zmjq" alt="drawing">
-  <p>Yeah. That's right. They're exposed as well. That's a much smaller market though, compared to the liquidity pools.</p>
+  <p>Yeah. That's right. Those are at risk as well. That's a much smaller market though, compared to the liquidity pools.</p>
 </div>
 
 <div class="dialogue right">
@@ -646,12 +651,12 @@ date: 2024-12-11T15:34:30-04:00
 
 <div class="dialogue right">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihkf5xiyp3so7qfro3hdzhtewst3f3rw7jh25pcmyl55v5otnkmzy" alt="drawing">
-  <p>Well, we know the sharks are going to try to drain the liquidity pools. What if we disallow any trading in these pools for a short period? We can give the liquidity providers a chance to exit first. During the grace period, the sequencer will only accept requests to exit those liquidity pools.</p>
+  <p>Well, we know the sharks are going to try to drain the liquidity pools. What if we disallow any trading in these pools for a short period? We can give the liquidity providers a chance to exit the pools first. During the grace period, the sequencer will only accept requests to exit those liquidity pools.</p>
 </div>
 
 <div class="dialogue left">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeiai3i7qsdsc5hj47ajhpevwifnxowcd6idbdcwbnrznyqmn47zmjq" alt="drawing">
-  <p>It’s a good idea. Ethically, it's the right thing to do, but we can’t do it.</p>
+  <p>It’s a good idea. Ethically, it's the right thing to do. Unfortunately, though, we can't.</p>
 </div>
 
 <div class="dialogue right">
