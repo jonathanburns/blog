@@ -563,7 +563,7 @@ This story was inspired by [How Rollups *actually actually actually* work](https
 
 <div class="dialogue left">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeiai3i7qsdsc5hj47ajhpevwifnxowcd6idbdcwbnrznyqmn47zmjq" alt="drawing">
-  <p>Right. The wrapped ETH on our fork is worthless, but that's fine. You have it on the bridge fork.</p>
+  <p>Right. The wrapped ETH on our fork is worthless, but that's fine. You have your value on the bridge fork.</p>
 </div>
 
 <div class="dialogue right">
