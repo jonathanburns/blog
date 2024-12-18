@@ -43,7 +43,7 @@ There are several disadvantages to this method:
 1. The process is tedious. You have to sign a series of transactions. Services like Li.fi are designed to help with this. You can pre-sign the transactions and they'll babysit the process for you for a small fee.
 2. The process is slow. The funds must flow through a series of sequential transactions across multiple chains.
 3. Costs are high due to the number of blockchain transactions (especially if the transaction needs to flow through Ethereum).
-4. You must correctly predict gas costs and swap rates as you're planning the flow. In the best case, you have some left over funds on the destination chain. In the worst case, you under-estimate costs and your plan stalls mid-way through the flow, which leaves you with an asset you don't want on a chain you don't want.
+4. You must correctly predict gas costs and swap rates as you're planning the flow. In the best case, you have some leftover funds on the destination chain. In the worst case, you underestimate costs and your plan stalls mid-way through the flow, which leaves you with an asset you don't want on a chain you don't want.
 
 
 **The Centralized Path**: Send the USDC to a centralized "processor" who promises to fulfill the intent. Here is a snippet from [Rhino.fi bridge docs](https://tech.rhino.fi/rhino.fi/the-details/bridges):
@@ -101,7 +101,7 @@ Remember that the smart-contract-wallet is configured such that the processor mu
 
 _The arrow shown in the above diagram does **not** represent an actual transaction on-chain. The lock is managed by the processor. If I try to create a transaction which would bring my balance below 3500 USDC, the processor will refuse to co-sign that transaction. This effectively locks 3500 USDC in the account. This method of locking is key to safenet's speed (creating the lock on-chain would require waiting for transactions to finalize)._
 
-_You may be wondering, "If the processor must co-sign all spends, what's to stop the processor from refusing to co-sign any transactions and holding my account hostage"? I'll explain the solution for that later._
+_You may be wondering, "If the processor must co-sign all spends, what's to stop the processor from refusing to co-sign any transactions and holding my account hostage?" I'll explain the solution for that later._
 
 
 **Step 4**: The processor delivers the 1 ETH to my account on Base, fulfilling the intent.
@@ -188,13 +188,13 @@ Safenet's protocol doesn't prescribe any specific proving method. Safenet has a 
 
 <blockquote class="twitter-tweet"><p lang="en" dir="ltr">At its core, Safenet is simply a way to pull funds from an account using &#39;proofs.&#39; <br><br>It is agnostic about the type of proofs (fraud / zk), how it is sourced (message bridge / off-chain oracle), and what it proves (optimistic cross-chain tx, trade on Binance, scheduled tx, etc.).</p>&mdash; lukasschor.eth (@SchorLukas) <a href="https://twitter.com/SchorLukas/status/1865729014691680471?ref_src=twsrc%5Etfw">December 8, 2024</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-In Safenet, each intent specifies the proving mechanism that will resolve disputes for that intent. The Safenet protocol doesn't perscribe any specific proving methods for intents, and so the protocol itself does not guaruntee the safety or validity of proofs. Users who create intents must understand the proving method defined on that intent, and the trust assumptions that come along with that proving method.
+In Safenet, each intent specifies the proving mechanism that will resolve disputes for that intent. The Safenet protocol doesn't prescribe any specific proving methods for intents, and so the protocol itself does not guarantee the safety or validity of proofs. Users who create intents must understand the proving method defined on that intent, and the trust assumptions that come along with that proving method.
 
 **Processor Holds The Funds Hostage**
 
 Imagine the processor tries to permanently freeze the user's smart-wallet by refusing to co-sign any transactions.
 
-In this case, the user can initiate a withdrawal _without_ a cosigner. A wait period will be enforced before the user is allowed to withdraw the funds. This wait period ensures that any pending intents finish before the user withdraws.
+In this case, the user can initiate a withdrawal _without_ a co-signer. A wait period will be enforced before the user is allowed to withdraw the funds. This wait period ensures that any pending intents finish before the user withdraws.
 
 ## How Does Safenet Compare To Other Cross-Chain Intent Protocols?
 
@@ -210,16 +210,16 @@ Safenet and The Compact use very similar algorithms. The most noticeable distinc
 
 The in-wallet escrow provides some clear UX benefits:
 
-* Users can treat their Safenet wallet as their primary spending wallet, using it even for non-safenet transactions (like buying an NFT on opensea). One caveat is that the processor must co-sign all spending transactions from this wallet. If the processor experiences an outage, all funds will be frozen until the processor comes back up (or the user goes through the non-cosigned withdrawal flow).
+* Users can treat their Safenet wallet as their primary spending wallet, using it even for non-safenet transactions (like buying an NFT on OpenSea). One caveat is that the processor must co-sign all spending transactions from this wallet. If the processor experiences an outage, all funds will be frozen until the processor comes back up (or the user goes through the non-co-signed withdrawal flow).
 * Users can see all their Safenet funds using a normal wallet app. While it is _also_ possible for a wallet app to display the funds in an _external_ smart contract, gathering the data is complex because your wallet must locate the external accounts. 
 * Users don't have to remember to pull excess funds back into their wallet (the funds never leave your wallet until they are redeemed by the processor).
 
-From a security perspective, while it certainly _feels_ safer to keep the funds in your wallet, the risk is theoretically the same in both approaches. At the end of the day, there's a smart contract which manages the escrow, and your ability to get those funds back is dictated by the logic of that smart contract. 
+From a security prescriptive, while it certainly _feels_ safer to keep the funds in your wallet, the risk is theoretically the same in both approaches. At the end of the day, there's a smart contract which manages the escrow, and your ability to get those funds back is dictated by the logic of that smart contract. 
 
 Coupling the protocol to smart contract wallets could also be limiting in some ways. Extending these protocols beyond EVM is already difficult, and coupling the protocol to smart contract wallets adds more some complexity when expanding beyond EVM (every chain needs smart contract wallets that support the Safenet primitives). 
 
-The decision to leverage smart contract wallets also means that the success of Safenet hinges on the adoption of smart contract wallets. The long-term prospects of smart contract wallets look good. The Ethereum ecosystem [plans to move completely to smart wallets in the future](https://x.com/VitalikButerin/status/1674032447531495426). However, most users today still transact on-chain using traditional wallets, which could create some early barriers to adoption. EIP-7702 aims to reduce the barrier of entry for smart contract wallets, but unfortunately, EIP-7702 wallets cannot be used with Safenet and will not help with adoption in this case.
+The decision to leverage smart contract wallets also means that the success of Safenet hinges on the adoption of smart contract wallets. The long-term prospects of smart contract wallets look good. The Ethereum ecosystem [plans to move completely to smart wallets in the future](https://x.com/VitalikButerin/status/1674032447531495426). However, most users today still transact on-chain using traditional wallets, which could create some early barriers to adoption. EIP-7702 aims to reduce the barrier to entry for smart contract wallets, but unfortunately, EIP-7702 wallets cannot be used with Safenet and will not help with adoption in this case.
 
-_EIP-7702 wallets have an admin key (owned by the user) which have god-like permissions on the wallet. These permissions would allow the user to extract the locked funds._
+_EIP-7702 wallets have an admin key (owned by the user) which has god-like permissions on the wallet. These permissions would allow the user to extract the locked funds._
 
 
