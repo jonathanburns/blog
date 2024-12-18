@@ -222,4 +222,6 @@ The decision to leverage smart contract wallets also means that the success of S
 
 _EIP-7702 wallets have an admin key (owned by the user) which has god-like permissions on the wallet. These permissions would allow the user to extract the locked funds._
 
+[View Comments On This Post](https://x.com/johnny_the_hutt/status/1869425900321947749)
+
 
