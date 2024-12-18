@@ -14,7 +14,7 @@ tags:
 
 I recently got a chance to meet the Safe team at Devcon to chat about their new product [Safenet](https://safe.global/safenet), which was just announced this week. 
 
-## High Level Overview
+## High-Level Overview
 
 The last few years have brought us an explosion of new blockchains. This has helped with scaling, but brought about new challenges. If you have funds on one chain, but you want to interact with an application on a different chain, there's a long and arduous set of steps required to move your funds across the chains and achieve your goal.
 
@@ -157,7 +157,7 @@ _You may be wondering: "If locks are enforced by ensuring a specific processor c
 
 ## Risks
 
-Lets take a look at the different actors in the system and analyze potential risks.
+Let's take a look at the different actors in the system and analyze potential risks.
 
 ### Risks For The Processor  
 
