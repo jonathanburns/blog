@@ -473,7 +473,7 @@ This story was inspired by [How Rollups *actually actually actually* work](https
 
 <div class="dialogue left">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeiai3i7qsdsc5hj47ajhpevwifnxowcd6idbdcwbnrznyqmn47zmjq" alt="drawing">
-  <p>You wanna know what happens if we don’t give the users a rollback option? Someone in the community is going to launch an alternate sequencer, a sequencer that has the rollback, and that sequencer will become the canonical chain. There's nothing we can do to stop the rollback. The sooner we accept that, the better. If we fight this, we will lose our sequencer and all the transaction fees that go along with it, and we all better start looking for new work. Running the sequencer is a privilege, not a right, and I have no intention of losing that privilege. </p>
+  <p>You wanna know what happens if we don’t give the users a rollback option? Someone in the community is going to launch an alternate sequencer, a sequencer that has the rollback, and that sequencer will become the canonical chain. There's nothing we can do to stop the rollback. The sooner we accept that, the better. If we fight this, we will lose our sequencer and all the transaction fees that go along with it, and we all better start looking for new work. Running the sequencer is a privilege, not a right, and I have no intention of losing that privilege.</p>
 </div>
 
 <div class="dialogue right">
@@ -678,7 +678,7 @@ This story was inspired by [How Rollups *actually actually actually* work](https
 
 <div class="dialogue left">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeiai3i7qsdsc5hj47ajhpevwifnxowcd6idbdcwbnrznyqmn47zmjq" alt="drawing">
-  <p>Judith, prepare comms. We should encourage the users to withdraw their ETH from bridge fork, and then send those funds to the new bridge. Make sure the users understand that there was no exploit in our chain. The problem was a exploit in the Jelly finance contract. Loop in the team at Circle. All the USDC will exist on both forks, but only the USDC on our fork will be redeemable.</p>
+  <p>Judith, prepare comms. We should encourage the users to withdraw their ETH from bridge fork, and then send those funds to the new bridge. Make sure the users understand that there was no exploit in our chain. The problem was a exploit in the Jelly finance contract. Loop in the team at Circle and any other stablecoin issuers. Their tokens will exist on both forks, but only the tokens on our fork will be backed up by the issuer.</p>
 </div>
 
 
