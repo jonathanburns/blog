@@ -94,7 +94,7 @@ Once the wallets are deployed and configured, I'm ready to use Safenet.
 
 **Step 3**: The processor sees the transaction and pulls it from the pool. 
 
-Remember that the smart-contract-wallet is configured such that the processor must co-sign any spends from the wallet. This allows the processor to "lock" the funds. 
+Remember that the smart contract wallet is configured such that the processor must co-sign any spends from the wallet. This allows the processor to "lock" the funds. 
 
 
 ![step3](https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafkreifdfgfcmht43o4jy4fd2mk3vuftpvdl66g5rn2lq23jrfzvz7hvj4)
@@ -115,7 +115,7 @@ _You may be wondering, "If the processor must co-sign all spends, what's to stop
 
 _At this point, the processor has notified the debit chain that the fulfillment is complete, but has not provided any proof. Verifying the fulfillment is very easy to do off-chain, but slow and expensive to do on-chain. Instead of providing the proof on-chain, the processor makes an on-chain claim that the intent is fulfilled (without providing any proof). The processor adds some collateral with this claim, which essentially says “If I’m lyin', I’m dyin'”. If the processor is shown to be lying, they will lose the collateral (more on that later)._
 
-**Step 6**: A challenge period ensues, during which time, the claim can be disputed. If there are no challenges during the period, the smart-contract-wallet will allow the processor to withdraw the locked funds at the end of the period.
+**Step 6**: A challenge period ensues, during which time, the claim can be disputed. If there are no challenges during the period, the smart contract wallet will allow the processor to withdraw the locked funds at the end of the period.
 
 ![step6](https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafkreidil5vyylwnce2ipyvbhqej3bs24mlodvw4bbsdchp7nyoliewoau)
 
@@ -145,7 +145,7 @@ We can picture how the original intent described in this post could be fulfilled
 
 Aside from trust benefits to users, this architecture is helpful to processors.
 
-The resource lock in the smart wallet works somewhat like an escrow. Without this escrow, the centralized processor must receive funds from the user, and then subsequently deliver the desired tokens on the destination chain. During the period of time _after_ the processor receives the funds, but _before_ the funds have been sent to the destination chain, the processor is holding funds which belong to the user. Holding user funds exposes the business to a large set of regulatory concerns ("safeguarding" for example).
+The resource lock in the smart contract wallet works somewhat like an escrow. Without this escrow, the centralized processor must receive funds from the user, and then subsequently deliver the desired tokens on the destination chain. During the period of time _after_ the processor receives the funds, but _before_ the funds have been sent to the destination chain, the processor is holding funds which belong to the user. Holding user funds exposes the business to a large set of regulatory concerns ("safeguarding" for example).
 
 Because of the escrow, in the Safenet protocol, the processor never takes custody of the user's funds. They don't receive a payment until _after_ they've delivered their promise to the user. In this case, the processor never holds funds which belong to the user. This alleviates a large class of regulatory concerns. 
 
@@ -180,7 +180,7 @@ A set of attackers who control 51% of the debit chain could potentially revert t
 
 **False Proofs**
 
-To resolve disputes, the truth must be propagated from the spend chain to the debit chain (to prove the intent was fulfilled). There are many ways to facilitate the propegation of that data. Between _some_ chains (like Ethereum and Optimism), data can be propegated by trust-minimized bridges. In other cases, oracles may be required to propagate the data. 
+To resolve disputes, the truth must be propagated from the spend chain to the debit chain (to prove the intent was fulfilled). There are many ways to facilitate the propagation of that data. Between _some_ chains (like Ethereum and Optimism), data can be propagated by trust-minimized bridges. In other cases, oracles may be required to propagate the data. 
 
 The various methods come with different trust assumptions. For example, if oracles are required, a malicious processor controlling 51% of the oracles could generate a false proof that the funds were delivered, and propagate that data to the debit chain. This would allow the processor to steal the user's funds, and steal the collateral from the validator.
 
@@ -198,7 +198,7 @@ In this case, the user can initiate a withdrawal _without_ a co-signer. A wait p
 
 ## How Does Safenet Compare To Other Cross-Chain Intent Protocols?
 
-[Across protocol](https://across.to/across-settlement) is another protocol designed to to facilitate low-latency, low-cost intents without centralized trust assumptions
+[Across protocol](https://across.to/across-settlement) is another protocol designed to facilitate low-latency, low-cost intents without centralized trust assumptions
 
 UniswapX also recently announced a new protocol called "The Compact".
 
@@ -210,15 +210,15 @@ Safenet and The Compact use very similar algorithms. The most noticeable distinc
 
 The in-wallet escrow provides some clear UX benefits:
 
-* Users can treat their Safenet wallet as their primary spending wallet, using it even for non-safenet transactions (like buying an NFT on OpenSea). One caveat is that the processor must co-sign all spending transactions from this wallet. If the processor experiences an outage, all funds will be frozen until the processor comes back up (or the user goes through the non-co-signed withdrawal flow).
+* Users can treat their Safenet wallet as their primary spending wallet, using it even for non-Safenet transactions (like buying an NFT on OpenSea). One caveat is that the processor must co-sign all spending transactions from this wallet. If the processor experiences an outage, all funds will be frozen until the processor comes back up (or the user goes through the non-co-signed withdrawal flow).
 * Users can see all their Safenet funds using a normal wallet app. While it is _also_ possible for a wallet app to display the funds in an _external_ smart contract, gathering the data is complex because your wallet must locate the external accounts. 
 * Users don't have to remember to pull excess funds back into their wallet (the funds never leave your wallet until they are redeemed by the processor).
 
-From a security prescriptive, while it certainly _feels_ safer to keep the funds in your wallet, the risk is theoretically the same in both approaches. At the end of the day, there's a smart contract which manages the escrow, and your ability to get those funds back is dictated by the logic of that smart contract. 
+From a security perspective, while it certainly _feels_ safer to keep the funds in your wallet, the risk is theoretically the same in both approaches. At the end of the day, there's a smart contract which manages the escrow, and your ability to get those funds back is dictated by the logic of that smart contract. 
 
-Coupling the protocol to smart contract wallets could also be limiting in some ways. Extending these protocols beyond EVM is already difficult, and coupling the protocol to smart contract wallets adds more some complexity when expanding beyond EVM (every chain needs smart contract wallets that support the Safenet primitives). 
+Coupling the protocol to smart contract wallets could also be limiting in some ways. Extending these protocols beyond EVM is already difficult, and coupling the protocol to smart contract wallets adds some more complexity when expanding beyond EVM (every chain needs smart contract wallets that support the Safenet primitives). 
 
-The decision to leverage smart contract wallets also means that the success of Safenet hinges on the adoption of smart contract wallets. The long-term prospects of smart contract wallets look good. The Ethereum ecosystem [plans to move completely to smart wallets in the future](https://x.com/VitalikButerin/status/1674032447531495426). However, most users today still transact on-chain using traditional wallets, which could create some early barriers to adoption. EIP-7702 aims to reduce the barrier to entry for smart contract wallets, but unfortunately, EIP-7702 wallets cannot be used with Safenet and will not help with adoption in this case.
+The decision to leverage smart contract wallets also means that the success of Safenet hinges on the adoption of smart contract wallets. The long-term prospects of smart contract wallets look good. The Ethereum ecosystem [plans to move completely to smart contract wallets in the future](https://x.com/VitalikButerin/status/1674032447531495426). However, most users today still transact on-chain using traditional wallets, which could create some early barriers to adoption. EIP-7702 aims to reduce the barrier to entry for smart contract wallets, but unfortunately, EIP-7702 wallets cannot be used with Safenet and will not help with adoption in this case.
 
 _EIP-7702 wallets have an admin key (owned by the user) which has god-like permissions on the wallet. These permissions would allow the user to extract the locked funds._
 
