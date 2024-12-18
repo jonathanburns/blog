@@ -75,7 +75,7 @@ _Safenet refers to the source chain (Optimism in our case) as the "debit chain",
 Before using Safenet, I'll need to create a Safenet account. This creation will do a few things:
 
 1. It will deploy a smart contract wallet on both the debit and spend chain.
-2. These wallets will be configured to enforce that **all spending transactions from the wallet must be co-signed by the processor (in this case, the centralized exchange)**. (more on this later)
+2. It will configure these accounts to enforce that **all spending transactions from the wallet must be co-signed by the processor (in this case, the centralized exchange)**. (more on this later)
 
 Also, I'll need to fund the wallet on the debit chain.
 
