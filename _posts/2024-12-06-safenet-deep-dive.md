@@ -86,7 +86,7 @@ Once the wallets are deployed and configured, I'm ready to use Safenet.
 ### Using Safenet
 
 
-**Step 1**: I go to the website of the centralized processor. The processor says I can purchase 1 ETH on Base for 3500 USDC on Optimism (They calculate this offer based on the market price of ETH + some fees for processing).
+**Step 1**: I go to the website of the centralized processor. The processor says I can swap 1 ETH on Base for 3500 USDC on Optimism (They calculate this offer based on the market price of ETH + some fees for processing).
 
 **Step 2**: I create an off-chain "intent" (Safenet calls these _transactions_) by signing a message and sending it to Safenet's off-chain transaction pool. This intent denotes my expectations. I expect 1 ETH on Base, and I’m willing to trade 3500 USDC on Optimism.
 
@@ -153,7 +153,7 @@ Because of the escrow, in the Safenet protocol, the processor never takes custod
 
 In the flow I described, the user expects a specific processor to fulfill their intent. In future versions of the protocol, this won't be required. Users will be able to create processor-agnostic intents on-chain. Processors will bid to fulfill the intent, and the processor with the winning bid will get the job. This creates a Google-Ads-like marketplace which increases competition between processors and results in better pricing for users.
 
-_You may be wondering: "If locks are enforced by ensuring a specific processor co-signs all transactions for the wallet, how can the wallet interact with multiple processors?" In reality, the wallet will continue to to have a single "processor" who is co-signs transactions, but that processor will only be responsible for managing the lock. The actual intent fulfillment will be done by 3rd parties (co-processors) who compete in the marketplace on pricing and speed. These co-processors must trust the processor to manage the lock properly. If the processor were to sign a transaction which violates a lock, the co-processor would not be able to redeem the escrowed funds._
+_You may be wondering: "If locks are enforced by ensuring a specific processor co-signs all transactions for the wallet, how can the wallet interact with multiple processors?" In reality, the wallet will continue to to have a single "processor" who is co-signs transactions, but that processor will only be responsible for managing the lock. The actual intent fulfillment will be done by third parties (co-processors) who compete in the marketplace on pricing and speed. These co-processors must trust the processor to manage the lock properly. If the processor were to sign a transaction which violates a lock, the co-processor would not be able to redeem the escrowed funds._
 
 ## Risks
 
