@@ -66,7 +66,7 @@ Safenet aims to provide the best of both worlds. Users should be able to leverag
 
 Let's walk through how Safenet handles the operation I described above.
 
-I have some USDC in on Optimism. I want 1 ETH on Base. To optimize speed and cost, I would like a centralized processor (like maybe a centralized exchange) to facilitate the transaction, but without the trust assumptions typically associated with a centralized exchange.
+I have some USDC on Optimism. I want 1 ETH on Base. To optimize speed and cost, I would like a centralized processor (like maybe a centralized exchange) to facilitate the transaction, but without the trust assumptions typically associated with a centralized exchange.
 
 _Safenet refers to the source chain (Optimism in our case) as the "debit chain", and the destination chain (Base in our case) as the "spend chain". I'll use those terms here._
 
@@ -99,7 +99,7 @@ Remember that the smart contract wallet is configured such that the processor mu
 
 ![step3](https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafkreifdfgfcmht43o4jy4fd2mk3vuftpvdl66g5rn2lq23jrfzvz7hvj4)
 
-_The arrow shown in the above diagram does **not** represent an actual transaction on-chain. The lock is managed by the processor. If I try to create a transaction which would bring my balance below 3500 USDC, the processor will refuse to co-sign that transaction. This effectively locks 3500 USDC in the account. This method of locking is key to safenet's speed (creating the lock on-chain would require waiting for transactions to finalize)._
+_The arrow shown in the above diagram does **not** represent an actual transaction on-chain. The lock is managed by the processor. If I try to create a transaction which would bring my balance below 3500 USDC, the processor will refuse to co-sign that transaction. This effectively locks 3500 USDC in the account. This method of locking is key to Safenet's speed (creating the lock on-chain would require waiting for transactions to finalize)._
 
 _You may be wondering, "If the processor must co-sign all spends, what's to stop the processor from refusing to co-sign any transactions and holding my account hostage?" I'll explain the solution for that later._
 
@@ -153,7 +153,7 @@ Because of the escrow, in the Safenet protocol, the processor never takes custod
 
 In the flow I described, the user expects a specific processor to fulfill their intent. In future versions of the protocol, this won't be required. Users will be able to create processor-agnostic intents on-chain. Processors will bid to fulfill the intent, and the processor with the winning bid will get the job. This creates a Google-Ads-like marketplace which increases competition between processors and results in better pricing for users.
 
-_You may be wondering: "If locks are enforced by ensuring a specific processor co-signs all transactions for the wallet, how can the wallet interact with multiple processors?" In reality, the wallet will continue to to have a single "processor" who is co-signs transactions, but that processor will only be responsible for managing the lock. The actual intent fulfillment will be done by third parties (co-processors) who compete in the marketplace on pricing and speed. These co-processors must trust the processor to manage the lock properly. If the processor were to sign a transaction which violates a lock, the co-processor would not be able to redeem the escrowed funds._
+_You may be wondering: "If locks are enforced by ensuring a specific processor co-signs all transactions for the wallet, how can the wallet interact with multiple processors?" In reality, the wallet will continue to have a single "processor" who is co-signs transactions, but that processor will only be responsible for managing the lock. The actual intent fulfillment will be done by third parties (co-processors) who compete in the marketplace on pricing and speed. These co-processors must trust the processor to manage the lock properly. If the processor were to sign a transaction which violates a lock, the co-processor would not be able to redeem the escrowed funds._
 
 ## Risks
 
