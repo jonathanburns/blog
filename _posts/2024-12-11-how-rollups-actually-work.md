@@ -543,7 +543,7 @@ This story was inspired by [How Rollups *actually actually actually* work](https
 
 <div class="dialogue left">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeiai3i7qsdsc5hj47ajhpevwifnxowcd6idbdcwbnrznyqmn47zmjq" alt="drawing">
-  <p>What do you mean? What funds aren't safe?</p>
+  <p>What do you mean, Patrick? What funds aren't safe?</p>
 </div>
 
 <div class="dialogue right">
@@ -673,7 +673,7 @@ This story was inspired by [How Rollups *actually actually actually* work](https
 
 <div class="dialogue left">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeiai3i7qsdsc5hj47ajhpevwifnxowcd6idbdcwbnrznyqmn47zmjq" alt="drawing">
-  <p>Patrick, I need you to work on launching the new sequencer. Work with Jelly to patch the fucking bug in their contract first. We'll also need to create a new L1 bridge for the new sequencer.</p>
+  <p>We need to act fast here. Patrick, I want you to work on launching the new sequencer. Work with Jelly to patch the fucking bug in their contract first. We'll also need to create a new L1 bridge for the new sequencer.</p>
 </div>
 
 <div class="dialogue left">
