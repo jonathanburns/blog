@@ -206,7 +206,7 @@ UniswapX also recently announced a new protocol called "The Compact".
 
 Safenet and The Compact use very similar algorithms. The most noticeable distinction between them is that Safenet escrows funds in a user's smart contract wallet, whereas in The Compact protocol, user funds are held in a standard smart contract and escrowed there (the protocol [makes an explicit choice to be unopinionated about wallets](https://x.com/z0age/status/1861420970885407220)). The Safe team are experts in smart contract wallets, which makes them uniquely suited to building a smart contract wallet based approach.
 
-**What are the benefits of escrowing the funds in the smart contract wallet?**
+**What Are The Benefits Of Escrowing The Funds In The Smart Contract Wallet?**
 
 The in-wallet escrow provides some clear UX benefits:
 
