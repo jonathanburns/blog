@@ -678,7 +678,7 @@ This story was inspired by [How Rollups *actually actually actually* work](https
 
 <div class="dialogue left">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeiai3i7qsdsc5hj47ajhpevwifnxowcd6idbdcwbnrznyqmn47zmjq" alt="drawing">
-  <p>Judith, prepare comms. We should encourage the users to withdraw their ETH from bridge fork, and then send those funds to the new bridge. Make sure the users understand that there was no exploit in our chain. The problem was a exploit in the Jelly finance contract.</p>
+  <p>Judith, prepare comms. We should encourage the users to withdraw their ETH from bridge fork, and then send those funds to the new bridge. Make sure the users understand that there was no exploit in our chain. The problem was a exploit in the Jelly finance contract. Loop in the team at Circle. All the USDC will exist on both forks, but only the USDC on our fork will be redeemable.</p>
 </div>
 
 
