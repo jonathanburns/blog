@@ -18,7 +18,7 @@ I recently got a chance to meet the Safe team at Devcon to chat about their new 
 
 The last few years have brought us an explosion of new blockchains. This has helped with scaling, but brought about new challenges. If you have funds on one chain, but you want to interact with an application on a different chain, there's a long and arduous set of steps required to move your funds across the chains and achieve your goal.
 
-There has been a lot effort recently to abstract this complexity for users. The general idea is that users should only need to specify an "intent". This intent describes what the user is trying to do, and abstracts the specific transactions that are needed to get there. The long-term vision of intents is that users should be able to operate across multiple chains so smoothly that it feels like it's all one system.
+There has been a lot of effort recently to abstract this complexity for users. The general idea is that users should only need to specify an "intent". This intent describes what the user is trying to do, and abstracts the specific transactions that are needed to get there. The long-term vision of intents is that users should be able to operate across multiple chains so smoothly that it feels like it's all one system.
 
 Early efforts to facilitate intents were high-cost, high-latency, or required centralized trust (more on that below).
 
