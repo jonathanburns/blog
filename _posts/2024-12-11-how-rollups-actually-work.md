@@ -108,7 +108,7 @@ This story was inspired by [How Rollups *actually actually actually* work](https
 
 <div class="dialogue left">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeibiqluicewk6yyddl2qemscxo2zjhzpeeeorex77dhej5a3g727wa" alt="drawing">
-  <p>Fucking hell. I warned the Jelly team about this bullshit. They're too careless. They have no reguard for security. Did we post those transactions to the L1 yet?</p>
+  <p>Fucking hell. I warned the Jelly team about this bullshit. They're too careless. They have no regard for security. Did we post those transactions to the L1 yet?</p>
 </div>
 
 <div class="dialogue right">
@@ -138,7 +138,7 @@ This story was inspired by [How Rollups *actually actually actually* work](https
 
 <div class="dialogue right">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihkf5xiyp3so7qfro3hdzhtewst3f3rw7jh25pcmyl55v5otnkmzy" alt="drawing">
-  <p>Okay, it's just... X is gonna have a field day with this. They already give us hard time about the centralized sequencer. When they find out we intentionally shut it down...</p>
+  <p>Okay, it's just... X is gonna have a field day with this. They already give us a hard time about the centralized sequencer. When they find out we intentionally shut it down...</p>
 </div>
 
 <div class="dialogue left">
@@ -193,7 +193,7 @@ This story was inspired by [How Rollups *actually actually actually* work](https
 
 <div class="dialogue right">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihkf5xiyp3so7qfro3hdzhtewst3f3rw7jh25pcmyl55v5otnkmzy" alt="drawing">
-  <p>I'm paging the the data center now.</p>
+  <p>I'm paging the data center now.</p>
 </div>
 
 <div class="dialogue left">
@@ -242,12 +242,12 @@ This story was inspired by [How Rollups *actually actually actually* work](https
 
 <div class="dialogue right">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeiaymhsntltlmxgttwvhqxd7ggtsayrh32b5krixotkqxygc6vroma" alt="drawing">
-  <p>Guys, know I can't do that. I can't even prove this call is authentic. They got these AI voice clone th--.</p>
+  <p>Guys, you know I can't do that. I can't even prove this call is authentic. They got these AI voice clone th--.</p>
 </div>
 
 <div class="dialogue left">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeibiqluicewk6yyddl2qemscxo2zjhzpeeeorex77dhej5a3g727wa" alt="drawing">
-  <p>Listen to me, Jack. There's been had a major hack. Look it up. It's all over X. If you don't kill that server in the next 30 seconds, billions of dollars are going to go down the fucking shitter! You're the only person that can stop it.</p>
+  <p>Listen to me, Jack. There's been a major hack. Look it up. It's all over X. If you don't kill that server in the next 30 seconds, billions of dollars are going to go down the fucking shitter! You're the only person that can stop it.</p>
 </div>
 
 <div style="border: 5px solid black; padding: 10px; display: inline-block; font-size: 0;">
@@ -319,7 +319,7 @@ This story was inspired by [How Rollups *actually actually actually* work](https
 
 <div class="dialogue left">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeibiqluicewk6yyddl2qemscxo2zjhzpeeeorex77dhej5a3g727wa" alt="drawing">
-  <p>Nevermind that. Patrick, check the L1. Did we kill it before the update?</p>
+  <p>Never mind that. Patrick, check the L1. Did we kill it before the update?</p>
 </div>
 
 <div class="dialogue right">
@@ -568,7 +568,7 @@ This story was inspired by [How Rollups *actually actually actually* work](https
 
 <div class="dialogue right">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihfgmywf6lpgx3k2p6j23qw636x3hg3jap2vwhufi4izyj3ifnwoy" alt="drawing">
-  <p>Yeah, but then on our fork, I can still use a DEX to swap the worthless wrapped eth for a native token. Now I have the valuable ETH on the bridge fork, but I <i>also</i> have valuable native tokens on our fork. I doubled up.</p>
+  <p>Yeah, but then on our fork, I can still use a DEX to swap the worthless wrapped ETH for a native token. Now I have the valuable ETH on the bridge fork, but I <i>also</i> have valuable native tokens on our fork. I doubled up.</p>
 </div>
 
 <div class="dialogue left">
@@ -608,7 +608,7 @@ This story was inspired by [How Rollups *actually actually actually* work](https
 
 <div class="dialogue left">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeiai3i7qsdsc5hj47ajhpevwifnxowcd6idbdcwbnrznyqmn47zmjq" alt="drawing">
-  <p>Listen. Like I said before, there's nothing we can do to stop this fork. Theres 25 billion dollars in the hack, and there's only 4 billion L1 assets locked in the bridge. The majority of those wrapped assets are safe. Yes, some of those funds are in these liquidity pools, and there's nothing we can do about that. This fork is happening. If I were a liquidity provider, I would exit these pools as quickly as possible.</p>
+  <p>Listen. Like I said before, there's nothing we can do to stop this fork. There's 25 billion dollars in the hack, and there's only 4 billion L1 assets locked in the bridge. The majority of those wrapped assets are safe. Yes, some of those funds are in these liquidity pools, and there's nothing we can do about that. This fork is happening. If I were a liquidity provider, I would exit these pools as quickly as possible.</p>
 </div>
 
 <div class="dialogue right">
@@ -678,7 +678,7 @@ This story was inspired by [How Rollups *actually actually actually* work](https
 
 <div class="dialogue left">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeiai3i7qsdsc5hj47ajhpevwifnxowcd6idbdcwbnrznyqmn47zmjq" alt="drawing">
-  <p>Judith, prepare comms. We should encourage the users to withdraw their ETH from bridge fork, and then send those funds to the new bridge. Make sure the users understand that there was no exploit in our chain. The problem was a exploit in the Jelly finance contract. Loop in the team at Circle and any other stablecoin issuers. Their tokens will exist on both forks, but only the tokens on our fork will be backed up by the issuer.</p>
+  <p>Judith, prepare comms. We should encourage the users to withdraw their ETH from bridge fork, and then send those funds to the new bridge. Make sure the users understand that there was no exploit in our chain. The problem was an exploit in the Jelly finance contract. Loop in the team at Circle and any other stablecoin issuers. Their tokens will exist on both forks, but only the tokens on our fork will be backed up by the issuer.</p>
 </div>
 
 
