@@ -1,5 +1,5 @@
 ---
-title: "How Rollups *Actually Actually Actually Actually* Work"
+title: "Black Mirror: Blockchain Edition."
 hidden: true
 description: "How Rollups *Actually Actually Actually Actually* Work"
 header: 
