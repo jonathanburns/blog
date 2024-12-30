@@ -304,7 +304,7 @@ This story was inspired by [How Rollups *actually actually actually* work](https
 <br />
 
 <div class="dialogue right">
-  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeigytuun3wexri4tzdc6hnvtowxfj2p5sgjlgndcppjgwumksrwbam" alt="drawing">
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeieerpxf6ke6lotchsyy6pnyebtubn6wonmh5jhiq7vnohmze56u34" alt="drawing">
   <p>Yeah. I got it.</p>
 </div>
 
@@ -391,7 +391,7 @@ This story was inspired by [How Rollups *actually actually actually* work](https
 </div>
 
 <div style="border: 5px solid black; padding: 10px; display: inline-block; font-size: 0;">
-  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeidupujj5umy5pxpuqgjtj7uaztprn63bebr3vga354ufzb4ktmuyi" alt="drawing" style="width: 33.33%; height: auto; font-size: initial;"/>
+  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeig5e2f2mgk7zyhqo2vuwdlfy5n33syimornim3thgwomoqccw2a7y" alt="drawing" style="width: 33.33%; height: auto; font-size: initial;"/>
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeicxdfk4hmbnw4dl6mqkdy445hw6elgkihdkzvcseimubsgfim4xqq" alt="drawing" style="width: 33.33%; height: auto; font-size: initial;"/>
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeifv36im7diamawpspd5rjdvonffeoz4iccclb4jdu7oltku65us5e" alt="drawing" style="width: 33.33%; height: auto; font-size: initial;"/>
 </div>
