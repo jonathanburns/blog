@@ -34,13 +34,6 @@ date: 2024-12-11T15:34:30-04:00
 This story was inspired by [How Rollups *actually actually actually* work](https://dba.mirror.xyz/LYUb_Y2huJhNUw_z8ltqui2d6KY8Fc3t_cnSE9rDL_o), by Jon Charbonneau, which was inspired by [How Rollups *actually actually* work](https://www.youtube.com/watch?v=GlxSP_ABE4Y), by Toghrul Maharramov, which was inspired by [How Rollups *actually* work](https://www.youtube.com/watch?v=NKQz9jU0ftg), by Kelvin Fichter.
 
 <div style="border: 5px solid black; padding: 10px; display: inline-block; font-size: 0;">
-  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihkf5xiyp3so7qfro3hdzhtewst3f3rw7jh25pcmyl55v5otnkmzy" alt="drawing" style="width: 33.33%; height: auto; font-size: initial;"/>
-  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeihfgmywf6lpgx3k2p6j23qw636x3hg3jap2vwhufi4izyj3ifnwoy" alt="drawing" style="width: 33.33%; height: auto; font-size: initial;"/>
-  <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeibiqluicewk6yyddl2qemscxo2zjhzpeeeorex77dhej5a3g727wa" alt="drawing" style="width: 33.33%; height: auto; font-size: initial;"/>
-</div>
-<br />
-
-<div style="border: 5px solid black; padding: 10px; display: inline-block; font-size: 0;">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeiag2j7ea3st7qvgveo3t64ffhmcs2yg5lrqhixaqgvveoufwtoj5i" alt="drawing" style="width: 33.33%; height: auto; font-size: initial;"/>
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeiho7t3vxg3tgxruus2tq4nhlgnhnbi2gzwgwnkgumd2epdfrgx2yi" alt="drawing" style="width: 33.33%; height: auto; font-size: initial;"/>
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeidbppeqv7fbvifcvnebm6tq2g67jr3cctqczdzxveg3c727723kxi" alt="drawing" style="width: 33.33%; height: auto; font-size: initial;"/>
