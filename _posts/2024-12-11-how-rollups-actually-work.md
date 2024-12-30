@@ -3,9 +3,10 @@ title: "How Rollups *Actually Actually Actually Actually* Work"
 hidden: true
 description: "How Rollups *Actually Actually Actually Actually* Work"
 header: 
-  teaser: "https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeifpbme4o6omwfgosbilii62ocd2pxi2wm33ym6nwupzr227jq7wwm"
+  teaser: "https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeia44q7nhwd7q6fhvalxjyjp362x7f7doayxzqz3ctwg7fx66o3l2m"
 date: 2024-12-11T15:34:30-04:00
 ---
+https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeifpbme4o6omwfgosbilii62ocd2pxi2wm33ym6nwupzr227jq7wwm
 <style>
   .dialogue {
     overflow: hidden;
