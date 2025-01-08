@@ -677,6 +677,7 @@ This story was inspired by [How Rollups *actually actually actually* work](https
 </div>
 
 <div class="dialogue left">
+  <img src="https://ipfs.io/ipfs/bafybeiai3i7qsdsc5hj47ajhpevwifnxowcd6idbdcwbnrznyqmn47zmjq" alt="drawing">
   <img src="https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeiai3i7qsdsc5hj47ajhpevwifnxowcd6idbdcwbnrznyqmn47zmjq" alt="drawing">
   <p>Judith, prepare comms. We should encourage the users to withdraw their ETH from the bridge fork, and then send those funds to the new bridge that's connected to <i>our</i> fork. Make sure the users understand that there was no exploit in our chain. The problem was an exploit in the Jelly Finance contract. Loop in the team at Circle and any other stablecoin issuers. Their tokens will exist on both forks, but only the tokens on our fork will be backed up by the issuer.</p>
 </div>
