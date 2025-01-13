@@ -22,6 +22,7 @@ description: >- # this means to ignore newlines until "baseurl:"
 twitter_username: johnny_the_hutt
 github_username: 
 minimal_mistakes_skin: default
+google_analytics: G-9WHCQD2DZB
 search: true
 favicon: "/assets/images/the.png"
 
