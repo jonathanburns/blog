@@ -8,7 +8,7 @@ date: 2024-12-11T15:34:30-04:00
 ---
 
 
-A Trust Minimized BTC Bridge
+## Overview
 
 
 BTC was designed to function as a non-fiat global reserve currency, or “digital money”. 
