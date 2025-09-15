@@ -232,7 +232,7 @@ Further, if one actor in the group is refusing to sign, it might be because that
 
 Unfortunately, the best solution we have to this problem is to allow the group to remove a member through majority vote.
 
-This does work, but it turns the system into a very complex honest-majority bridge.
+This does work, but it turns the system into a very complex honest-majority bridge. If the majority is dishonest, they can vote out all honest members.
 
 
 ## Conclusion
