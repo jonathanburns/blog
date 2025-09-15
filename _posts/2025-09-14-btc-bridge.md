@@ -88,7 +88,7 @@ These scripts provide a lot of programmability, but they come with some importan
 
 #### Problem 1: Enforcing The State Transition Function
 
-The BitVM white paper shows that Bitcoin scripts are expressive enough to validate a ZK proof (which can enforce the state transition function). This means that a submitter can provide the script with current state of the of the chain, and a ZK proof which shows that the state transition function is valid. 
+The BitVM white paper shows that Bitcoin scripts are expressive enough to validate a ZK proof (which can enforce the state transition function). This means that a submitter can provide the script with current state of the of the chain, and a ZK proof which shows that the state transition function is valid. The script can enforce that the funds are only unlocked if the ZK proof is valid.
 
 Unfortunately, Bitcoin scripts have no access to the transaction outputs. This means the script cannot enforce that the funds go to the right place.
 
