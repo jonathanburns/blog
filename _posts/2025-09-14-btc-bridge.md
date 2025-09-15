@@ -17,7 +17,7 @@ In a perfect world, the ETH token would not have been necessary. Instead, users 
 
 Unfortunately, transferring BTC to other chains safely is hard. All known methods require a group of actors, and the majority of the actors in the group must be honest. We call this an “honest majority” trust assumption. This honest majority assumption is not good enough to power the world’s financial infrastructure. The ETH token is necessary because the Ethereum blockchain needs a token that cannot be corrupted by a dishonest majority.
 
-A trust minimized bridge is one where only one actor in the group needs to be honest. For many years, building a trust-minimized bridge on Bitcoin was thought to be impossible without changes to the Bitcoin protocol. 
+A trust minimized bridge is one where only one actor in the group needs to be honest. Until recently, building a trust-minimized bridge on Bitcoin was thought to be impossible without changes to the Bitcoin protocol. 
 
 However, a recent series of whitepapers introduced a novel algorithm called “BitVM” which proposes a method for creating a trust minimized Bitcoin bridge. 
 
