@@ -68,7 +68,7 @@ For example, I can create one version of the blockchain where I sign a transacti
 ![fork](https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafkreiagvyjceouvgh3vhtelolmoctn7hedxhnczmhuqqyfgi65bxksvoa)
 
 
-In this case, the bridge must encode rules which define which fork is the real one. We call this the “fork choice rule”. 
+In this case, the bridge must encode rules which define which fork is the real one. This is called the “Fork Choice Rule”. 
 
 If the bridge does not enforce the “Fork Choice Rule”, an actor can create a private fork and submit that fork to the L1 (this fork will pass the state transition function verification).
 
@@ -103,7 +103,7 @@ At deposit time, the bridge participants create a pre-planned route for the flow
 
 To enforce that the funds ONLY follow the approved route, the bridge participants create an n-of-n multisig (one signature for each participant).
 
-At deposit time, the actors pre-sign every transaction in the route. At the end of this process, each actor throws away the key so that no other transactions can be signed with the multisig. 
+At deposit time, the actors pre-sign every transaction in the route. At the end of this process, each actor permanently deletes their signing key so that no other transactions can be signed with the multisig. 
 
 So long as **any** actor in the group throws away the key as instructed, no other transactions can be signed (since signing these transactions requires approval from all n parties).
 
@@ -135,7 +135,7 @@ ZK proofs cannot solve this problem (since both forks are valid and follow the s
 
 In addition to signing deposits, the bridge participants periodically sign messages attesting to the canonical tip of the Bitcoin chain. Because these messages are signed by all parties (n-of-n signatures), it proves that all signers agree that this block is the current tip of Bitcoin. So long as there is 1 honest actor in the group, the group will never sign a dishonest private fork (this fork would be missing at least one signature).
 
-Now, when the submitter tells the script that a certain block is the tip of the Bitcoin chain, the submitter can also submit a signature showing that the block was signed by the n-of-n multisig.
+Now, when the submitter tells the script that a certain block is the tip of the Bitcoin chain, the submitter can also provide a signature showing that the block was signed by the n-of-n multisig.
 
 
 ## Putting It All Together
@@ -144,13 +144,13 @@ Now, when the submitter tells the script that a certain block is the tip of the 
 Let’s look at how the Strata Bridge handles bridge operations:
 
 
-#### Deposit Funds To The Bridge:
+#### Deposit Funds to The Bridge:
 
 For each deposit, the bridge participants create a pre-planned route which represents the possible paths along which funds can flow (including the ZK proof dispute procedure). This set of transactions is signed by the group at deposit time. As long as at least one participant in the group is honest, the route cannot be compromised. 
 
 Once the funds are locked in the bridge, the Wrapped BTC tokens are minted on the L2.
 
-#### Update State Of the L2: 
+#### Update State of the L2: 
 
 Before a user can withdraw funds that are locked in a bridge deposit, they’ll need to burn the corresponding amount of Wrapped BTC on the L2.
 
@@ -207,13 +207,13 @@ This solution is effective in what it aims to do. It makes it exceedingly diffic
 
 **Liveness Failures**
 
-Remember that in this system, deposits require n-of-n signers, and all deposits require a signature from all signers. Additionally, to make a withdrawal, you need to submit a block which has been signed by this group of signers (this is how the system enforces the fork choice rule).
+Remember that in this system, deposits require n-of-n signers, and all deposits require a signature from all signers. Additionally, to make a withdrawal, you need to submit a block which has been signed by this group of signers (this is how the system enforces the Fork Choice Rule).
 
 So what happens if one or more signers stop signing? 
 
 In this case, the system can no longer process deposits (because a signer is missing). Additionally, if an actor stops signing bitcoin blocks, the system cannot process withdrawals. Users can still burn Wrapped BTC on the L2, and the L2 can post that data to Bitcoin, but remember that the withdrawal script cannot read the Bitcoin blockchain. This means a user cannot prove to the withdrawal script that this block is not a private fork. Proving this block is in the canonical chain requires a group signature from the n-of-n signers.
 
-If an actor in the system can cause the system to stop functioning, we call this a “liveness failure”
+If an actor in the system can cause the system to stop functioning, this is called a “liveness failure”.
 
 The ability to cause a liveness failure like this is effectively as dangerous as the ability to steal funds. An actor who creates this liveness failure could hold the funds in the bridge hostage. They might say “I’ll only sign transactions on the condition that you pay me a ransom”.
 
