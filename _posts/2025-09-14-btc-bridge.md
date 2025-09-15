@@ -21,9 +21,9 @@ A trust minimized bridge is one where only one actor in the group needs to be ho
 
 However, a recent series of whitepapers introduced a novel algorithm called “BitVM” which proposes a method for creating a trust minimized Bitcoin bridge. 
 
-Multiple teams are working on various implementations of BitVM. In researching these teams, Alpen Labs and Citrea were both referenced many times as strong contenders in the space.
+Multiple teams are working on various implementations of BitVM. 
 
-To keep this document focused, I’ll focus on the Strata bridge design, which is being built by the team at Alpen Labs. It’s worth noting that other implementations differ in various ways which may come with different security tradeoffs.
+To keep this document focused, I’ll focus on the Strata bridge design, which is being built by the team at Alpen Labs. It’s worth noting that other implementations (Citrea, or others) differ in various ways which may come with different security tradeoffs.
 
 In this paper, I will describe:
 
