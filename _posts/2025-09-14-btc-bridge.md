@@ -11,11 +11,9 @@ date: 2024-12-11T15:34:30-04:00
 ## Overview
 
 
-BTC was designed to function as a non-fiat global reserve currency, or “digital money”. 
+Ethereum was created to enable decentralized financial applications (smart contracts). These decentralized applications will almost certainly replace large portions of the world’s financial infrastructure.
 
-Ethereum was created because developers wanted to write decentralized programs (smart contracts) which leverage digital money. These decentralized applications will almost certainly replace large portions of the world’s financial infrastructure.
-
-In a perfect world, the ETH token would not have been necessary. Instead, users would transfer BTC to the Ethereum blockchain, and BTC would function as digital money within the Ethereum ecosystem. 
+In a perfect world, the ETH token would not have been necessary. Instead, users would transfer BTC to the Ethereum blockchain, and BTC would function as digital currency for the Ethereum ecosystem. 
 
 Unfortunately, transferring BTC to other chains safely is hard. All known methods require a group of actors, and the majority of the actors in the group must be honest. We call this an “honest majority” trust assumption. This honest majority assumption is not good enough to power the world’s financial infrastructure. The ETH token is necessary because the Ethereum blockchain needs a token that cannot be corrupted by a dishonest majority.
 
