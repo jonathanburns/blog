@@ -3,7 +3,7 @@ title: "BTC Bridge"
 hidden: true
 description: "BTC Bridge"
 header: 
-  teaser: "https://ipfs.io/ipfs/bafybeielzz7kfwx4rafc4jydlq7aapul75ihacypuzqyhxj4nblixfvkie"
+  teaser: "https://ipfs.io/ipfs/bafybeibakz4oz56c6bwtmz3qfooiqetyxym3r2lqso6mc5ouxjzrzglybe"
 date: 2024-12-11T15:34:30-04:00
 ---
 
