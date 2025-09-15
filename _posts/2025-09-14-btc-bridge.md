@@ -15,11 +15,11 @@ Ethereum was created to enable decentralized financial applications (smart contr
 
 In a perfect world, the ETH token would not have been necessary. Instead, users would transfer BTC to the Ethereum blockchain, and BTC would function as digital currency for the Ethereum ecosystem. 
 
-Unfortunately, transferring BTC to other chains safely is hard. All known methods require a group of actors, and the majority of the actors in the group must be honest. We call this an “honest majority” trust assumption. This honest majority assumption is not good enough to power the world’s financial infrastructure. The ETH token is necessary because the Ethereum blockchain needs a token that cannot be corrupted by a dishonest majority.
+Unfortunately, transferring BTC to other chains safely is hard. All known methods require a group of actors, and the majority of the actors in the group must be honest. We call this an “honest-majority” trust assumption. This honest-majority assumption is not good enough to power the world’s financial infrastructure. The ETH token is necessary because the Ethereum blockchain needs a token that cannot be corrupted by a dishonest majority.
 
 A trust-minimized bridge is one where only one actor in the group needs to be honest. Until recently, building a trust-minimized bridge on Bitcoin was thought to be impossible without changes to the Bitcoin protocol. 
 
-However, a recent series of whitepapers introduced a novel algorithm called “BitVM” which proposes a method for creating a trust-minimized Bitcoin bridge. 
+However, a recent series of white papers introduced a novel algorithm called “BitVM” which proposes a method for creating a trust-minimized Bitcoin bridge. 
 
 Multiple teams are working on various implementations of BitVM. 
 
@@ -42,7 +42,7 @@ To initiate a transfer to the destination chain, the users lock BTC into the bri
 
 #### Update State Of the L2: 
 
-Users sign transactions off-chain (i.e. on the L2) to interact with it. There must be a method by which the current L2 state can be recorded on the L1 (Bitcoin).
+Users sign transactions off-chain (i.e., on the L2) to interact with it. There must be a method by which the current L2 state can be recorded on the L1 (Bitcoin).
 
 #### Withdraw Funds From The Bridge: 
 
@@ -68,7 +68,7 @@ For example, I can create one version of the blockchain where I sign a transacti
 ![fork](https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafkreiagvyjceouvgh3vhtelolmoctn7hedxhnczmhuqqyfgi65bxksvoa)
 
 
-In this case, the bridge must encode rules which define which fork is the real one. This is called the “Fork Choice Rule”. 
+In this case, the bridge must encode rules that define which fork is the real one. This is called the “Fork Choice Rule”. 
 
 If the bridge does not enforce the “Fork Choice Rule”, an actor can create a private fork and submit that fork to the L1 (this fork will pass the state transition function verification).
 
@@ -83,12 +83,12 @@ Think of it like the Bitcoin is on an island, and the script protects that coin 
 
 ![fork](https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeia57p3s5r44mowfxoxwgnvi5fxuttoaplkym7b3x7kxexijzsp3pq)
 
-These scripts provide a lot of programmability, but they come with some important limitations. I’ll explain how these limitations create problems when trying to build a bridge, and how the [BitVM2 whitepaper](https://bitvm.org/bitvm_bridge.pdf), and the [Strata Bridge whitepaper](https://www.alpenlabs.io/blog/introducing-the-strata-bridge) propose solving these problems.
+These scripts provide a lot of programmability, but they come with some important limitations. I’ll explain how these limitations create problems when trying to build a bridge, and how the [BitVM2 white paper](https://bitvm.org/bitvm_bridge.pdf), and the [Strata Bridge white paper](https://www.alpenlabs.io/blog/introducing-the-strata-bridge) propose solving these problems.
 
 
 #### Problem 1: Enforcing The State Transition Function
 
-The BitVM whitepaper shows that Bitcoin scripts are expressive enough to validate a ZK proof (which can enforce the state transition function). However, the process requires a dispute resolution flow. Funds must be sent to the correct party depending on the result of the dispute.
+The BitVM white paper shows that Bitcoin scripts are expressive enough to validate a ZK proof (which can enforce the state transition function). However, the process requires a dispute resolution flow. Funds must be sent to the correct party depending on the result of the dispute.
 
 Unfortunately, Bitcoin scripts have no access to the transaction outputs. This means the script cannot enforce that the funds go to the right place.
 
@@ -101,7 +101,7 @@ At deposit time, the bridge participants create a pre-planned route for the flow
 ![fork](https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeibakz4oz56c6bwtmz3qfooiqetyxym3r2lqso6mc5ouxjzrzglybe)
 
 
-To enforce that the funds ONLY follow the approved route, the bridge participants create an n-of-n multisig (one signature for each participant).
+To enforce that the funds **only** follow the approved route, the bridge participants create an n-of-n multisig (one signature for each participant).
 
 At deposit time, the actors pre-sign every transaction in the route. At the end of this process, each actor permanently deletes their signing key so that no other transactions can be signed with the multisig. 
 
@@ -160,8 +160,8 @@ The L2 sequencer periodically posts the current L2 state back to Bitcoin, so thi
 
 When submitting a withdrawal, the submitter tells the withdrawal script about the state of the L1 and L2. Using the solutions described above, the withdrawal script enforces:
 
-* The state transition function was followed for the L1 and L2
-* The Fork Choice Rule was followed for the L1 and L2
+* The state transition function was satisfied for the L1 and L2
+* The Fork Choice Rule was satisfied for the L1 and L2
 * The withdrawal conditions are met.
 
 If all three of these conditions are met, the bridge releases the funds.
@@ -186,7 +186,7 @@ Consider the following scenario.
 
 * An attacker creates an unsafe deposit where all participants are dishonest (the top deposit in the image above).
 * The L2 sequencer mints 1 Wrapped BTC on the L2.
-* The attacker burns the BTC on the L2, and withdraws it on the L1. The attacker withdraws the BTC on the L1, but the insecure deposit (the top one) is still locked in the bridge.
+* The attacker burns the BTC on the L2, and withdraws it on the L1. Note that the insecure deposit (the top one) is still locked in the bridge.
 
 Now, the attacker has retrieved their 1 BTC back on the L1, but the insecure deposit is still locked in the bridge. The attacker can easily withdraw that insecure BTC from the bridge without burning funds on the L2.
 
@@ -201,7 +201,7 @@ The withdrawal script must protect against this case by enforcing a set of “re
 
 If a deposit is made which does not include all the required participants, and the L2 mints wrapped tokens for that deposit, the withdrawal script should consider that L2 state transition **invalid** (the minting of those tokens violates the state transition function).
 
-This means that the set of “required participants” must be defined **during the first deposit to the bridge**, and the withdrawal scripts must enforce that every deposit must include that enshrined set of signers. As long as there is one honest actor among the enshrined signers, the deposits are secure.
+This means that the set of “required participants” must be defined **during the first deposit to the bridge**, and the withdrawal scripts must enforce that every deposit includes that enshrined set of signers. As long as there is one honest actor among the enshrined signers, the deposits are secure.
 
 This solution is effective in what it aims to do. It makes it exceedingly difficult to create an insecure deposit. However, it makes it exceedingly simple for an actor to make the system stop functioning.
 
@@ -211,7 +211,7 @@ Remember that in this system, deposits require n-of-n signers, and all deposits 
 
 So what happens if one or more signers stop signing? 
 
-In this case, the system can no longer process deposits (because a signer is missing). Additionally, if an actor stops signing bitcoin blocks, the system cannot process withdrawals. Users can still burn Wrapped BTC on the L2, and the L2 can post that data to Bitcoin, but remember that the withdrawal script cannot read the Bitcoin blockchain. This means a user cannot prove to the withdrawal script that this block is not a private fork. Proving this block is in the canonical chain requires a group signature from the n-of-n signers.
+In this case, the system can no longer process deposits (because a signer is missing). Additionally, if an actor stops signing Bitcoin blocks, the system cannot process withdrawals. Users can still burn Wrapped BTC on the L2, and the L2 can post that data to Bitcoin, but remember that the withdrawal script cannot read the Bitcoin blockchain. This means a user cannot prove to the withdrawal script that this block is not a private fork. Proving this block is in the canonical chain requires a group signature from the n-of-n signers.
 
 If an actor in the system can cause the system to stop functioning, this is called a “liveness failure”.
 
@@ -226,11 +226,11 @@ To solve this, there must be an escape hatch which allows the signers to remove 
 
 Firstly, it is difficult to prove that an actor is refusing to sign. 
 
-Further, If one actor in the group is refusing to sign, it might be because that actor is trying to cause a liveness failure, or it might be because that actor is the only honest actor in the group (refusing to sign a malicious transaction).
+Further, if one actor in the group is refusing to sign, it might be because that actor is trying to cause a liveness failure, or it might be because that actor is the only honest actor in the group (refusing to sign a malicious transaction).
 
 Unfortunately, the best solution we have to this problem is to allow the group to remove a member through majority vote.
 
-This does work, but it turns the system into a very complex honest majority bridge.
+This does work, but it turns the system into a very complex honest-majority bridge.
 
 
 ## Conclusion
@@ -239,8 +239,8 @@ BitVM and Alpen have made major breakthroughs. They have devised a way to verify
 
 However, to build a functional bridge, we need more than ZK proofs. Namely:
 
-* We must ensure that a single actor cannot cause the system to stop processing deposits. Currently, this requires honest majority trust assumptions.
-* We must ensure that a single actor cannot cause the system to stop processing withdrawals. Currently, this requires honest majority trust assumptions.
+* We must ensure that a single actor cannot cause the system to stop processing deposits. Currently, this requires honest-majority trust assumptions.
+* We must ensure that a single actor cannot cause the system to stop processing withdrawals. Currently, this requires honest-majority trust assumptions.
 
 These are still unsolved problems. 
 
