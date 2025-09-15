@@ -67,7 +67,7 @@ In blockchain, it is possible to create two valid versions of the chain (where b
 For example, I can create one version of the blockchain where I sign a transaction which sends my funds to Sophie, and another version where I send my funds to Felix.
 
 
-![fork](https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeigd4zkrvnxiwa3br23e67xpcd64fzdwfro5chkrmske4w7dt3iycm)
+![fork](https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafkreiagvyjceouvgh3vhtelolmoctn7hedxhnczmhuqqyfgi65bxksvoa)
 
 
 In this case, the bridge must encode rules which define which fork is the real one. We call this the “fork choice rule”. 
@@ -83,7 +83,7 @@ Bitcoin does support scripting. All funds on the Bitcoin blockchain are separate
 
 Think of it like the Bitcoin is on an island, and the script protects that coin from being stolen from the island. The script will not let anyone take the coin from the island unless the conditions are met.
 
-
+![fork](https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeia57p3s5r44mowfxoxwgnvi5fxuttoaplkym7b3x7kxexijzsp3pq)
 
 These scripts provide a lot of programability, but they come with some important limitations. I’ll explain how these limitations create problems when trying to build a bridge, and how the BitVM2 whitepaper, and the Strata Bridge whitepaper propose solving these problems.
 
@@ -94,11 +94,13 @@ The BitVM whitepaper shows that Bitcoin scripts are expressive enough to validat
 
 Unfortunately, Bitcoin scripts have no access to the transaction data outputs. This means the script cannot enforce that the funds go to the right place.
 
+![fork](https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeibse2jpy6meffj5ebgirrkb4gj6cyumm5leqvfu6p3bwlu5jgmmwe)
 
 Solution:
 
 At deposit time, the bridge participants create a pre-planned route for the flow of funds.
 
+![fork](https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeibakz4oz56c6bwtmz3qfooiqetyxym3r2lqso6mc5ouxjzrzglybe)
 
 
 To enforce that the funds ONLY follow the approved route, the bridge participants create an n-of-n multisig (one signature for each participant).
@@ -118,6 +120,7 @@ Unfortunately, Bitcoin scripts cannot access any blockchain state.
 
 This means that even though the state of the L2 has been posted to Bitcoin, the script cannot see it, and thus, it cannot use that state to accept or reject a withdrawal based on that state.
 
+![fork](https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeienybbrjruzwkz4g7h2huwvhvhkzmvy5qgn6dkjrv5n6pbo2tr3wy)
 
 
 
@@ -127,6 +130,7 @@ But what if the submitter lies?
 
 For example, imagine that an attacker creates a private fork of the Bitcoin chain, and tells the script that this is the head of the Bitcoin blockchain. The script cannot determine if this block is in its own chain.
 
+![fork](https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeigd4zkrvnxiwa3br23e67xpcd64fzdwfro5chkrmske4w7dt3iycm)
 
 
 ZK proofs can not solve this problem (since both forks are valid and follow the state transition function), so we need another way to prevent an attacker from submitting a malicious (but valid) fork.
@@ -173,11 +177,13 @@ On the L1, each deposit is locked in its own UTXO (each of these UTXOs has a scr
 
 We can imagine the 3 BTC deposits, each locked in a UTXO (on the left of this image), and 3 Wrapped BTC on the L2 (on the right). The Wrapped BTC are all in a shared pool and not tied to a specific deposit.
 
+![fork](https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeiej2gi7rwglkexwx6tg5tuv4m75so3lb43p4sh4zyqcozloomf75q)
 
 
 Because the tokens on the L2 are fungible, when you burn “Wrapped BTC” on the L2, and withdraw it on the L1, the tokens you get back may come from a different deposit.
 
 
+![fork](https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafkreignytyl6m6p4gdto3c3pbyqpmg3k3tz2odhnmkbwg3iy4xqatbceq)
 
 
 
@@ -201,6 +207,7 @@ How Can We Protect Against This Attack?
 
 The withdrawal script must protect against this case by enforcing a set of “required participants” for all deposits (even those that came after the deposit which the script is attached to).
 
+![fork](https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeiau2ea4b4kzzuygef3v5pu32zxh6idhk2pwgm5fzc72225xnp4biq)
 
 
 If a deposit is made which does not include all the required participants, and the L2 mints wrapped tokens for that deposit, the withdrawal script should consider that L2 state transition invalid (the minting of those tokens violates the state transition function).
