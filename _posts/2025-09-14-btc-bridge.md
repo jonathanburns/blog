@@ -242,7 +242,9 @@ However, to build a functional Bridge, we need more than ZK proofs. Namely:
 * We must ensure that a single actor cannot cause the system to stop processing deposits. Currently, this requires honest majority trust assumptions.
 * We must ensure that a single actor cannot cause the system to stop processing withdrawals. Currently, this requires honest majority trust assumptions.
 
-These are unsolved problems. It is possible that they can be solved by making updates to the Bitcoin protocol.
+These are still unsolved problems. 
+
+It it worth noting that potential changes to the Bitcoin protocol like OP_CAT might change this. Exploring how OP_CAT changes things is an exercise for another post. 
 
 
 
