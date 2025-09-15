@@ -180,9 +180,9 @@ Because the tokens on the L2 are fungible, when you burn “Wrapped BTC” on th
 
 ![fork](https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafkreignytyl6m6p4gdto3c3pbyqpmg3k3tz2odhnmkbwg3iy4xqatbceq)
 
-For this reason, the withdrawal script must enforce that **all deposits are secure** (even deposits which occur **after** the deposit this script is attached to). If any deposit has a group where all actors are dishonest, the system is compromised.
+For this reason, the withdrawal script must enforce that **all deposits are secure** (even deposits which occur **after** the deposit this script is attached to). If any deposit is insecure (i.e. a deposit where all the signers are dishonest), then the entire bridge is compromised.
 
-Consider what might happen if a withdrawal script did not enforce this.
+Consider the following scenario.
 
 * An attacker creates an unsafe deposit where all participants are dishonest (the top deposit in the image above).
 * The L2 sequencer mints 1 wrapped BTC on the L2.
@@ -191,7 +191,6 @@ Consider what might happen if a withdrawal script did not enforce this.
 Now, the attacker has retrieved their 1 BTC back on the L1, but the insecure deposit is still locked in the bridge. The attacker can easily withdraw that insecure BTC from the Bridge without burning funds on the L2.
 
 After the attacker retrieves both deposits, there is only one deposit left on the L1, but there are 2 tokens on the L2 (the L2 is no longer fully collateralized).
-
 
 **How Can We Protect Against This Attack?**
 
