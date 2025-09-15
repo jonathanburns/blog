@@ -245,30 +245,3 @@ However, to build a functional Bridge, we need more than ZK proofs. Namely:
 These are still unsolved problems. 
 
 It it worth noting that potential changes to the Bitcoin protocol like OP_CAT might change this. Exploring how OP_CAT changes things is an exercise for another post. 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
