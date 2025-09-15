@@ -178,19 +178,13 @@ We can imagine the 3 BTC deposits, each locked in a UTXO (on the left of this im
 
 Because the tokens on the L2 are fungible, when you burn “Wrapped BTC” on the L2, and withdraw it on the L1, the tokens you get back may come from a different deposit.
 
-
 ![fork](https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafkreignytyl6m6p4gdto3c3pbyqpmg3k3tz2odhnmkbwg3iy4xqatbceq)
 
+For this reason, the withdrawal script must enforce that **all deposits are secure** (even deposits which occur **after** the deposit this script is attached to). If any deposit has a group where all actors are dishonest, the system is compromised.
 
+Consider what might happen if a withdrawal script did not enforce this.
 
-
-For this reason, the system must enforce that **all deposits are secure** (even deposits which occur **after** the deposit this script is attached to).
-
-Remember that at deposit time, a group of bridge participants create an n-of-n multisig. For the deposit to be secure, at least 1 participant in that group must be honest.
-
-Imagine that the script on the bottom is only enforcing that its own deposit is secure. In that case, the following attack can happen:
-
-* An attacker creates an unsafe deposit where all participants are dishonest (the top one in the image above).
+* An attacker creates an unsafe deposit where all participants are dishonest (the top deposit in the image above).
 * The L2 sequencer mints 1 wrapped BTC on the L2.
 * The attacker burns the BTC on the L2, and withdraws it on the L1. The attacker withdraws the BTC on the L1, but the insecure deposit (the top one) is still locked in the bridge.
 
