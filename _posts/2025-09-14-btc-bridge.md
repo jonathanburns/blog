@@ -175,7 +175,7 @@ On the L1, each deposit is locked in its own UTXO (each of these UTXOs has a scr
 
 We can imagine the 3 BTC deposits, each locked in a UTXO (on the left of this image), and 3 Wrapped BTC on the L2 (on the right). The Wrapped BTC are all in a shared pool and not tied to a specific deposit.
 
-![fork]()
+![fork](https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeiej2gi7rwglkexwx6tg5tuv4m75so3lb43p4sh4zyqcozloomf75q)
 
 
 Because the tokens on the L2 are fungible, when you burn “Wrapped BTC” on the L2, and withdraw it on the L1, the tokens you get back may come from a different deposit.
