@@ -223,26 +223,27 @@ The ability to cause a liveness failure like this is effectively as dangerous as
 
 If the system requires an enshrined set of n-of-n signers for all deposits and withdrawls, any actor in that signing group can halt deposits and withdrawals, causing a liveness failure. This makes the system extremely vulnerable to attack.
 
-To solve this, there must be an escape hatch which allows the signers to remove an actor who is not signing, but this creates problems:
+To solve this, there must be an escape hatch which allows the signers to remove an actor who is not signing, but this escape hatch creates problems:
 
-Firstly, it is difficult to prove that an actor is refusing to sign. What if all the other actors say that they didn’t get the message, just so that they can remove one member?
+Firstly, it is difficult to prove that an actor is refusing to sign. 
 
-Further, If one actor in the group is refusing to sign, it might be because that actor is trying to cause a liveness failure, or it might be because that actor is the only honest one in the group (refusing to sign a malicious transaction).
+Further, If one actor in the group is refusing to sign, it might be because that actor is trying to cause a liveness failure, or it might be because that actor is the only honest actor in the group (refusing to sign a malicious transaction).
 
 Unfortunately, the best solution we have to this problem is to allow the group to remove a member through majority vote.
 
 This does work, but it turns the system into a very complex honest majority bridge.
 
 
-
 ## Conclusion
 
-BitVM and Alpen have made major breakthroughs. They have devised a way to verify ZK proofs on Bitcoin. Recent advancements from Alpen like glock have greatly improved the efficiency of these algorithms.
+BitVM and Alpen have made major breakthroughs. They have devised a way to verify ZK proofs on Bitcoin. Recent advancements from Alpen like glock have greatly improved the efficiency of these zk proving algorithms.
 
 However, to build a functional Bridge, we need more than ZK proofs. Namely:
 
 We need to ensure that a single actor cannot cause the system to stop processing deposits. Currently, this requires honest majority trust assumptions.
 We need to ensure that a single actor cannot cause the system to stop processing withdrawals. Currently, this requires honest majority trust assumptions.
+
+These are unsolved problems. It is possible that they can be solved by making updates to the Bitcoin protocol.
 
 
 
