@@ -195,16 +195,16 @@ After the attacker retrieves both deposits, there is only one deposit left on th
 
 **How Can We Protect Against This Attack?**
 
-The withdrawal script must protect against this case by enforcing a set of “required participants” for all deposits (even those that came after the deposit which the script is attached to).
+The withdrawal script must protect against this case by enforcing a set of “required participants” for **all** deposits (even those that came after the deposit which the script is attached to).
 
 ![fork](https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeiau2ea4b4kzzuygef3v5pu32zxh6idhk2pwgm5fzc72225xnp4biq)
 
 
 If a deposit is made which does not include all the required participants, and the L2 mints wrapped tokens for that deposit, the withdrawal script should consider that L2 state transition **invalid** (the minting of those tokens violates the state transition function).
 
-This means that the set of “required participants” must be defined **during the first deposit to the bridge**, and the withdrawal scripts must enforce that every deposit which comes after this must include that enshrined set of signers. As long as there is one honest actor amongst the enshrined signers, the deposits are secure.
+This means that the set of “required participants” must be defined **during the first deposit to the bridge**, and the withdrawal scripts must enforce that every deposit must include that enshrined set of signers. As long as there is one honest actor amongst the enshrined signers, the deposits are secure.
 
-This solution is effective in what it aims to do. It makes it exceedingly difficult to create an insecure deposit. However, it makes it exceedingly simple for an actor to bring the system to a screeching halt.
+This solution is effective in what it aims to do. It makes it exceedingly difficult to create an insecure deposit. However, it makes it exceedingly simple for an actor to make the system stop functioning.
 
 **Liveness Failures**
 
@@ -212,11 +212,11 @@ Remember that in this system, deposits require n-of-n signers, and all deposits 
 
 So what happens if one or more signers stops signing? 
 
-In this case, the system can no longer process deposits (because a signer is missing). Additionally, if an actor stops signing bitcoin blocks, the system cannot process withdrawals. Users can still burn Wrapped BTC on the L2, and the L2 can post that data to the Bitcoin, but a user cannot prove to the withdrawal script that this block is not a private fork. Proving this requires the group to sign a block.
+In this case, the system can no longer process deposits (because a signer is missing). Additionally, if an actor stops signing bitcoin blocks, the system cannot process withdrawals. Users can still burn Wrapped BTC on the L2, and the L2 can post that data to the Bitcoin, but a user cannot prove to the withdrawal script that this block is not a private fork. Proving this block is in the canonical chain requires the group this block (or a later block).
 
 If an actor in the system can cause the system to stop functioning, we call this a “liveness failure”
 
-The ability to cause a liveness failure like this is effectively as dangerous as the ability to steal funds. An actor who creates this liveness failure could hold the funds in the Bridge hostage. They might say “I’ll only sign transactions on the condition that you pay me a random”.
+The ability to cause a liveness failure like this is effectively as dangerous as the ability to steal funds. An actor who creates this liveness failure could hold the funds in the Bridge hostage. They might say “I’ll only sign transactions on the condition that you pay me a ransom”.
 
 
 ## The Unfortunate Solution 
