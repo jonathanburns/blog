@@ -42,7 +42,7 @@ To initiate a transfer to the destination chain, the users lock funds into BTC i
 
 #### Update State Of the L2: 
 
-Users sign transactions off-chain (i.e. on the L2) to interact with it. There must be a method by which the new most current L2 state can be recorded on the L1 (Bitcoin).
+Users sign transactions off-chain (i.e. on the L2) to interact with it. There must be a method by which the current L2 state can be recorded on the L1 (Bitcoin).
 
 #### Withdraw Funds From The Bridge: 
 
@@ -50,7 +50,7 @@ When a user burns “Wrapped BTC” on the L2, eventually that state will get pr
 
 Once the L1 is updated, a user should be able to unlock an equivalent amount of Bitcoin from the bridge.
 
-To do this, the bridge must confirm that the update posted on the L2 is valid. To do this, it must enforce two important things:
+To do this, the bridge must understand the state of the L2. To do this, it must enforce two important things:
 
 **Validating The L2’s State Transition Function**
 
