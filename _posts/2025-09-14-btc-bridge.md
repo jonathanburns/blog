@@ -27,9 +27,9 @@ To keep this document focused, I’ll focus on the Strata bridge design, which i
 
 In this paper, I will describe:
 
-What is required to create a functioning bridge?
-Why is it hard to create a bridge on Bitcoin, and how do BitVM and the Strata bridge attempt to solve these problems?
-Why don’t these solutions work?
+* What is required to create a functioning bridge?
+* Why is it hard to create a bridge on Bitcoin, and how do BitVM and the Strata bridge attempt to solve these problems?
+* Why don’t these solutions work?
 
 
 ## Creating A Functioning Bridge
