@@ -211,7 +211,7 @@ Remember that in this system, deposits require n-of-n signers, and all deposits 
 
 So what happens if one or more signers stops signing? 
 
-In this case, the system can no longer process deposits (because a signer is missing). Additionally, if an actor stops signing bitcoin blocks, the system cannot process withdrawals. Users can still burn Wrapped BTC on the L2, and the L2 can post that data to the Bitcoin, but a user cannot prove to the withdrawal script that this block is not a private fork. Proving this block is in the canonical chain requires the group this block (or a later block).
+In this case, the system can no longer process deposits (because a signer is missing). Additionally, if an actor stops signing bitcoin blocks, the system cannot process withdrawals. Users can still burn Wrapped BTC on the L2, and the L2 can post that data to Bitcoin, but remember that the withdrawal script cannot read the Bitcoin blockchain. This means a user cannot prove to the withdrawal script that this block is not a private fork. Proving this block is in the canonical chain requires the group this block (or a later block).
 
 If an actor in the system can cause the system to stop functioning, we call this a “liveness failure”
 
@@ -239,8 +239,8 @@ BitVM and Alpen have made major breakthroughs. They have devised a way to verify
 
 However, to build a functional Bridge, we need more than ZK proofs. Namely:
 
-We need to ensure that a single actor cannot cause the system to stop processing deposits. Currently, this requires honest majority trust assumptions.
-We need to ensure that a single actor cannot cause the system to stop processing withdrawals. Currently, this requires honest majority trust assumptions.
+* We must ensure that a single actor cannot cause the system to stop processing deposits. Currently, this requires honest majority trust assumptions.
+* We must ensure that a single actor cannot cause the system to stop processing withdrawals. Currently, this requires honest majority trust assumptions.
 
 These are unsolved problems. It is possible that they can be solved by making updates to the Bitcoin protocol.
 
