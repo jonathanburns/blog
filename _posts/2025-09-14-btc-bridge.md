@@ -88,11 +88,13 @@ These scripts provide a lot of programmability, but they come with some importan
 
 #### Problem 1: Enforcing The State Transition Function
 
-The BitVM white paper shows that Bitcoin scripts are expressive enough to validate a ZK proof (which can enforce the state transition function). However, the process requires a dispute resolution flow. Funds must be sent to the correct party depending on the result of the dispute.
+The BitVM white paper shows that Bitcoin scripts are expressive enough to validate a ZK proof (which can enforce the state transition function). This means that a submitter can provide the script with current state of the of the chain, and a ZK proof which shows that the state transition function is valid. 
 
 Unfortunately, Bitcoin scripts have no access to the transaction outputs. This means the script cannot enforce that the funds go to the right place.
 
 ![fork](https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeibse2jpy6meffj5ebgirrkb4gj6cyumm5leqvfu6p3bwlu5jgmmwe)
+
+We need to ensure that funds are distributed to the correct party.
 
 **Solution:**
 
@@ -146,7 +148,7 @@ Let’s look at how the Strata Bridge handles bridge operations:
 
 #### Deposit Funds to The Bridge:
 
-For each deposit, the bridge participants create a pre-planned route which represents the possible paths along which funds can flow (including the ZK proof dispute procedure). This set of transactions is signed by the group at deposit time. As long as at least one participant in the group is honest, the route cannot be compromised. 
+For each deposit, the bridge participants create a pre-planned route which represents the possible paths along which funds can flow. This set of transactions is signed by the group at deposit time. As long as at least one participant in the group is honest, the route cannot be compromised. 
 
 Once the funds are locked in the bridge, the Wrapped BTC tokens are minted on the L2.
 
