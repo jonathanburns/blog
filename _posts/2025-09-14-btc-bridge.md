@@ -105,9 +105,9 @@ To enforce that the funds ONLY follow the approved route, the bridge participant
 
 At deposit time, the actors pre-sign every transaction in the route. At the end of this process, each actor throws away the key so that no other transactions can be signed with the multisig. 
 
-So long as any actor throws away the key as instructed, no other transactions can be signed (since signing these transactions requires approval from all n parties).
+So long as **any** actor in the group throws away the key as instructed, no other transactions can be signed (since signing these transactions requires approval from all n parties).
 
-This ensures that the funds always follow the pre-planned route.
+This ensures that the funds always follow the pre-planned route, so long as one actor is honest. This is how the system achieves 1-of-n trust assumptions.
 
 
 #### Problem 2: Enforcing the Fork Choice Rule
@@ -124,7 +124,7 @@ The script can accept inputs, but those inputs must be passed by the submitter. 
 
 But what if the submitter lies?
 
-For example, imagine that an attacker creates a private fork of the Bitcoin chain, and tells the script that this is the head of the Bitcoin blockchain. The script cannot determine if this block is in its own chain.
+For example, imagine that an attacker creates a private fork of the Bitcoin chain, and tells the withdrawal script that this private fork is the head of the Bitcoin blockchain. The script cannot determine if this block is in its own chain.
 
 ![fork](https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeigd4zkrvnxiwa3br23e67xpcd64fzdwfro5chkrmske4w7dt3iycm)
 
@@ -160,9 +160,9 @@ The L2 sequencer periodically posts the current L2 state back to Bitcoin, so thi
 
 When submitting a withdrawal, the submitter tells the withdrawal script about the state of the L1 and L2. Using the solutions described above, the withdrawal script enforces:
 
-The state transition function was followed for the L1 and L2
-The fork choice rule was followed for the L1 and L2
-The withdrawal conditions are met.
+* The state transition function was followed for the L1 and L2
+* The fork choice rule was followed for the L1 and L2
+* The withdrawal conditions are met.
 
 If all three of these conditions are met, the bridge releases the funds.
 
@@ -173,7 +173,7 @@ On the L1, each deposit is locked in its own UTXO (each of these UTXOs has a scr
 
 We can imagine the 3 BTC deposits, each locked in a UTXO (on the left of this image), and 3 Wrapped BTC on the L2 (on the right). The Wrapped BTC are all in a shared pool and not tied to a specific deposit.
 
-![fork](https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeiej2gi7rwglkexwx6tg5tuv4m75so3lb43p4sh4zyqcozloomf75q)
+![fork](https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeigdlisrhclrykkxuxraj7x2xx4aqye76bnsq6wnmowq6raodscy6u)
 
 
 Because the tokens on the L2 are fungible, when you burn “Wrapped BTC” on the L2, and withdraw it on the L1, the tokens you get back may come from a different deposit.
@@ -190,9 +190,9 @@ Remember that at deposit time, a group of bridge participants create an n-of-n m
 
 Imagine that the script on the bottom is only enforcing that its own deposit is secure. In that case, the following attack can happen:
 
-An attacker creates an unsafe deposit where all participants are dishonest (the top one in the image above).
-The L2 sequencer mints 1 wrapped BTC on the L2.
-The attacker burns the BTC on the L2, and withdraws it on the L1. The attacker withdraws the BTC on the L1, but the insecure deposit (the top one) is still locked in the bridge.
+* An attacker creates an unsafe deposit where all participants are dishonest (the top one in the image above).
+* The L2 sequencer mints 1 wrapped BTC on the L2.
+* The attacker burns the BTC on the L2, and withdraws it on the L1. The attacker withdraws the BTC on the L1, but the insecure deposit (the top one) is still locked in the bridge.
 
 Now, the attacker has retrieved their 1 BTC back on the L1, but the insecure deposit is still locked in the bridge. The attacker can easily withdraw that insecure BTC from the Bridge without burning funds on the L2.
 
