@@ -83,7 +83,7 @@ Think of it like the Bitcoin is on an island, and the script protects that coin 
 
 ![fork](https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeia57p3s5r44mowfxoxwgnvi5fxuttoaplkym7b3x7kxexijzsp3pq)
 
-These scripts provide a lot of programability, but they come with some important limitations. I’ll explain how these limitations create problems when trying to build a bridge, and how the BitVM2 whitepaper, and the Strata Bridge whitepaper propose solving these problems.
+These scripts provide a lot of programability, but they come with some important limitations. I’ll explain how these limitations create problems when trying to build a bridge, and how the [BitVM2 whitepaper](https://bitvm.org/bitvm_bridge.pdf), and the [Strata Bridge whitepaper](https://www.alpenlabs.io/blog/introducing-the-strata-bridge) propose solving these problems.
 
 
 #### Problem 1: Enforcing The State Transition Function
