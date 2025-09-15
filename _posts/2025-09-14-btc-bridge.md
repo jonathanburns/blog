@@ -34,19 +34,19 @@ Why is it hard to create a bridge on Bitcoin, and how do BitVM and the Strata br
 Why don’t these solutions work?
 
 
-Creating A Functioning Bridge
+## Creating A Functioning Bridge
 
 A bridge is a system which allows users to move funds from a source blockchain (Bitcoin in our case) to a destination blockchain (an L2). The bridge typically must support 3 operations:
 
-Deposit Funds:
+### Deposit Funds:
 
 To initiate a transfer to the destination chain, the users lock funds into BTC into the Bridge. This action makes the funds available on the L2 as “Wrapped BTC”. It’s vital that the funds remain locked on the source chain until a user “burns” the “Wrapped BTC” on the L2.
 
-Update State Of the L2: 
+### Update State Of the L2: 
 
 Users sign transactions off-chain (i.e. on the L2) to interact with it. There must be a method by which the new most current L2 state can be recorded on the L1 (Bitcoin).
 
-Withdraw Funds From The Bridge: 
+### Withdraw Funds From The Bridge: 
 
 When a user burns “Wrapped BTC” on the L2, eventually that state will get propagated to the L1 (as described above).
 
@@ -54,13 +54,13 @@ Once the L1 is updated, a user should be able to unlock an equivalent amount of 
 
 To do this, the bridge must confirm that the update posted on the L2 is valid. To do this, it must enforce two important things:
 
-Validating The L2’s State Transition Function
+#### Validating The L2’s State Transition Function
 
 The Bridge should not trust the L2 updates without verification.
 
 The bridge encodes a “state transition function”, which defines what a valid state update is (for example, all transactions must have the proper signatures). The bridge will not respect an L2 state update which violates the state transition function.
 
-Validating The Fork Choice Rule
+#### Validating The Fork Choice Rule
 
 In blockchain, it is possible to create two valid versions of the chain (where both versions comply with the state transition function).
 
