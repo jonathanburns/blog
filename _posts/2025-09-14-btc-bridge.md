@@ -15,7 +15,7 @@ Ethereum was created to enable decentralized financial applications (smart contr
 
 In a perfect world, the ETH token would not have been necessary. Instead, users would transfer BTC to the Ethereum blockchain, and BTC would function as digital currency for the Ethereum ecosystem. 
 
-Unfortunately, transferring BTC to other chains is hard. All known methods require a decentralized group of participants who manage the bridge, and the majority of the participants in the group must be honest. We call this an “honest-majority” trust assumption. This honest-majority assumption is not good enough to power the world’s financial infrastructure. The ETH token is necessary because the Ethereum blockchain needs a token that cannot be corrupted by a dishonest majority.
+Unfortunately, transferring BTC to other chains is hard. Even the most secure methods require a decentralized group of participants who manage the bridge, and the majority of the participants in the group must be honest. We call this an “honest-majority” trust assumption. This honest-majority assumption is not good enough to power the world’s financial infrastructure. The ETH token is necessary because the Ethereum blockchain needs a token that cannot be corrupted by a dishonest majority.
 
 A trust-minimized bridge is one where only one actor in the group needs to be honest. Until recently, building a trust-minimized bridge on Bitcoin was thought to be impossible without changes to the Bitcoin protocol. 
 
