@@ -67,7 +67,7 @@ In blockchain, it is possible to create two valid versions of the chain (where b
 For example, I can create one version of the blockchain where I sign a transaction which sends my funds to Sophie, and another version where I send my funds to Felix.
 
 
-
+![fork](https://emerald-frequent-panther-621.mypinata.cloud/ipfs/bafybeigd4zkrvnxiwa3br23e67xpcd64fzdwfro5chkrmske4w7dt3iycm)
 
 
 In this case, the bridge must encode rules which define which fork is the real one. We call this the “fork choice rule”. 
